@@ -1,0 +1,500 @@
+_:genid1 <http://purl.org/dc/elements/1.1/title> "Remarques sur l'estat des Provinces Unies des Pays-bas. : Faites en l'an 1672. /" .
+_:genid1 <http://purl.org/dc/elements/1.1/creator> "Temple, William,Chevalier,1628-1699.(NL-LeOCL)068482876" .
+_:genid1 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid1 <http://purl.org/dc/elements/1.1/publisher> "[S.l.] : [s.n.]," .
+_:genid1 <http://purl.org/dc/elements/1.1/date> "1685." .
+_:genid1 <http://purl.org/dc/elements/1.1/language> "fre" .
+_:genid1 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid1 <http://purl.org/dc/elements/1.1/relation> "Observations upon the United Provinces," .
+_:genid2 <http://purl.org/dc/elements/1.1/title> "Response au discours presente\u0301 au roy sur la reunion des deux religions." .
+_:genid2 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid2 <http://purl.org/dc/elements/1.1/type> "Church history.fasthttp://id.worldcat.org/fast/01411629" .
+_:genid2 <http://purl.org/dc/elements/1.1/publisher> "[France?] : [publisher not identified]," .
+_:genid2 <http://purl.org/dc/elements/1.1/date> "1607." .
+_:genid2 <http://purl.org/dc/elements/1.1/language> "fre" .
+_:genid2 <http://purl.org/dc/elements/1.1/description> "Vol. 2, no. 1 in a collection with binder's title: France." .
+_:genid2 <http://purl.org/dc/elements/1.1/description> "Imperfect: wanting p. 9-14." .
+_:genid2 <http://purl.org/dc/elements/1.1/description> "Lindsay & Neu," .
+_:genid2 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid2 <http://purl.org/dc/elements/1.1/coverage> "France?" .
+_:genid3 <http://purl.org/dc/elements/1.1/title> "Antwoorde op de valsche beschuldiginghen door een zeker ghesworen vijandt der Ghereformeerde religie, onder den titel ofte name van de Iustificatie van Leyden ... Midtsgaders de Verantwoordinghe van den dienaer, ouderlinghen en\u0304 diaconen der kercke tot Leyden, naer het wt-gheven van de Justificatie ghestelt .." .
+_:genid3 <http://purl.org/dc/elements/1.1/creator> "Waesberge, Jan van (II, Rotterdam)prt(NL-LeOCL)112190189" .
+_:genid3 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid3 <http://purl.org/dc/elements/1.1/publisher> "Tot Rotterdam, : by Jan van Waesberghe ...," .
+_:genid3 <http://purl.org/dc/elements/1.1/date> "1598." .
+_:genid3 <http://purl.org/dc/elements/1.1/language> "dut" .
+_:genid3 <http://purl.org/dc/elements/1.1/description> "A-P 8  Q 4 (Q4 blanco)." .
+_:genid3 <http://purl.org/dc/elements/1.1/description> "Drukkersmerk, motto: Literae Immortalitatem Parivnt." .
+_:genid3 <http://purl.org/dc/elements/1.1/description> "Hillerbrand 3318" .
+_:genid3 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid3 <http://purl.org/dc/elements/1.1/relation> "Titel is geselecteerd voor digitalisering voor de Universiteit van Amsterdam in het kader van het Google Books-project." .
+_:genid3 <http://purl.org/dc/elements/1.1/relation> "Antwoorde op de valsche beschuldiginghen door een zeker ghesworen vijandt der Ghereformeerde religie, onder den titel ofte name van de Iustificatie van Leyden ... Midtsgaders de Verantwoordinghe van den dienaer, ouderlinghen en\u0304 diaconen der kercke tot Leyden, naer het wt-gheven van de Justificatie ghestelt .." .
+_:genid4 <http://purl.org/dc/elements/1.1/title> "Gregorii XIIII Pap\u00E6 Litter\u00E6 monitoriales ad principes, duces, marchiones &c et archiepiscopos, episcopos aliosque ecclesiasticos regni Francorum, qui regis partes sequuntur, et ad eas Turonense senatusconsultum." .
+_:genid4 <http://purl.org/dc/elements/1.1/creator> "GregoriusXIV,paus,1535-1591.http://viaf.org/viaf/295180128" .
+_:genid4 <http://purl.org/dc/elements/1.1/creator> "Lechler, Martin (Frankfort am Main)prt(NL-LeOCL)080258832" .
+_:genid4 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid4 <http://purl.org/dc/elements/1.1/type> "Brieven (vorm)gtt(NL-LeOCL)088142167" .
+_:genid4 <http://purl.org/dc/elements/1.1/publisher> "Francofvrti : ex officina typographica Martini Lechleri," .
+_:genid4 <http://purl.org/dc/elements/1.1/date> "1591." .
+_:genid4 <http://purl.org/dc/elements/1.1/language> "lat" .
+_:genid4 <http://purl.org/dc/elements/1.1/description> "Collatieformule: A-B\u2078 C\u2074 (C4 blanco)." .
+_:genid4 <http://purl.org/dc/elements/1.1/description> "Verzeichnis der im deutschen Sprachbereich erschienenen Drucke des 16. Jahrhunderts (VD 16)," .
+_:genid4 <http://purl.org/dc/elements/1.1/description> "Van Someren," .
+_:genid4 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid4 <http://purl.org/dc/elements/1.1/subject> "Gregorius XIV, paus, 1535-1591." .
+_:genid5 <http://purl.org/dc/elements/1.1/title> "Nicolai Selnecceri D. Superintendenten zu Leipzig, christliche kurtze Antwort auff die Lesterung und sacramentirische Schmehschrifft Lamberti Danaei, itzt Anno 1581 in Druck zu Genff gegeben : etliche christliche Gebet wider die Schwermer, aus dem Psalter Davids." .
+_:genid5 <http://purl.org/dc/elements/1.1/creator> "Selneccer, Nicolaus,1530-1592.http://id.loc.gov/authorities/names/n89602807http://viaf.org/viaf/7415057" .
+_:genid5 <http://purl.org/dc/elements/1.1/creator> "Deffner, Georg,active 1580-1587,printer." .
+_:genid5 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid5 <http://purl.org/dc/elements/1.1/type> "Controversial literature.fasthttp://id.worldcat.org/fast/01423907" .
+_:genid5 <http://purl.org/dc/elements/1.1/type> "Early works.fasthttp://id.worldcat.org/fast/01411636" .
+_:genid5 <http://purl.org/dc/elements/1.1/publisher> "Gedruckt zu Leipzig : bey Georg Defner," .
+_:genid5 <http://purl.org/dc/elements/1.1/date> "Anno 1581." .
+_:genid5 <http://purl.org/dc/elements/1.1/language> "ger" .
+_:genid5 <http://purl.org/dc/elements/1.1/description> "Signatures: A-F\u2074 (F4 verso blank)." .
+_:genid5 <http://purl.org/dc/elements/1.1/description> "VD 16" .
+_:genid5 <http://purl.org/dc/elements/1.1/description> "Vignette on t.p." .
+_:genid5 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid5 <http://purl.org/dc/elements/1.1/subject> "Daneau, Lambert, 1530-1595." .
+_:genid5 <http://purl.org/dc/elements/1.1/subject> "Reformed Church" .
+_:genid5 <http://purl.org/dc/elements/1.1/subject> "Lord's Supper" .
+_:genid5 <http://purl.org/dc/elements/1.1/subject> "Lord's Supper." .
+_:genid5 <http://purl.org/dc/elements/1.1/subject> "Reformed Church." .
+_:genid5 <http://purl.org/dc/elements/1.1/coverage> "Germany Leipzig." .
+_:genid6 <http://purl.org/dc/elements/1.1/title> "Der Contraremonstranten kerf-stock, die nimmermeer yser wordt. : Aen de Roomsche Catholijcken. : Op de wyse: Het was een fray rijck burghers kindt. /" .
+_:genid6 <http://purl.org/dc/elements/1.1/creator> "Telle, Reinier,1558/59-1618.(NL-LeOCL)069381526http://viaf.org/viaf/89909988" .
+_:genid6 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid6 <http://purl.org/dc/elements/1.1/publisher> "[S.l. : s.n.]," .
+_:genid6 <http://purl.org/dc/elements/1.1/date> "[1617]" .
+_:genid6 <http://purl.org/dc/elements/1.1/language> "dut" .
+_:genid6 <http://purl.org/dc/elements/1.1/description> "Een lief-hebber van de vrye waerheydt is: Reinier Telle." .
+_:genid6 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid6 <http://purl.org/dc/elements/1.1/relation> "Der Contraremonstranten kerf-stock, die nimmermeer yser wordt." .
+_:genid7 <http://purl.org/dc/elements/1.1/title> "Defensio consilii theologici Ultrajectini de Canonicatilius, Vicariatibus /" .
+_:genid7 <http://purl.org/dc/elements/1.1/creator> "Essenius, Andreas,1618-1677.(NL-LeOCL)070484066http://viaf.org/viaf/72148784" .
+_:genid7 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid7 <http://purl.org/dc/elements/1.1/publisher> "Ultrajecti," .
+_:genid7 <http://purl.org/dc/elements/1.1/date> "1658." .
+_:genid7 <http://purl.org/dc/elements/1.1/language> "lat" .
+_:genid7 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid7 <http://purl.org/dc/elements/1.1/relation> "Defensio consilii theologici Ultrajectini de Canonicatilius, Vicariatibus" .
+_:genid8 <http://purl.org/dc/elements/1.1/title> "Declaration veritable de la bataille faicte a\u0300 Ivry la Chanssee le 14. de mars, par victoire obtenue sa Majeste\u0301 Henri quatrie\u0300me, roy de France et de Navarre, sur ceux de la ligue : ensemble les articles de la grace que sa Majeste\u0301 a faictes aux Suisses du parti contraire." .
+_:genid8 <http://purl.org/dc/elements/1.1/creator> "HenriIV,koning van Frankrijk,1553-1610.(NL-LeOCL)069857326http://viaf.org/viaf/59094245" .
+_:genid8 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid8 <http://purl.org/dc/elements/1.1/publisher> "[S.l.] : [s.n.]," .
+_:genid8 <http://purl.org/dc/elements/1.1/date> "1590." .
+_:genid8 <http://purl.org/dc/elements/1.1/language> "fre" .
+_:genid8 <http://purl.org/dc/elements/1.1/description> "Zie over den slag bij Ivry o.a.: Martin, Histoire de France, X, 201 v.v.; Motley, United Netherlands, III, 52, v,v." .
+_:genid8 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid8 <http://purl.org/dc/elements/1.1/subject> "Henri IV, koning van Frankrijk, 1553-1610." .
+_:genid9 <http://purl.org/dc/elements/1.1/title> "Extract uyt een brief, geschreven uyt 's Gravenhage den 27. October 1688." .
+_:genid9 <http://purl.org/dc/elements/1.1/creator> "S.n. ('s-Gravenhage)prt(NL-LeOCL)077156617" .
+_:genid9 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid9 <http://purl.org/dc/elements/1.1/publisher> "['s Gravenhage]," .
+_:genid9 <http://purl.org/dc/elements/1.1/date> "[1688]" .
+_:genid9 <http://purl.org/dc/elements/1.1/language> "dut" .
+_:genid9 <http://purl.org/dc/elements/1.1/description> "Handelt over het vertrek van Willem III naar Engeland." .
+_:genid9 <http://purl.org/dc/elements/1.1/description> "Van der Wulp 6269" .
+_:genid9 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid9 <http://purl.org/dc/elements/1.1/relation> "Extract uyt een brief, geschreven uyt 's Gravenhage den 27. October 1688" .
+_:genid10 <http://purl.org/dc/elements/1.1/title> "Abschiedt der Ro\u0308m. Keys. Maiest. vnd gemeyner Stend vff dem Reichsstag zu\u030A Augspurg vffgericht Anno Domini MDLI." .
+_:genid10 <http://purl.org/dc/elements/1.1/creator> "Holy Roman Empire.http://id.loc.gov/authorities/names/n79060589-781http://viaf.org/viaf/122772486" .
+_:genid10 <http://purl.org/dc/elements/1.1/creator> "Holy Roman Empire.Reichstag(1551 :Augsburg, Germany)http://id.loc.gov/authorities/names/n94029231http://viaf.org/viaf/126821281" .
+_:genid10 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid10 <http://purl.org/dc/elements/1.1/publisher> "Gedruckt inn der chu\u030Arfu\u0308rstlichen Stadt Meyntz : Durch Iuonem Scho\u0308ffer," .
+_:genid10 <http://purl.org/dc/elements/1.1/date> "im[m] Iare 1551." .
+_:genid10 <http://purl.org/dc/elements/1.1/language> "ger" .
+_:genid10 <http://purl.org/dc/elements/1.1/description> "Signatures: A-K\u2074. K4 blank?; wanting in LC copy." .
+_:genid10 <http://purl.org/dc/elements/1.1/description> "With: Holy Roman Empire. Abschiedt der Ro\u0308mischen Ko\u0308niglichen Maiestat vnd gemeiner Stendt auff dem Reichsstag zu Augspurg Anno Domini MDLV auffgericht. Meyntz : Getruckt durch F. Behem, 1555. Bound together subsequent to publication." .
+_:genid10 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid10 <http://purl.org/dc/elements/1.1/subject> "Law" .
+_:genid10 <http://purl.org/dc/elements/1.1/subject> "Law." .
+_:genid11 <http://purl.org/dc/elements/1.1/title> "Nicolai Blancardi Panegyricvs, pro ivbileo sev festo secvlari, : ivssv procervm, in Templo Academico, dictvs MDCLXXXV, die Sept. XXIV." .
+_:genid11 <http://purl.org/dc/elements/1.1/creator> "Blanckaert, Nicolaas,1624-1703.(NL-LeOCL)069662134http://viaf.org/viaf/12410245" .
+_:genid11 <http://purl.org/dc/elements/1.1/creator> "Frankena, Abel.(NL-LeOCL)143417878http://viaf.org/viaf/287086325" .
+_:genid11 <http://purl.org/dc/elements/1.1/creator> "Gyselaar, Hans (Franeker)prt(NL-LeOCL)077163680" .
+_:genid11 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid11 <http://purl.org/dc/elements/1.1/publisher> "Franeqverae : excudit Johannes Gyselaer ...," .
+_:genid11 <http://purl.org/dc/elements/1.1/date> "1685." .
+_:genid11 <http://purl.org/dc/elements/1.1/language> "lat" .
+_:genid11 <http://purl.org/dc/elements/1.1/description> "* 4 A-I 2 a-z 2 [2a] 2 (2a2 blanco)." .
+_:genid11 <http://purl.org/dc/elements/1.1/description> "Met een portret van Nicolaus Blancardus in zwart kostuum door P. Aeneae ingevoegd." .
+_:genid11 <http://purl.org/dc/elements/1.1/description> "Achter de oratie: 1. Programma, quod superioris seculi anno quinto et octuagesimo, sub initium Academiae inaugurandae, a praefecto Frisiae, et ordinum eiusdem delegatis fuit publicatum. 2. Oratio D. Abeli Franckena, illust. Ordinum Frisiae deputati ... habita in auditorio Theologico, XXIX Julii anno MDLXXXV de consilio institutae ab iisdem Academiae Franequeranae. 3. Diverse feestgedichten in het Nederlands, Latijn, Grieks en Frans. 4. Excerpta ex Albo Academiae Franekeranae, ab anno MDLXXXV adusque MDCLXXXV ... 5. Clarorum Academiae Franekeranae professorum monumenta sepulchralia, quae in utroque templo visuntur. 6. [Erratum]" .
+_:genid11 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid11 <http://purl.org/dc/elements/1.1/relation> "Titel is geselecteerd voor digitalisering voor de Universiteit van Leiden in het kader van het Google Books-project." .
+_:genid11 <http://purl.org/dc/elements/1.1/relation> "Nicolai Blancardi Panegyricus, pro jubileo seu festo seculari" .
+_:genid12 <http://purl.org/dc/elements/1.1/title> "De Staten van Hollandt ende West-Vrieslandt, allen den genen, die desen sullen sien ofte hooren lesen, salut. Doen te weten, dat wy hebben bevonden, dat zedert eenighen tijdt herwaerts, in verscheyde steden ende plaetsen van desen lande zijn ontstaen geweest veele diffidentien ende murmuratien .." .
+_:genid12 <http://purl.org/dc/elements/1.1/creator> "Scheltus, Jacobus (I, 's-Gravenhage)prt(NL-LeOCL)077132300" .
+_:genid12 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid12 <http://purl.org/dc/elements/1.1/publisher> "In 's Graven-hage, : by Jacobus Scheltus ...," .
+_:genid12 <http://purl.org/dc/elements/1.1/date> "1672." .
+_:genid12 <http://purl.org/dc/elements/1.1/language> "dut" .
+_:genid12 <http://purl.org/dc/elements/1.1/description> "Blad aan 1 zijde bedrukt." .
+_:genid12 <http://purl.org/dc/elements/1.1/description> "De Nederlandse leeuw in de tuin bovenaan." .
+_:genid12 <http://purl.org/dc/elements/1.1/description> "Impressum onderaan." .
+_:genid12 <http://purl.org/dc/elements/1.1/description> "Betreffende algemene amnestie." .
+_:genid12 <http://purl.org/dc/elements/1.1/description> "Knuttel 10574. Van der Wulp 4862" .
+_:genid12 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid13 <http://purl.org/dc/elements/1.1/title> "La legende de Charles, cardinal de Lorraine : & de ses freres, de la maison de Guise /" .
+_:genid13 <http://purl.org/dc/elements/1.1/creator> "La Planche, Louis Re\u0301gnier de,approximately 1530-approximately 1580.http://id.loc.gov/authorities/names/n88145440http://viaf.org/viaf/5877937" .
+_:genid13 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid13 <http://purl.org/dc/elements/1.1/type> "History.fasthttp://id.worldcat.org/fast/01411628" .
+_:genid13 <http://purl.org/dc/elements/1.1/publisher> "Reims : Imprimerie de Pierre Martin," .
+_:genid13 <http://purl.org/dc/elements/1.1/date> "1579." .
+_:genid13 <http://purl.org/dc/elements/1.1/language> "fre" .
+_:genid13 <http://purl.org/dc/elements/1.1/description> "Book I. No more published." .
+_:genid13 <http://purl.org/dc/elements/1.1/description> "Brunet, v. 3, 1096." .
+_:genid13 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid13 <http://purl.org/dc/elements/1.1/subject> "Guise, Charles de, Cardinal de Lorraine, 1525-1574." .
+_:genid13 <http://purl.org/dc/elements/1.1/subject> "Guise family." .
+_:genid14 <http://purl.org/dc/elements/1.1/title> "Memorie van Syn Excellentie de Heer Grave d'Avaux, extraordinaris ambassadeur van Syn Alder-Christelijkste Majesteyt; gepresenteert aen de Staten Generaal der Vereenigde Nederlanden. Den 16. Mey, 1684." .
+_:genid14 <http://purl.org/dc/elements/1.1/creator> "Mesmes, Jean-Antoine de,comte d'Avaux,1640-1709.http://id.loc.gov/authorities/names/no99014910http://viaf.org/viaf/36908983" .
+_:genid14 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid14 <http://purl.org/dc/elements/1.1/publisher> "[Place of publication not identified]" .
+_:genid14 <http://purl.org/dc/elements/1.1/date> "1684." .
+_:genid14 <http://purl.org/dc/elements/1.1/language> "dut" .
+_:genid14 <http://purl.org/dc/elements/1.1/description> "Knuttel" .
+_:genid14 <http://purl.org/dc/elements/1.1/description> "\"Demanding the signature of the States within four days to a freser treaty with France.\"--B.M. Cat. Photolith. ed. v. 158, col. 679." .
+_:genid14 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid14 <http://purl.org/dc/elements/1.1/relation> "Memorie van Syn Excellentie de Heer Grave d'Avaux, extraordinaris ambassadeur van Syn Alder-Christelijkste Majesteyt." .
+_:genid15 <http://purl.org/dc/elements/1.1/title> "Abschiedt der Ro\u0308m. Keys. Maiest. vnd gemeyner Stend vff dem Reichsstag zu\u030A Augspurg vffgericht Anno Domini MDLI." .
+_:genid15 <http://purl.org/dc/elements/1.1/creator> "Holy Roman Empire.http://id.loc.gov/authorities/names/n79060589-781http://viaf.org/viaf/122772486" .
+_:genid15 <http://purl.org/dc/elements/1.1/creator> "Holy Roman Empire.Reichstag(1551 :Augsburg, Germany)http://id.loc.gov/authorities/names/n94029231http://viaf.org/viaf/126821281" .
+_:genid15 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid15 <http://purl.org/dc/elements/1.1/publisher> "Gedruckt inn der chu\u030Arfu\u0308rstlichen Stadt Meyntz : Durch Iuonem Scho\u0308ffer," .
+_:genid15 <http://purl.org/dc/elements/1.1/date> "im[m] Iare 1551." .
+_:genid15 <http://purl.org/dc/elements/1.1/language> "ger" .
+_:genid15 <http://purl.org/dc/elements/1.1/description> "Signatures: A-K\u2074. K4 blank?; wanting in LC copy." .
+_:genid15 <http://purl.org/dc/elements/1.1/description> "With: Holy Roman Empire. Abschiedt der Ro\u0308mischen Ko\u0308niglichen Maiestat vnd gemeiner Stendt auff dem Reichsstag zu Augspurg Anno Domini MDLV auffgericht. Meyntz : Getruckt durch F. Behem, 1555. Bound together subsequent to publication." .
+_:genid15 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid15 <http://purl.org/dc/elements/1.1/subject> "Law" .
+_:genid15 <http://purl.org/dc/elements/1.1/subject> "Law." .
+_:genid16 <http://purl.org/dc/elements/1.1/title> "Expositio Arnaldi Ossati in disputationem Jacobi Carpentarii De methodo." .
+_:genid16 <http://purl.org/dc/elements/1.1/creator> "Ossat, Arnaud d',1536-1604.http://id.loc.gov/authorities/names/no2001087516" .
+_:genid16 <http://purl.org/dc/elements/1.1/creator> "Ramus, Petrus,1515-1572.http://id.loc.gov/authorities/names/n81129403http://viaf.org/viaf/39399236" .
+_:genid16 <http://purl.org/dc/elements/1.1/creator> "Wechel, Andreas,-1581,printer.http://id.loc.gov/authorities/names/nr94021004http://viaf.org/viaf/99863554" .
+_:genid16 <http://purl.org/dc/elements/1.1/creator> "Charpentier, Jacques,1521-1574.Disputatio de methodo, quod unica non sit." .
+_:genid16 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid16 <http://purl.org/dc/elements/1.1/type> "Early works.fasthttp://id.worldcat.org/fast/01411636" .
+_:genid16 <http://purl.org/dc/elements/1.1/publisher> "Parisiis [Paris, France] : Apud Andream Wechelum," .
+_:genid16 <http://purl.org/dc/elements/1.1/date> "1564." .
+_:genid16 <http://purl.org/dc/elements/1.1/language> "lat" .
+_:genid16 <http://purl.org/dc/elements/1.1/description> "Written in defense of Petrus Ramus and in response to Jacques Charpentier's Disputatio de methodo, quod unica non sit." .
+_:genid16 <http://purl.org/dc/elements/1.1/description> "Signatures: A-B\u2078 C\u2074." .
+_:genid16 <http://purl.org/dc/elements/1.1/description> "Printer's device on t.p. and verso of last leaf." .
+_:genid16 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid16 <http://purl.org/dc/elements/1.1/subject> "Charpentier, Jacques, 1521-1574." .
+_:genid16 <http://purl.org/dc/elements/1.1/subject> "Ramus, Petrus, 1515-1572." .
+_:genid16 <http://purl.org/dc/elements/1.1/subject> "Logic" .
+_:genid16 <http://purl.org/dc/elements/1.1/subject> "Logic." .
+_:genid16 <http://purl.org/dc/elements/1.1/coverage> "France Paris." .
+_:genid17 <http://purl.org/dc/elements/1.1/title> "Tractatvs de ivstificatione," .
+_:genid17 <http://purl.org/dc/elements/1.1/creator> "Socinus, Faustus,1539-1604.http://id.loc.gov/authorities/names/n85144140http://viaf.org/viaf/41890089" .
+_:genid17 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid17 <http://purl.org/dc/elements/1.1/type> "Early works.fasthttp://id.worldcat.org/fast/01411636" .
+_:genid17 <http://purl.org/dc/elements/1.1/publisher> "Racoviae, Typis Sebastiani Sternacii," .
+_:genid17 <http://purl.org/dc/elements/1.1/date> "1616." .
+_:genid17 <http://purl.org/dc/elements/1.1/language> "lat" .
+_:genid17 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid17 <http://purl.org/dc/elements/1.1/subject> "Justification (Christian theology)" .
+_:genid17 <http://purl.org/dc/elements/1.1/subject> "Theology, Doctrinal" .
+_:genid17 <http://purl.org/dc/elements/1.1/subject> "Theology, Doctrinal." .
+_:genid18 <http://purl.org/dc/elements/1.1/title> "Francisci Burmanni ... Oratio de causis Belgicae afflictae. : Dicta in templi majoris choro, A. diem XIII. Junii, urbi huic funestum, A.C. MDCLXXIV." .
+_:genid18 <http://purl.org/dc/elements/1.1/creator> "Burman, Frans,1628-1679.http://id.loc.gov/authorities/names/n50032334http://viaf.org/viaf/144697" .
+_:genid18 <http://purl.org/dc/elements/1.1/creator> "Noenaert, Cornelis Jacobsz,1662-1696,printer." .
+_:genid18 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid18 <http://purl.org/dc/elements/1.1/type> "History.fasthttp://id.worldcat.org/fast/01411628" .
+_:genid18 <http://purl.org/dc/elements/1.1/publisher> "Trajecti ad Rhenum : Apud Cornelium Jacobi Noenardum ...," .
+_:genid18 <http://purl.org/dc/elements/1.1/date> "MDCLXXIV." .
+_:genid18 <http://purl.org/dc/elements/1.1/language> "lat" .
+_:genid18 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid18 <http://purl.org/dc/elements/1.1/coverage> "Netherlands Utrecht." .
+_:genid19 <http://purl.org/dc/elements/1.1/title> "Edictum Henrici Regis Galliae de pace, nuper a typographo regio Luteti\u00E6 editum cum priuilegio Regis, e\u0300 Gallico in Latinum sermonem fideliter conuersum." .
+_:genid19 <http://purl.org/dc/elements/1.1/creator> "HenryIII,King of France,1551-1589.http://id.loc.gov/authorities/names/n50040026http://viaf.org/viaf/5774506" .
+_:genid19 <http://purl.org/dc/elements/1.1/creator> "Morel, Fe\u0301de\u0301ric,1523-1583,printer.http://id.loc.gov/authorities/names/nr96033658http://viaf.org/viaf/44403189" .
+_:genid19 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid19 <http://purl.org/dc/elements/1.1/type> "Early works.fasthttp://id.worldcat.org/fast/01411636" .
+_:genid19 <http://purl.org/dc/elements/1.1/type> "History.fasthttp://id.worldcat.org/fast/01411628" .
+_:genid19 <http://purl.org/dc/elements/1.1/publisher> "[Paris] : [Fe\u0301deric Morel?]," .
+_:genid19 <http://purl.org/dc/elements/1.1/date> "1576." .
+_:genid19 <http://purl.org/dc/elements/1.1/language> "lat" .
+_:genid19 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid19 <http://purl.org/dc/elements/1.1/coverage> "France Paris." .
+_:genid20 <http://purl.org/dc/elements/1.1/title> "Warnung vor dem Catechismo D. Canisii, des grossen Jhesuwidders : Daraus die ungru\u0308nde bepstlicher Lere zu erkennen /" .
+_:genid20 <http://purl.org/dc/elements/1.1/creator> "Wigand, Johann,1523-1587.http://id.loc.gov/authorities/names/n90683277http://viaf.org/viaf/76621932" .
+_:genid20 <http://purl.org/dc/elements/1.1/creator> "Christian Ro\u0308dingers Erben,printer." .
+_:genid20 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid20 <http://purl.org/dc/elements/1.1/type> "Controversial literature.fasthttp://id.worldcat.org/fast/01423907" .
+_:genid20 <http://purl.org/dc/elements/1.1/publisher> "Gedruckt zu Jhena : durch Christian Rho\u0308dingers Erben," .
+_:genid20 <http://purl.org/dc/elements/1.1/date> "M.D. LXX." .
+_:genid20 <http://purl.org/dc/elements/1.1/language> "ger" .
+_:genid20 <http://purl.org/dc/elements/1.1/description> "Signatures: A-Z\u2074 (Z4 blank)." .
+_:genid20 <http://purl.org/dc/elements/1.1/description> "Verzeichnis der im deutschen Sprachbereich erschienenen Drucke des 16. Jahrhunderts (VD 16)," .
+_:genid20 <http://purl.org/dc/elements/1.1/description> "Vignette on t.p." .
+_:genid20 <http://purl.org/dc/elements/1.1/description> "Polemical tract by Johann Wigand against the catechism of Petrus Canesius, a Jesuit preacher and strong defender of Catholic doctrine in Germany during the Reformation." .
+_:genid20 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid20 <http://purl.org/dc/elements/1.1/subject> "Canisius, Petrus, Saint, 1521-1597." .
+_:genid20 <http://purl.org/dc/elements/1.1/subject> "Catholic Church" .
+_:genid20 <http://purl.org/dc/elements/1.1/subject> "Catholic Church." .
+_:genid20 <http://purl.org/dc/elements/1.1/coverage> "Germany Jena." .
+_:genid21 <http://purl.org/dc/elements/1.1/title> "Rerum a Martino Schenckio apud Neomagenses undecima Augusti gestarum brevis historia /" .
+_:genid21 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid21 <http://purl.org/dc/elements/1.1/publisher> "Antverpiae : ex officina Joachimi Trognesii," .
+_:genid21 <http://purl.org/dc/elements/1.1/date> "1589." .
+_:genid21 <http://purl.org/dc/elements/1.1/language> "lat" .
+_:genid21 <http://purl.org/dc/elements/1.1/description> "Van Someren 148" .
+_:genid21 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid21 <http://purl.org/dc/elements/1.1/subject> "Schenck van Nideggen, Maarten." .
+_:genid22 <http://purl.org/dc/elements/1.1/title> "Warachtige nieuwe tijdinge, ende schoone victorie, die de almloghende Heere tot voordeel des Vaderlandts verleent ende verthoont heeft, door den vromen heere Monsieur a Lonche ... capiteyn voor den prinche [!] van Oraenien ende Staten des Nederlandts met syne soldaten ende adherenten opt faict ende innemen der stadt van Diest op den ix. junij ..." .
+_:genid22 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid22 <http://purl.org/dc/elements/1.1/publisher> "[Homberg?] : [Nicolaes of Peter Gevaerts]," .
+_:genid22 <http://purl.org/dc/elements/1.1/date> "1580." .
+_:genid22 <http://purl.org/dc/elements/1.1/language> "dut" .
+_:genid22 <http://purl.org/dc/elements/1.1/description> "Van Someren 90" .
+_:genid22 <http://purl.org/dc/elements/1.1/description> "Typographia Batava 5463" .
+_:genid22 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid23 <http://purl.org/dc/elements/1.1/title> "Bekendnus, der durchleuchtigesten hochgebornen Fu\u0308rsten und Herrn, Herren Wilhelm Printz zu Uranien, sampt andern irer F.G. Mitverwandten Defension, und Nootwehr widder des Duca de Alba unchristliche und eunerho\u0308rte Verfolgung gegen alle Stendt der Nidderlanden, tyrannischer Weise geu\u0308bet." .
+_:genid23 <http://purl.org/dc/elements/1.1/creator> "Willem I,prins van Oranje." .
+_:genid23 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid23 <http://purl.org/dc/elements/1.1/publisher> "[S.l.] : [s.n.]," .
+_:genid23 <http://purl.org/dc/elements/1.1/date> "[1568]" .
+_:genid23 <http://purl.org/dc/elements/1.1/language> "ger" .
+_:genid23 <http://purl.org/dc/elements/1.1/description> "Knuttel 166" .
+_:genid23 <http://purl.org/dc/elements/1.1/description> "Van Someren 37" .
+_:genid23 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid23 <http://purl.org/dc/elements/1.1/subject> "Alba, Fernando Alvarez de Toledo, duque d'." .
+_:genid24 <http://purl.org/dc/elements/1.1/title> "Spanischer Armada oder Kriegsru\u0308stung warhaffte Relation /" .
+_:genid24 <http://purl.org/dc/elements/1.1/creator> "Eyzinger, Michael." .
+_:genid24 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid24 <http://purl.org/dc/elements/1.1/publisher> "Zu Co\u0308lln : bey Godtfriedt van Kempen," .
+_:genid24 <http://purl.org/dc/elements/1.1/date> "1588." .
+_:genid24 <http://purl.org/dc/elements/1.1/language> "ger" .
+_:genid24 <http://purl.org/dc/elements/1.1/description> "Auteur is Michael Eyzinger." .
+_:genid24 <http://purl.org/dc/elements/1.1/description> "Van Someren 142" .
+_:genid24 <http://purl.org/dc/elements/1.1/description> "VD 16.1 niet" .
+_:genid24 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid25 <http://purl.org/dc/elements/1.1/title> "Placcaet opden opheve vanden veertichsten penninck, op de onroerende goederen inde stadt, steden, ende landen van Utrecht gheleghen, die ghetransporteert of in eenigher wijse veralieneert sullen worden, midtsgaders op eenige prelaturen ende prebenden &c." .
+_:genid25 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid25 <http://purl.org/dc/elements/1.1/publisher> "Gheprent tot Utrecht : by Salomon Aertson," .
+_:genid25 <http://purl.org/dc/elements/1.1/date> "1591." .
+_:genid25 <http://purl.org/dc/elements/1.1/language> "dut" .
+_:genid25 <http://purl.org/dc/elements/1.1/description> "Typographia Batava 6727" .
+_:genid25 <http://purl.org/dc/elements/1.1/description> "Van Someren 151" .
+_:genid25 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid26 <http://purl.org/dc/elements/1.1/title> "Responsio Bartholomaei Latomi ad epistolam quandam Martini Buceri de dispensatione Eucharistiae &invocatione divorum & de coelibatu sacerdotum, in qua interim Ecclesiae & sanctorum patrum authoritas acerrime defenditur." .
+_:genid26 <http://purl.org/dc/elements/1.1/creator> "Latomus, Bartholomaeus,1485-1566.(NL-LeOCL)110710282http://viaf.org/viaf/282060667" .
+_:genid26 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid26 <http://purl.org/dc/elements/1.1/publisher> "Coloniae : ex officina Melchioris Novesiani," .
+_:genid26 <http://purl.org/dc/elements/1.1/date> "1544." .
+_:genid26 <http://purl.org/dc/elements/1.1/language> "lat" .
+_:genid26 <http://purl.org/dc/elements/1.1/description> "VD 16.1, L 632" .
+_:genid26 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid26 <http://purl.org/dc/elements/1.1/subject> "Bucer, Martin." .
+_:genid27 <http://purl.org/dc/elements/1.1/title> "Antwort der catholischen ko\u0308niglichen Maiestet, auff das jenige, was der Durchleuchtigst, unnd Hochgeborne Fu\u0308rst, Carle Ertzhertzog in Oesterreich, derselben Vetter, in namen und von wegen des Allerdurchleuchtigsten, Grossmechtigsten Fu\u0308rsten, Herren Maximiliani II Ro\u0308mischen Keysers, desselben geliebten Brudern, des Niderla\u0308ndischen Kriegswesen halber, fu\u0308rgebracht : auch ist zu endt ein Edict mit angehenckt so Ko\u0308nig. May. inn Polen an die Statt Wilda, wegen der Empo\u0308rung und Auffrur, so die von der Catholischen Ro\u0308mischen Kirchen, wider die Leut und Kirchendiener des evangelischen und sa\u0308chsischen hauffens, erweckt, aussgehen lassen." .
+_:genid27 <http://purl.org/dc/elements/1.1/creator> "Filips II,koning van Spanje." .
+_:genid27 <http://purl.org/dc/elements/1.1/creator> "Ba\u0301thory,koning van Polen." .
+_:genid27 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid27 <http://purl.org/dc/elements/1.1/publisher> "[S.l.] : [s.n.]," .
+_:genid27 <http://purl.org/dc/elements/1.1/date> "1582." .
+_:genid27 <http://purl.org/dc/elements/1.1/language> "ger" .
+_:genid27 <http://purl.org/dc/elements/1.1/description> "Van Someren 534" .
+_:genid27 <http://purl.org/dc/elements/1.1/description> "VD 16.1, A 3003" .
+_:genid27 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid27 <http://purl.org/dc/elements/1.1/subject> "Maximiliaan II, Rooms-Duits keizer." .
+_:genid27 <http://purl.org/dc/elements/1.1/subject> "Karel van Stiermarken, 1540-1590." .
+_:genid28 <http://purl.org/dc/elements/1.1/title> "Christliche Erkla\u0308rung in Religions Sachen, so der Hochwu\u0308rdigst Fu\u0308rst und Herr, Herr Gebhardt, Erwehlter und Besta\u0308ttigter zu Ertzbischoffen zu Co\u0308lln, dess Heiligen Reichs durch Italien Ertz-Canzler und Churfu\u0308rst, Hertzog zu Westphalen und Engern etc. den 16. Januarii, dieses jetzt lauffenden 83. Jars, in irer Churf. G. Ertzstifft Co\u0308lln, offentlich publiciern, und verku\u0308nden lassen etc." .
+_:genid28 <http://purl.org/dc/elements/1.1/creator> "Gebhard II,Truchsess von Waldburg." .
+_:genid28 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid28 <http://purl.org/dc/elements/1.1/publisher> "[S.l.] : [s.n.]," .
+_:genid28 <http://purl.org/dc/elements/1.1/date> "1583." .
+_:genid28 <http://purl.org/dc/elements/1.1/language> "ger" .
+_:genid28 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid29 <http://purl.org/dc/elements/1.1/title> "Confutation, Appellation und Protestationschrifft dess ehrwirdigen und wolgebornen Herrn Herrn Georg von Sa\u0308yn Graffen zu Witgenstein Thumbprobsten zu Co\u0308lln etc., von einer nichtiger Citation und darauff untu\u0308glich ergangen Urtheil, Herren Johan Frantzen Bischoffen zu Vercel, Nuntii Pontificii." .
+_:genid29 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid29 <http://purl.org/dc/elements/1.1/publisher> "[S.l.] : [s.n.]," .
+_:genid29 <http://purl.org/dc/elements/1.1/date> "1583." .
+_:genid29 <http://purl.org/dc/elements/1.1/language> "ger" .
+_:genid29 <http://purl.org/dc/elements/1.1/description> "Van Someren 326" .
+_:genid29 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid29 <http://purl.org/dc/elements/1.1/subject> "Sayn-Wittgenstein, Georg zu, graaf." .
+_:genid30 <http://purl.org/dc/elements/1.1/title> "Raben Nest, auss wo\u0308lchem bey jetziger Herbst Mess zu Franckfort 1588 etliche Junge feindt abgeflogen, umb ihre Laster Schna\u0308bel, Lu\u0308genhafftigerweisz zuwetzen, wider die Papisten so wol als wider die Ubiquitisten oder Confessionisten ..." .
+_:genid30 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid30 <http://purl.org/dc/elements/1.1/publisher> "Heydelberg : [s.n.]," .
+_:genid30 <http://purl.org/dc/elements/1.1/date> "1589." .
+_:genid30 <http://purl.org/dc/elements/1.1/language> "ger" .
+_:genid30 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid31 <http://purl.org/dc/elements/1.1/title> "Zeytung, welcherley Massen und Gestalt die Friedtshadelung [!] sich mit der Statt Strassbu\u0308rg unnd dem Hertzogen von Lotringen sampt dem Marggraffen von Brandenburg etc. zu getragen und begeben hat, den 27. February 1539." .
+_:genid31 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid31 <http://purl.org/dc/elements/1.1/publisher> "Gedruckt zu Co\u0308lln : durch Nicolaus Schreiber," .
+_:genid31 <http://purl.org/dc/elements/1.1/date> "1593." .
+_:genid31 <http://purl.org/dc/elements/1.1/language> "ger" .
+_:genid31 <http://purl.org/dc/elements/1.1/description> "Jaartal 1539 op titelbl. is drukfout voor 1593." .
+_:genid31 <http://purl.org/dc/elements/1.1/description> "Van Someren 473" .
+_:genid31 <http://purl.org/dc/elements/1.1/description> "VD 16.1, Z 299" .
+_:genid31 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid32 <http://purl.org/dc/elements/1.1/title> "Dasz es nicht war, sondern ein grosse grobe Landtlu\u0308gen sey, was von der Churfu\u0308rstlichen Pfaltzischen Reformation unnd Kirchenordnung, anno 86. von etlichen heimlich, jetzo aber von einem (der sich noch nicht nennet) in seier Postrema relatione historica, das ist, Letzsten historischen Beschreibung, in offentlichen Truck ohne allen Grundt aussgesprengt worden /" .
+_:genid32 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid32 <http://purl.org/dc/elements/1.1/publisher> "Getruckt in ... Heidelberg : [s.n.]," .
+_:genid32 <http://purl.org/dc/elements/1.1/date> "1588." .
+_:genid32 <http://purl.org/dc/elements/1.1/language> "ger" .
+_:genid32 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid33 <http://purl.org/dc/elements/1.1/title> "Bericht an alle fromme Christen, welche die Warheit lieben: warumb die beide rasende Barfu\u0308sser Mo\u0308nch, Georg Eckhart und Michel Anisius, keiner Antwort werth seien /" .
+_:genid33 <http://purl.org/dc/elements/1.1/creator> "Osiander, Lucas.http://viaf.org/viaf/66477263" .
+_:genid33 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid33 <http://purl.org/dc/elements/1.1/publisher> "Getruckt zu Tu\u0308bingen : Bey Georgen Gruppenbach," .
+_:genid33 <http://purl.org/dc/elements/1.1/date> "1592." .
+_:genid33 <http://purl.org/dc/elements/1.1/language> "ger" .
+_:genid33 <http://purl.org/dc/elements/1.1/description> "VD 16.1, O 1179" .
+_:genid33 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid33 <http://purl.org/dc/elements/1.1/subject> "Anisius, Michael." .
+_:genid33 <http://purl.org/dc/elements/1.1/subject> "Eckhart, Georg." .
+_:genid33 <http://purl.org/dc/elements/1.1/identifier> "http://nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb00036319-3" .
+_:genid34 <http://purl.org/dc/elements/1.1/title> "Geno\u0308tigte Verneinung Urbani Pierij D. das ist, dass es nicht war sey, was wider ihn Magnus Christophorus H. mit dem Titull Revocatio oder Wiederruff Urbani Pierii etc. in Druck aussgelassen : allen Rechtgla\u0308ubigen,zur wahren gru\u0308ndlichen Nachrichtung und zu Entdeckung der offentlichen Lu\u0308gen dieses Magni Christophori, ku\u0308rtzlich am Tag geben." .
+_:genid34 <http://purl.org/dc/elements/1.1/creator> "Pierius, Urbanus." .
+_:genid34 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid34 <http://purl.org/dc/elements/1.1/publisher> "Getruckt in ... Heidelberg : durch Abraham Smesman," .
+_:genid34 <http://purl.org/dc/elements/1.1/date> "1593." .
+_:genid34 <http://purl.org/dc/elements/1.1/language> "ger" .
+_:genid34 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid34 <http://purl.org/dc/elements/1.1/subject> "Christoph, Magnus." .
+_:genid35 <http://purl.org/dc/elements/1.1/title> "Ode annalis quinta: De antiquorum Romanorum virtute : scripta juventuti Ultrajectinae : a J. Luntio." .
+_:genid35 <http://purl.org/dc/elements/1.1/creator> "Luntius, Johannes.http://viaf.org/viaf/77131999" .
+_:genid35 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid35 <http://purl.org/dc/elements/1.1/publisher> "Ultrajecti : ex officina Hermanni Borculoi," .
+_:genid35 <http://purl.org/dc/elements/1.1/date> "[1601]" .
+_:genid35 <http://purl.org/dc/elements/1.1/language> "lat" .
+_:genid35 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid36 <http://purl.org/dc/elements/1.1/title> "Ode annalis sexta: Singula suis et certis in mundo periodis regi : scripta juventuti Ultrajectinae : a J. Luntio." .
+_:genid36 <http://purl.org/dc/elements/1.1/creator> "Luntius, Johannes.http://viaf.org/viaf/77131999" .
+_:genid36 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid36 <http://purl.org/dc/elements/1.1/publisher> "Ultrajecti : ex officina Hermanni Borculoi," .
+_:genid36 <http://purl.org/dc/elements/1.1/date> "[1602]" .
+_:genid36 <http://purl.org/dc/elements/1.1/language> "lat" .
+_:genid36 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid37 <http://purl.org/dc/elements/1.1/title> "Ode annalis septima: Impietatem et luxum esse causas poenarum divinarum : scripta juventuti Ultrajectinae : a J. Luntio." .
+_:genid37 <http://purl.org/dc/elements/1.1/creator> "Luntius, Johannes.http://viaf.org/viaf/77131999" .
+_:genid37 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid37 <http://purl.org/dc/elements/1.1/publisher> "Ultrajecti : ex officina typographica Hermanni Borculoi," .
+_:genid37 <http://purl.org/dc/elements/1.1/date> "[1603]" .
+_:genid37 <http://purl.org/dc/elements/1.1/language> "lat" .
+_:genid37 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid38 <http://purl.org/dc/elements/1.1/title> "Annalis octava: Status subditorum pessimus sub tyranno et puero, optimus sub pio et sapiente principe : scripta juventuti Ultrajectinae : a J. Luntio." .
+_:genid38 <http://purl.org/dc/elements/1.1/creator> "Luntius, Johannes.http://viaf.org/viaf/77131999" .
+_:genid38 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid38 <http://purl.org/dc/elements/1.1/publisher> "Ultrajecti : ex officina Hermanni Borculoi," .
+_:genid38 <http://purl.org/dc/elements/1.1/date> "[1604]" .
+_:genid38 <http://purl.org/dc/elements/1.1/language> "lat" .
+_:genid38 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid39 <http://purl.org/dc/elements/1.1/title> "Triumphus Slusae Flandrorum captae, auspiciis Illustr. ac Potentissimorum Foederatarum Provinciarum Belgii ordinum, ductu inclutissimi, fortissimi & cum Deo invicti herois & domini D. Mauricii principis Auriaci ... /" .
+_:genid39 <http://purl.org/dc/elements/1.1/creator> "Strombergh, Henricus.http://viaf.org/viaf/288667643" .
+_:genid39 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid39 <http://purl.org/dc/elements/1.1/publisher> "Campis : excudebat Guilielmus Bernhardi," .
+_:genid39 <http://purl.org/dc/elements/1.1/date> "1604." .
+_:genid39 <http://purl.org/dc/elements/1.1/language> "lat" .
+_:genid39 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid40 <http://purl.org/dc/elements/1.1/title> "Epithalamium, nuptiis castissimis, fato non inauspicato contractis D. Cornelii Verdousii Brunonis F., viri honestissimi, nuptiarum capitis ornatissimi, D.q. Gerardae Rodiae virginis castissimae ... /" .
+_:genid40 <http://purl.org/dc/elements/1.1/creator> "Merwe, Franciscus van." .
+_:genid40 <http://purl.org/dc/elements/1.1/creator> "Cranendonck, Joachim.http://viaf.org/viaf/283813675" .
+_:genid40 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid40 <http://purl.org/dc/elements/1.1/publisher> "Lugduni Batavorum : ex officina Christophori Gujotii," .
+_:genid40 <http://purl.org/dc/elements/1.1/date> "1601." .
+_:genid40 <http://purl.org/dc/elements/1.1/language> "lat" .
+_:genid40 <http://purl.org/dc/elements/1.1/description> "Bevat ook een gedicht van Joachimus Cranendonck." .
+_:genid40 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid40 <http://purl.org/dc/elements/1.1/subject> "Verdousius, Cornelius." .
+_:genid40 <http://purl.org/dc/elements/1.1/subject> "Rodia, Gerarda." .
+_:genid41 <http://purl.org/dc/elements/1.1/title> "Lessi Henrici Mouthaen Utricis, fusi super immaturo obitu synceri viri-adulescentis D. Guiliemi Berckii Dordracensis, pridie natalis Christi." .
+_:genid41 <http://purl.org/dc/elements/1.1/creator> "Mouthaen, Henricus." .
+_:genid41 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid41 <http://purl.org/dc/elements/1.1/publisher> "Athenis Batavorum : typis Christophori Guyotii," .
+_:genid41 <http://purl.org/dc/elements/1.1/date> "[1600]" .
+_:genid41 <http://purl.org/dc/elements/1.1/language> "lat" .
+_:genid41 <http://purl.org/dc/elements/1.1/description> "Typographia Batava 3528" .
+_:genid41 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid41 <http://purl.org/dc/elements/1.1/subject> "Berckius, Guilielmus." .
+_:genid42 <http://purl.org/dc/elements/1.1/title> "Copey der Supplication etlicher Bu\u0308rger in Co\u0308llen die sich zur evangelischen Lehr Go\u0308ttliches Worts und der darauff gegru\u0308ndten Augspurgischen Confession bekennen /" .
+_:genid42 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid42 <http://purl.org/dc/elements/1.1/publisher> "[S.l.] : [s.n.]," .
+_:genid42 <http://purl.org/dc/elements/1.1/date> "1590." .
+_:genid42 <http://purl.org/dc/elements/1.1/language> "ger" .
+_:genid42 <http://purl.org/dc/elements/1.1/description> "VD 16.1, K 2109" .
+_:genid42 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid42 <http://purl.org/dc/elements/1.1/identifier> "http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10201427-2" .
+_:genid43 <http://purl.org/dc/elements/1.1/title> "Catalogi librorum reprobatorum, et praelegendorum ex judicio Academiae Lovaniensis : cum edicto Caesareo Majestatis evulgati." .
+_:genid43 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid43 <http://purl.org/dc/elements/1.1/publisher> "Lovanii : ex officina Servatii Sasseni," .
+_:genid43 <http://purl.org/dc/elements/1.1/date> "1550." .
+_:genid43 <http://purl.org/dc/elements/1.1/language> "lat" .
+_:genid43 <http://purl.org/dc/elements/1.1/description> "Voor \"Ordonnatie ende edict\" zie eigen titelbeschijving." .
+_:genid43 <http://purl.org/dc/elements/1.1/description> "Belgica typographica 1554" .
+_:genid43 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid44 <http://purl.org/dc/elements/1.1/title> "Vermeerderde articulen voor te stellen aen Do. Bekker." .
+_:genid44 <http://purl.org/dc/elements/1.1/creator> "Groenewegen, Leonardus.http://viaf.org/viaf/308211757" .
+_:genid44 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid44 <http://purl.org/dc/elements/1.1/publisher> "[S.l.] : [s.n.]," .
+_:genid44 <http://purl.org/dc/elements/1.1/date> "[1691]" .
+_:genid44 <http://purl.org/dc/elements/1.1/language> "dut" .
+_:genid44 <http://purl.org/dc/elements/1.1/description> "Ondertekend: Leonardus Groenewegen." .
+_:genid44 <http://purl.org/dc/elements/1.1/description> "Van Someren 901" .
+_:genid44 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid44 <http://purl.org/dc/elements/1.1/subject> "Bekker." .
+_:genid44 <http://purl.org/dc/elements/1.1/relation> "Vermeerderde articulen voor te stellen aen Do. Bekker" .
+_:genid45 <http://purl.org/dc/elements/1.1/title> "Ad potentissimos ac serenissimos reges, principes, reliquosque amplissimos Christiani orbis ordines, seria de Reip. Christian\u00E6 statu eiusque salute atque incolumitate conservanda, Germani cuiusdam nobilis & patri\u00E6 amantis viri commonefactio." .
+_:genid45 <http://purl.org/dc/elements/1.1/creator> "Marnix, Philips van,heer van Sint Aldegonde,1540-1598.(NL-LeOCL)068871414http://viaf.org/viaf/9874771" .
+_:genid45 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid45 <http://purl.org/dc/elements/1.1/publisher> "[S.l.] : [s.n.]," .
+_:genid45 <http://purl.org/dc/elements/1.1/date> "1584." .
+_:genid45 <http://purl.org/dc/elements/1.1/language> "lat" .
+_:genid45 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid46 <http://purl.org/dc/elements/1.1/title> "Also by de veranderinge geschiet binnen de stadt Utrecht ... ontdeckt zijn verscheyde saecken, daer van voor desen groot achterdencken is geweest ..." .
+_:genid46 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid46 <http://purl.org/dc/elements/1.1/publisher> "[S.l.] : [s.n.]," .
+_:genid46 <http://purl.org/dc/elements/1.1/date> "[1618?]" .
+_:genid46 <http://purl.org/dc/elements/1.1/language> "dut" .
+_:genid46 <http://purl.org/dc/elements/1.1/description> "Begin van de tekst." .
+_:genid46 <http://purl.org/dc/elements/1.1/description> "Knuttel 2686 (vgl.)" .
+_:genid46 <http://purl.org/dc/elements/1.1/description> "Knuttel 2687 (vgl.)" .
+_:genid46 <http://purl.org/dc/elements/1.1/description> "Knuttel 2688 (vgl.)" .
+_:genid46 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid47 <http://purl.org/dc/elements/1.1/title> "Andere beglaubte Zeitungen oder Gru\u0308ndlicher und satter doch summarischer Bericht was sich ju\u0308ngsthin beyderseits zugetragen, als die dem Ko\u0308nig zu Franckreich zuziehende Zydgnossen den Hertzogen von Savoi angriffen ..." .
+_:genid47 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid47 <http://purl.org/dc/elements/1.1/publisher> "[S.l.] : [s.n.]," .
+_:genid47 <http://purl.org/dc/elements/1.1/date> "1589." .
+_:genid47 <http://purl.org/dc/elements/1.1/language> "ger" .
+_:genid47 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid48 <http://purl.org/dc/elements/1.1/title> "Copye-Brief van den Bisschop van Munster, Aen de Hoog Mog. Heeren Staten Generael der Vereenighde Nederlanden : Van dato den 14 September, 1665 /" .
+_:genid48 <http://purl.org/dc/elements/1.1/creator> "Galen, Christoph Bernhard von,zie ook Bommen Berend,1606-1679.(NL-LeOCL)070043485" .
+_:genid48 <http://purl.org/dc/elements/1.1/creator> "S.n. (S.l.)prt(NL-LeOCL)077153677" .
+_:genid48 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid48 <http://purl.org/dc/elements/1.1/publisher> "[S.l.] : [s.n.]," .
+_:genid48 <http://purl.org/dc/elements/1.1/date> "[1665?]" .
+_:genid48 <http://purl.org/dc/elements/1.1/language> "dut" .
+_:genid48 <http://purl.org/dc/elements/1.1/description> "De bisschop van Munster is Christoph Bernhard von Galen." .
+_:genid48 <http://purl.org/dc/elements/1.1/description> "Knuttel 9154, T 5298" .
+_:genid48 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid48 <http://purl.org/dc/elements/1.1/relation> "Copye-Brief van den Bisschop van Munster, Aen de Hoog Mog. Heeren Staten Generael der Vereenighde Nederlanden" .
+_:genid49 <http://purl.org/dc/elements/1.1/title> "Wee-klachte der Hollandtsche maeght, over dese verwerde tijden: met een ernstighe aen-sprake aen zijn princeliicke excellentie ..." .
+_:genid49 <http://purl.org/dc/elements/1.1/creator> "Telle, Reinier.http://viaf.org/viaf/2821266" .
+_:genid49 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid49 <http://purl.org/dc/elements/1.1/publisher> "[S.l.] : [s.n.]," .
+_:genid49 <http://purl.org/dc/elements/1.1/date> "1618." .
+_:genid49 <http://purl.org/dc/elements/1.1/language> "dut" .
+_:genid49 <http://purl.org/dc/elements/1.1/description> "Ondertekend door: R. T. = Reinier Telle." .
+_:genid49 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid50 <http://purl.org/dc/elements/1.1/title> "Zum glu\u0308ckseligen newen Jar, Warnung, vnd Vermanunge an D. Nicklaus Selneckern : das er mit seinen Consorten, die Anhaltischen Theologen zuschmehen, vnd in jnen die go\u0308ttliche warheit wider sein eigen gewissen zu lestern, einmal auffho\u0308ren wolle : Beyneben angehengter Bekentnis vn[d] meinunge D. Tilemanni Heshusij, von diesem streit, zum zeugnis der vnwidersprechlichen Warheit." .
+_:genid50 <http://purl.org/dc/elements/1.1/creator> "Heshusius, Tilemann,1527-1588,contributor.ctbhttp://id.loc.gov/authorities/names/nr95029757http://viaf.org/viaf/61556286" .
+_:genid50 <http://purl.org/dc/elements/1.1/creator> "Schmidt, Bonaventura,-approximately 1598,printer.http://id.loc.gov/authorities/names/nr97029937http://viaf.org/viaf/49135197" .
+_:genid50 <http://purl.org/dc/elements/1.1/type> "text" .
+_:genid50 <http://purl.org/dc/elements/1.1/type> "Church history.fasthttp://id.worldcat.org/fast/01411629" .
+_:genid50 <http://purl.org/dc/elements/1.1/type> "Sources.fasthttp://id.worldcat.org/fast/01423900" .
+_:genid50 <http://purl.org/dc/elements/1.1/publisher> "Gedruckt zu Zerbst : durch Bonauentur Schmidt," .
+_:genid50 <http://purl.org/dc/elements/1.1/date> "M.D. LXXXV." .
+_:genid50 <http://purl.org/dc/elements/1.1/language> "ger" .
+_:genid50 <http://purl.org/dc/elements/1.1/description> "Includes: Hesshusen, Tilemann: Bekenntnis und Meinungen von diesem Streit. (VD16 H 2998)" .
+_:genid50 <http://purl.org/dc/elements/1.1/description> "Signatures: A-E\u2074 (E4 verso blank)." .
+_:genid50 <http://purl.org/dc/elements/1.1/description> "Printer's device on t.p." .
+_:genid50 <http://purl.org/dc/elements/1.1/description> "Errata." .
+_:genid50 <http://purl.org/dc/elements/1.1/description> "Verzeichnis der im deutschen Sprachbereich erschienenen Drucke des 16. Jahrhunderts (VD 16)" .
+_:genid50 <http://purl.org/dc/elements/1.1/description> "" .
+_:genid50 <http://purl.org/dc/elements/1.1/subject> "Selneccer, Nicolaus, 1530-1592." .
+_:genid50 <http://purl.org/dc/elements/1.1/coverage> "Germany Zerbst." .
