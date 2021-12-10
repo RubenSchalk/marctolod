@@ -166,7 +166,7 @@ pre code {
 <h1 class="title toc-ignore">Van MARC21 naar Linked Open Data: voortgang van experiment</h1>
 <h4 class="author"><a href="https://www.uu.nl/medewerkers/RSchalk">Ruben Schalk</a></h4>
 <address class="author_afil">
-Utrecht University Library<br><h4 class="date">2021-12-10 14:00:35</h4>
+Utrecht University Library<br><h4 class="date">2021-12-10 14:08:15</h4>
 
 </div>
 
@@ -195,8 +195,8 @@ Utrecht University Library<br><h4 class="date">2021-12-10 14:00:35</h4>
 <p>Nu kan het XMl bestand omgezet worden naar <a href="https://www.w3.org/RDF/">RDF</a>, een standaard voor Linked Open Data. Deze stap is technisch en inhoudelijk het meest uitdagend. Wat feitelijk moet gebeuren is dat we moeten specificeren op welke manier de <a href="https://www.loc.gov/marc/bibliographic/">MARC21 nummers</a> moeten worden gedefinieerd in het Linked Datamodel van keuze. Bijvoorbeeld, nummer 100 in MARC21 verwijst naar de naam van de auteur en kan worden gemodelleerd als <code>dc:creator</code>, volgens het veel gebruikte Europeana Data Model (EDM). Zie <a href="https://uba.uva.nl/binaries/content/assets/subsites/bibliotheek/open-data/uva-edm-rdf-open-data.pdf">hier</a> voor een mapping tussen MARC en EDM, gemaakt door de UvA.</p>
 <p>Een manier om deze ‘mapping’ te automatiseren - want je wilt niet een heel MARC21 handmatig gaan overtypen… - is door het gebruik van een conversiebestand als referentiekader. Omdat we met XML werken, kan dat met zogenaamde <a href="https://www.w3.org/Style/XSL/WhatIsXSL.html">XSL stylesheets</a>. Deze bestanden geven ‘regels’ voor het omvormen van het XML bestand. Het Library of Congress biedt reeds een XSL bestand aan waarin MARC21 omgezet wordt naar Dublin Core RDF: zie <a href="http://www.loc.gov/standards/marcxml/xslt/MARC21slim2RDFDC.xsl">hier</a>. Om met dit bestand te werken moet ook het bestand <a href="http://www.loc.gov/standards/marcxml/xslt/MARC21slimUtils.xsl">MARC21slimUtils.xls</a> worden gedownload.</p>
 <p>Vervolgens kan via de command line de conversie naar RDF gedaan worden, met het aanroepen van een zogenaamde <code>xslt processor</code>. Als je in Linux/IoS werkt kun je die als volgt installeren: <code>sudo apt-get install -y xsltproc</code>. In Windows kan dat met een <a href="http://saxon.sourceforge.net/">Java tool</a>.</p>
-<p>In de command line ga je naar de directory van je bestanden (XML en twee maal XSL) en typ je dit: <code>xsltproc MARC21slim2RDFDC.xsl LOD-testset-Van_Someren-met-links.xml | cat &gt; someren_testset.rdf</code>. Nu vind je in de directory <code>someren_testset.rdf</code>. En dat is je LOD bestand! Deze staat ook op de Github repository: <a href="https://raw.githubusercontent.com/RubenSchalk/lod_experiment_ubu/main/testrdf.rdf">RDF test 1</a>.</p>
-<p>(Windows: <code>java net.sf.saxon.Transform -o:test.rdf testXML.xml MARC21slim2RDFDC.xsl</code>)</p>
+<p>In de command line ga je naar de directory van je bestanden (XML en twee maal XSL) en typ je dit: <code>xsltproc MARC21slim2RDFDC.xsl LOD-testset-Van_Someren-met-links.xml | cat &gt; someren_testset.rdf</code>. Nu vind je in de directory <code>someren_testset.rdf</code>. En dat is je LOD bestand! Deze staat ook op de <a href="https://raw.githubusercontent.com/RubenSchalk/marctolod/main/someren_testset.rdf">Github repository</a>.</p>
+<p>In Windows: <code>java net.sf.saxon.Transform -o:test.rdf testXML.xml MARC21slim2RDFDC.xsl</code> (nog niet geprobeerd).</p>
 </div>
 <div id="vervolgstappen" class="section level2">
 <h2>Vervolgstappen</h2>
