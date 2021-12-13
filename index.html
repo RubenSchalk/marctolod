@@ -166,7 +166,7 @@ pre code {
 <h1 class="title toc-ignore">Van MARC21 naar Linked Open Data: voortgang van experiment</h1>
 <h4 class="author"><a href="https://www.uu.nl/medewerkers/RSchalk">Ruben Schalk</a></h4>
 <address class="author_afil">
-Utrecht University Library<br><h4 class="date">2021-12-10 14:08:15</h4>
+Utrecht University Library<br><h4 class="date">2021-12-13 13:57:50</h4>
 
 </div>
 
@@ -209,9 +209,10 @@ Utrecht University Library<br><h4 class="date">2021-12-10 14:08:15</h4>
 </div>
 <div id="suggesties-voor-vervolgstappen" class="section level2">
 <h2>Suggesties voor vervolgstappen</h2>
-<p>We kunnen er voor kiezen om dit in het XSL bestand te doen of kiezen voor een andere conversie methode, bijvoorbeeld via MArc21 &gt; csv &gt; RDF. In beide gevallen moet er manueel werk gedaan worden aan het conversiebestand, maar in beide gevallen is dit hopelijk eenmalig. De ‘regels’ zullen namelijk bij alle metadavelden gelijk zijn.</p>
+<p>We kunnen er voor kiezen om dit in het XSL bestand te doen of kiezen voor een andere conversie methode, bijvoorbeeld via MARC &gt; csv &gt; RDF. In beide gevallen moet er manueel werk gedaan worden aan het conversiebestand, maar in beide gevallen is dit hopelijk eenmalig. De ‘regels’ zullen namelijk bij alle metadavelden gelijk zijn.</p>
 <p>Een andere optie is kijken of het werkt om als eerste stap te converteren naar Dublin Core in MarcEdit, maar een eerste poging liet zien dat er dan veel metadata verloren kan gaan. MArcEdit zet alles om naar uniforme DC standaarden, waardoor je gegevens lijkt te verliezen.</p>
-<p>Een manier om de csv pipeline uit te proberen is om via MarcEdit te exporteren naar <code>.tsv</code> en deze via een (R/python) script om te zetten in een werkbaar bestand. Dit betekent dat alle $a etc. velden plus inhoud samengevoegd moeten worden met het nummer (bijv. 100), zodat je 1 observatie per variabele overhoudt (100$a = Temple, William, 100$d = 1628-1699 etc.). Deze kunnen dan omgezet worden naar LOD, bijvoorbeeld met <a href="https://github.com/CLARIAH/COW">COW</a> of <a href="https://ldwizard.netwerkdigitaalerfgoed.nl/">LDwizard</a>. Nadeel is dat het bewerken van de csv bewerkelijk is, voordeel is dat de uiteindelijk csv makkelijker te interpreteren is dan het MARC21 of XML bestand (100$d = <code>dc:Date</code>). Daardoor is het datamodel ook eenvoudiger te specificeren - en aan te passen in de toekomst. En herinner dat deze stappen (hopelijk) goed schaalbaar zijn, omdat de metadata vaak gelijksoortig is.</p>
+<p>Een manier om de csv pipeline uit te proberen is om via MarcEdit te exporteren naar een <code>.csv</code> bestand. Dit betekent dat alle $a etc. velden plus inhoud samengevoegd worden met het nummer (bijv. 100), zodat je 1 observatie per variabele overhoudt (100$a = Temple, William, 100$d = 1628-1699 etc.).</p>
+<p>Met MarcEdit is deze stap naar een csv bestand eenvoudig: in het programma kun je specificeren welke MARC velden je naar een csv wilt exporteren (Tools &gt; Export &gt; Export Tab Delimited Format). Hierbij hoef je niet alle MARC velden elke keer handmatig in te vullen, want dit kan opgegeven worden door een - zelf gemaakt - .txt bestand te selecteren bij Next &gt; Settings. Het csv bestand dat hieruit komt is goed te interpreteren en om te zetten naar LOD, bijvoorbeeld met <a href="https://github.com/CLARIAH/COW">COW</a> of <a href="https://ldwizard.netwerkdigitaalerfgoed.nl/">LDwizard</a>. Voordeel van de csv-conversie is dat er geen data verloren gaat: wanneer er meerdere waarden in een MARC veld staan (zoals soms bij 655) worden die allemaal in hetzelfde csv veld geplaatst en gescheiden met een <code>;</code>.</p>
 <p>Alternatief is om via de UvA te inventariseren hoe zij de conversie hebben aangepakt. Ik weet dat ze <a href="https://librecat.org/index.html">Catmandu</a> hebben gebruikt voor de conversie, maar niet hoe ze het conversiebestand hebben gedefinieerd.</p>
 <div id="colofon" class="section level3">
 <h3>Colofon</h3>
