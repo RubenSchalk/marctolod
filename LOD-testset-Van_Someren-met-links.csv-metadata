@@ -1,0 +1,177 @@
+{
+  "@id": "https://data.utrechtuniversitylibrary.nl/someren/",
+  "@context": [
+    "https://raw.githubusercontent.com/CLARIAH/COW/master/csvw.json",
+    {
+      "@base": "https://data.utrechtuniversitylibrary.nl/someren/"
+    }
+  ],
+  "url": "",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "UTF-8",
+    "quoteChar": "\""
+  },
+  "tableSchema": {
+    "aboutUrl": "https://data.utrechtuniversitylibrary.nl/someren/id/{_row}",
+    "primaryKey": "Resource",
+    "columns": [
+      {
+        "virtual": true,
+        "propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "aboutUrl": "https://data.utrechtuniversitylibrary.nl/someren/id/{_row}",
+        "valueUrl": "pamphlet"
+      },
+      {
+        "datatype": "string",
+        "@id": "https://data.utrechtuniversitylibrary.nl/someren/column/000",
+        "name": "000",
+        "propertyUrl": "https://data.utrechtuniversitylibrary.nl/someren/def/000"
+      },
+      {
+        "datatype": "string",
+        "@id": "https://data.utrechtuniversitylibrary.nl/someren/column/001",
+        "name": "001",
+        "propertyUrl": "https://data.utrechtuniversitylibrary.nl/someren/def/001"
+      },
+      {
+        "datatype": "string",
+        "@id": "https://data.utrechtuniversitylibrary.nl/someren/column/100$a",
+        "name": "100$a",
+        "propertyUrl": "http://purl.org/dc/terms/creator"
+      },
+      {
+        "datatype": "string",
+        "@id": "https://data.utrechtuniversitylibrary.nl/someren/column/100$b",
+        "name": "100$b",
+        "propertyUrl": "https://data.utrechtuniversitylibrary.nl/someren/def/100$b"
+      },
+      {
+        "datatype": "string",
+        "@id": "https://data.utrechtuniversitylibrary.nl/someren/column/100$c",
+        "name": "100$c",
+        "propertyUrl": "https://data.utrechtuniversitylibrary.nl/someren/def/100$c"
+      },
+      {
+        "datatype": "string",
+        "@id": "https://data.utrechtuniversitylibrary.nl/someren/column/100$d",
+        "name": "100$d",
+        "propertyUrl": "https://data.utrechtuniversitylibrary.nl/someren/def/100$d"
+      },
+      {
+        "datatype": "string",
+        "@id": "https://data.utrechtuniversitylibrary.nl/someren/column/245$a",
+        "name": "245$a",
+        "propertyUrl": "http://purl.org/dc/terms/title"
+      },
+      {
+        "datatype": "string",
+        "@id": "https://data.utrechtuniversitylibrary.nl/someren/column/245$b",
+        "name": "245$b",
+        "propertyUrl": "http://purl.org/dc/terms/title"
+      },
+      {
+        "datatype": "string",
+        "@id": "https://data.utrechtuniversitylibrary.nl/someren/column/245$c",
+        "name": "245$c",
+        "propertyUrl": "https://data.utrechtuniversitylibrary.nl/someren/def/245$c"
+      },
+      {
+        "datatype": "string",
+        "@id": "https://data.utrechtuniversitylibrary.nl/someren/column/245$d",
+        "name": "245$d",
+        "propertyUrl": "https://data.utrechtuniversitylibrary.nl/someren/def/245$d"
+      },
+      {
+        "datatype": "string",
+        "@id": "https://data.utrechtuniversitylibrary.nl/someren/column/260$a",
+        "name": "260$a",
+        "propertyUrl": "http://purl.org/dc/terms/spatial"
+      },
+      {
+        "datatype": "string",
+        "@id": "https://data.utrechtuniversitylibrary.nl/someren/column/260$b",
+        "name": "260$b",
+        "propertyUrl": "http://purl.org/dc/terms/publisher"
+      },
+      {
+        "datatype": "string",
+        "@id": "https://data.utrechtuniversitylibrary.nl/someren/column/260$c",
+        "name": "260$c",
+        "propertyUrl": "http://purl.org/dc/terms/date"
+      },
+      {
+        "datatype": "string",
+        "@id": "https://data.utrechtuniversitylibrary.nl/someren/column/260$d",
+        "name": "260$d",
+        "propertyUrl": "https://data.utrechtuniversitylibrary.nl/someren/def/260$d"
+      },
+      {
+        "datatype": "string",
+        "@id": "https://data.utrechtuniversitylibrary.nl/someren/column/336$a",
+        "name": "336$a",
+        "propertyUrl": "http://purl.org/dc/terms/type"
+      },
+      {
+        "datatype": "string",
+        "@id": "https://data.utrechtuniversitylibrary.nl/someren/column/336$0",
+        "name": "336$0",
+        "propertyUrl": "https://data.utrechtuniversitylibrary.nl/someren/def/336$0"
+      },
+      {
+        "datatype": "string",
+        "@id": "https://data.utrechtuniversitylibrary.nl/someren/column/336$2",
+        "name": "336$2",
+        "propertyUrl": "https://data.utrechtuniversitylibrary.nl/someren/def/336$2"
+      },
+      {
+        "datatype": "string",
+        "@id": "https://data.utrechtuniversitylibrary.nl/someren/column/337$a",
+        "name": "337$a",
+        "propertyUrl": "https://data.utrechtuniversitylibrary.nl/someren/def/337$a"
+      },
+      {
+        "datatype": "string",
+        "@id": "https://data.utrechtuniversitylibrary.nl/someren/column/337$2",
+        "name": "337$2",
+        "propertyUrl": "https://data.utrechtuniversitylibrary.nl/someren/def/337$2"
+      },
+      {
+        "datatype": "string",
+        "@id": "https://data.utrechtuniversitylibrary.nl/someren/column/338$a",
+        "name": "338$a",
+        "propertyUrl": "https://data.utrechtuniversitylibrary.nl/someren/def/338$a"
+      },
+      {
+        "datatype": "string",
+        "@id": "https://data.utrechtuniversitylibrary.nl/someren/column/338$2",
+        "name": "338$2",
+        "propertyUrl": "http://purl.org/dc/terms/medium"
+      },
+      {
+        "datatype": "string",
+        "@id": "https://data.utrechtuniversitylibrary.nl/someren/column/651$a",
+        "name": "651$a",
+        "propertyUrl": "https://data.utrechtuniversitylibrary.nl/someren/def/651$a"
+      },
+      {
+        "datatype": "string",
+        "@id": "https://data.utrechtuniversitylibrary.nl/someren/column/651$0",
+        "name": "651$0",
+        "propertyUrl": "http://purl.org/dc/terms/coverage"
+      },
+      {
+        "datatype": "string",
+        "@id": "https://data.utrechtuniversitylibrary.nl/someren/column/655$a",
+        "name": "655$a",
+        "propertyUrl": "http://purl.org/dc/terms/subject"
+      },
+      {
+        "datatype": "string",
+        "@id": "https://data.utrechtuniversitylibrary.nl/someren/column/655$0",
+        "name": "655$0",
+        "propertyUrl": "https://data.utrechtuniversitylibrary.nl/someren/def/655$0"
+      }
+    ]
+  }
+}

@@ -166,7 +166,7 @@ pre code {
 <h1 class="title toc-ignore">Van MARC21 naar Linked Open Data: voortgang van experiment</h1>
 <h4 class="author"><a href="https://www.uu.nl/medewerkers/RSchalk">Ruben Schalk</a></h4>
 <address class="author_afil">
-Utrecht University Library<br><h4 class="date">2021-12-13 13:57:50</h4>
+Utrecht University Library<br><h4 class="date">2021-12-16 14:54:35</h4>
 
 </div>
 
@@ -214,6 +214,11 @@ Utrecht University Library<br><h4 class="date">2021-12-13 13:57:50</h4>
 <p>Een manier om de csv pipeline uit te proberen is om via MarcEdit te exporteren naar een <code>.csv</code> bestand. Dit betekent dat alle $a etc. velden plus inhoud samengevoegd worden met het nummer (bijv. 100), zodat je 1 observatie per variabele overhoudt (100$a = Temple, William, 100$d = 1628-1699 etc.).</p>
 <p>Met MarcEdit is deze stap naar een csv bestand eenvoudig: in het programma kun je specificeren welke MARC velden je naar een csv wilt exporteren (Tools &gt; Export &gt; Export Tab Delimited Format). Hierbij hoef je niet alle MARC velden elke keer handmatig in te vullen, want dit kan opgegeven worden door een - zelf gemaakt - .txt bestand te selecteren bij Next &gt; Settings. Het csv bestand dat hieruit komt is goed te interpreteren en om te zetten naar LOD, bijvoorbeeld met <a href="https://github.com/CLARIAH/COW">COW</a> of <a href="https://ldwizard.netwerkdigitaalerfgoed.nl/">LDwizard</a>. Voordeel van de csv-conversie is dat er geen data verloren gaat: wanneer er meerdere waarden in een MARC veld staan (zoals soms bij 655) worden die allemaal in hetzelfde csv veld geplaatst en gescheiden met een <code>;</code>.</p>
 <p>Alternatief is om via de UvA te inventariseren hoe zij de conversie hebben aangepakt. Ik weet dat ze <a href="https://librecat.org/index.html">Catmandu</a> hebben gebruikt voor de conversie, maar niet hoe ze het conversiebestand hebben gedefinieerd.</p>
+</div>
+<div id="vervolgstap-1-csv-naar-lod" class="section level2">
+<h2>Vervolgstap 1: csv naar LOD</h2>
+<p>Vanuit MarcEdit is met een <a href="https://raw.githubusercontent.com/RubenSchalk/marctolod/main/marcedit_export_settings.txt">tekstbestand</a> een aantal velden omgezet naar <code>csv</code>. Voor nu is gekozen voor velden waar ook links in staan, zodat we deze kunnen converteren naar LOD (het is eenvoudig om aan dit tekstbestand meer velden toe te voegen). Vervolgens kan in MarcEdit een <code>.csv</code> bestand worden gemaakt, om vanuit hier de stap naar LOD te maken. De meest toegankelijke manier is om dit te doen via <a href="https://ldwizard.netwerkdigitaalerfgoed.nl/">LDwizard</a>: een website met simpele interface die de stap van csv naar LOD ondersteunt - en bovendien het conversiebestand ook direct beschikbaar stelt. Daarnaast is in LDwizard per variabele - hier: MARC veld - te selecteren welk vocabulary je wilt gebruiken als beschrijving, zoals <code>schema.org</code>.</p>
+<p>Voor deze eerste run is het bestand omgezet naar LOD met gebruik van het <a href="https://uba.uva.nl/binaries/content/assets/subsites/bibliotheek/open-data/uva-edm-rdf-open-data.pdf">datamodel van de UvA</a>, dat grotendeels overeenkomst met het Europeana Data Model. Niet alle velden zijn nog doorgevoerd, enkel de MARC velden die in de csv staan en enkel de vocabularies die standaard in LDwizard voorkomen. In een volgende stap zijn via het te downloaden conversiebestand (ttl, CoW (json), RML) de overige velden te specificeren.Het <code>.nt</code> bestand dat uit deze stap komt is onze LOD. Om te inspecteren of het voldoende is (antwoord: nog niet), heb ik het bestand geupload in de Triplestore van mijn vorige project (Clariah WP4): <a href="https://druid.datalegend.net/RubenS/marc21/browser?resource=https%3A%2F%2Fdata.utrechtuniversitylibrary.nl%2Fsomeren%2Fid%2F1">MARC21LOD</a>. De bestanden zijn allemaal beschikbaar in mijn <a href>Github repository</a>.</p>
 <div id="colofon" class="section level3">
 <h3>Colofon</h3>
 <p>Met dank aan <a href="https://digitalcommons.osgoode.yorku.ca/cgi/viewcontent.cgi?article=1018&amp;context=librarians">deze presentatie</a> voor hulp bij de XSL stap.</p>

@@ -1,0 +1,102 @@
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix csvw: <http://www.w3.org/ns/csvw#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix : <http://example.org/rules/>.
+@prefix schema: <http://schema.org/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+
+:TriplesMap rdf:type rr:TriplesMap;
+    rml:logicalSource [
+  rml:source [
+  rdf:type csvw:Table;
+  csvw:url "LOD-testset-Van_Someren-met-links.csv";
+  csvw:dialect [
+  rdf:type csvw:Dialect;
+  csvw:delimiter "\t";
+  csvw:encoding "UTF-8"
+]
+];
+  rml:referenceFormulation ql:CSV
+];
+    rr:subjectMap [ rr:termType rr:BlankNode ];
+    rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [ rr:constant <pamphlet> ]
+], [
+  rr:predicate <https://data.utrechtuniversitylibrary.nl/someren/def/000>;
+  rr:objectMap [ rml:reference "000" ]
+], [
+  rr:predicate <https://data.utrechtuniversitylibrary.nl/someren/def/001>;
+  rr:objectMap [ rml:reference "001" ]
+], [
+  rr:predicate <http://purl.org/dc/terms/creator>;
+  rr:objectMap [ rml:reference "100$a" ]
+], [
+  rr:predicate <https://data.utrechtuniversitylibrary.nl/someren/def/100$b>;
+  rr:objectMap [ rml:reference "100$b" ]
+], [
+  rr:predicate <https://data.utrechtuniversitylibrary.nl/someren/def/100$c>;
+  rr:objectMap [ rml:reference "100$c" ]
+], [
+  rr:predicate <https://data.utrechtuniversitylibrary.nl/someren/def/100$d>;
+  rr:objectMap [ rml:reference "100$d" ]
+], [
+  rr:predicate <http://purl.org/dc/terms/title>;
+  rr:objectMap [ rml:reference "245$a" ]
+], [
+  rr:predicate <http://purl.org/dc/terms/title>;
+  rr:objectMap [ rml:reference "245$b" ]
+], [
+  rr:predicate <https://data.utrechtuniversitylibrary.nl/someren/def/245$c>;
+  rr:objectMap [ rml:reference "245$c" ]
+], [
+  rr:predicate <https://data.utrechtuniversitylibrary.nl/someren/def/245$d>;
+  rr:objectMap [ rml:reference "245$d" ]
+], [
+  rr:predicate <http://purl.org/dc/terms/spatial>;
+  rr:objectMap [ rml:reference "260$a" ]
+], [
+  rr:predicate <http://purl.org/dc/terms/publisher>;
+  rr:objectMap [ rml:reference "260$b" ]
+], [
+  rr:predicate <http://purl.org/dc/terms/date>;
+  rr:objectMap [ rml:reference "260$c" ]
+], [
+  rr:predicate <https://data.utrechtuniversitylibrary.nl/someren/def/260$d>;
+  rr:objectMap [ rml:reference "260$d" ]
+], [
+  rr:predicate <http://purl.org/dc/terms/type>;
+  rr:objectMap [ rml:reference "336$a" ]
+], [
+  rr:predicate <https://data.utrechtuniversitylibrary.nl/someren/def/336$0>;
+  rr:objectMap [ rml:reference "336$0" ]
+], [
+  rr:predicate <https://data.utrechtuniversitylibrary.nl/someren/def/336$2>;
+  rr:objectMap [ rml:reference "336$2" ]
+], [
+  rr:predicate <https://data.utrechtuniversitylibrary.nl/someren/def/337$a>;
+  rr:objectMap [ rml:reference "337$a" ]
+], [
+  rr:predicate <https://data.utrechtuniversitylibrary.nl/someren/def/337$2>;
+  rr:objectMap [ rml:reference "337$2" ]
+], [
+  rr:predicate <https://data.utrechtuniversitylibrary.nl/someren/def/338$a>;
+  rr:objectMap [ rml:reference "338$a" ]
+], [
+  rr:predicate <http://purl.org/dc/terms/medium>;
+  rr:objectMap [ rml:reference "338$2" ]
+], [
+  rr:predicate <https://data.utrechtuniversitylibrary.nl/someren/def/651$a>;
+  rr:objectMap [ rml:reference "651$a" ]
+], [
+  rr:predicate <http://purl.org/dc/terms/coverage>;
+  rr:objectMap [ rml:reference "651$0" ]
+], [
+  rr:predicate <http://purl.org/dc/terms/subject>;
+  rr:objectMap [ rml:reference "655$a" ]
+], [
+  rr:predicate <https://data.utrechtuniversitylibrary.nl/someren/def/655$0>;
+  rr:objectMap [ rml:reference "655$0" ]
+].

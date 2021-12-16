@@ -1,0 +1,772 @@
+<https://data.utrechtuniversitylibrary.nl/someren/id/1> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "00998cam a2200289Mi 4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/1> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm63806621\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/1> <http://purl.org/dc/terms/creator> "Temple, William," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/1> <https://data.utrechtuniversitylibrary.nl/someren/def/100$c> "Chevalier," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/1> <https://data.utrechtuniversitylibrary.nl/someren/def/100$d> "1628-1699." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/1> <http://purl.org/dc/terms/title> "Remarques sur l'estat des Provinces Unies des Pays-bas. :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/1> <http://purl.org/dc/terms/title> "Faites en l'an 1672. /" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/1> <https://data.utrechtuniversitylibrary.nl/someren/def/245$c> "Par Monsieur le Chevalier Temple .." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/1> <http://purl.org/dc/terms/spatial> "[S.l.] :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/1> <http://purl.org/dc/terms/publisher> "[s.n.]," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/1> <http://purl.org/dc/terms/date> "1685." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/1> <http://purl.org/dc/terms/type> "tekst" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/1> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/1> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "zonder medium" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/1> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/1> <https://data.utrechtuniversitylibrary.nl/someren/def/338$a> "band" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/1> <http://purl.org/dc/terms/medium> "rdacarrier/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/2> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "01275cam a2200373Ka 4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/2> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm09200381\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/2> <http://purl.org/dc/terms/title> "Response au discours presenté au roy sur la reunion des deux religions." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/2> <http://purl.org/dc/terms/spatial> "[France?] :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/2> <http://purl.org/dc/terms/publisher> "[publisher not identified]," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/2> <http://purl.org/dc/terms/date> "1607." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/2> <http://purl.org/dc/terms/type> "text" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/2> <https://data.utrechtuniversitylibrary.nl/someren/def/336$0> "http://id.loc.gov/vocabulary/contentTypes/txt" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/2> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/2> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "unmediated" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/2> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/2> <https://data.utrechtuniversitylibrary.nl/someren/def/338$a> "volume" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/2> <http://purl.org/dc/terms/medium> "rdacarrier" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/2> <https://data.utrechtuniversitylibrary.nl/someren/def/651$a> "France;France." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/2> <http://purl.org/dc/terms/coverage> "http://id.loc.gov/authorities/subjects/sh85051175;http://id.worldcat.org/fast/01204289;http://id.loc.gov/authorities/names/n79006404-781" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/2> <http://purl.org/dc/terms/subject> "Church history." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/2> <https://data.utrechtuniversitylibrary.nl/someren/def/655$0> "http://id.worldcat.org/fast/01411629" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/3> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "02129cam a2200361Mi 4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/3> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm64780573\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/3> <http://purl.org/dc/terms/title> "Antwoorde op de valsche beschuldiginghen door een zeker ghesworen vijandt der Ghereformeerde religie, onder den titel ofte name van de Iustificatie van Leyden ... Midtsgaders de Verantwoordinghe van den dienaer, ouderlinghen en̄ diaconen der kercke tot Leyden, naer het wt-gheven van de Justificatie ghestelt .." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/3> <http://purl.org/dc/terms/spatial> "Tot Rotterdam, :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/3> <http://purl.org/dc/terms/publisher> "by Jan van Waesberghe ...," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/3> <http://purl.org/dc/terms/date> "1598." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/3> <http://purl.org/dc/terms/type> "tekst" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/3> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/3> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "zonder medium" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/3> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/3> <https://data.utrechtuniversitylibrary.nl/someren/def/338$a> "band" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/3> <http://purl.org/dc/terms/medium> "rdacarrier/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/4> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "01440cam a2200337Mi 4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/4> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm68037902\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/4> <http://purl.org/dc/terms/creator> "Gregorius" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/4> <https://data.utrechtuniversitylibrary.nl/someren/def/100$b> "XIV," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/4> <https://data.utrechtuniversitylibrary.nl/someren/def/100$c> "paus," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/4> <https://data.utrechtuniversitylibrary.nl/someren/def/100$d> "1535-1591." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/4> <http://purl.org/dc/terms/title> "Gregorii XIIII Papæ Litteræ monitoriales ad principes, duces, marchiones &c et archiepiscopos, episcopos aliosque ecclesiasticos regni Francorum, qui regis partes sequuntur, et ad eas Turonense senatusconsultum." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/4> <http://purl.org/dc/terms/spatial> "Francofvrti :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/4> <http://purl.org/dc/terms/publisher> "ex officina typographica Martini Lechleri," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/4> <http://purl.org/dc/terms/date> "1591." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/4> <http://purl.org/dc/terms/type> "tekst" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/4> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/4> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "zonder medium" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/4> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/4> <https://data.utrechtuniversitylibrary.nl/someren/def/338$a> "band" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/4> <http://purl.org/dc/terms/medium> "rdacarrier/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/4> <http://purl.org/dc/terms/subject> "Brieven (vorm)" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/4> <https://data.utrechtuniversitylibrary.nl/someren/def/655$0> "(NL-LeOCL)088142167" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/5> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "01807cam a2200421Ia 4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/5> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm68083351\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/5> <http://purl.org/dc/terms/creator> "Selneccer, Nicolaus," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/5> <https://data.utrechtuniversitylibrary.nl/someren/def/100$d> "1530-1592." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/5> <http://purl.org/dc/terms/title> "Nicolai Selnecceri D. Superintendenten zu Leipzig, christliche kurtze Antwort auff die Lesterung und sacramentirische Schmehschrifft Lamberti Danaei, itzt Anno 1581 in Druck zu Genff gegeben :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/5> <http://purl.org/dc/terms/title> "etliche christliche Gebet wider die Schwermer, aus dem Psalter Davids." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/5> <http://purl.org/dc/terms/spatial> "Gedruckt zu Leipzig :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/5> <http://purl.org/dc/terms/publisher> "bey Georg Defner," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/5> <http://purl.org/dc/terms/date> "Anno 1581." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/5> <http://purl.org/dc/terms/type> "text" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/5> <https://data.utrechtuniversitylibrary.nl/someren/def/336$0> "http://id.loc.gov/vocabulary/contentTypes/txt" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/5> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/5> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "unmediated" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/5> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/5> <https://data.utrechtuniversitylibrary.nl/someren/def/338$a> "volume" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/5> <http://purl.org/dc/terms/medium> "rdacarrier" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/5> <http://purl.org/dc/terms/subject> "Controversial literature.;Early works." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/5> <https://data.utrechtuniversitylibrary.nl/someren/def/655$0> "http://id.worldcat.org/fast/01423907;http://id.worldcat.org/fast/01411636" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/6> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "01275cam a2200301Mi 4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/6> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm63400201\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/6> <http://purl.org/dc/terms/creator> "Telle, Reinier," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/6> <https://data.utrechtuniversitylibrary.nl/someren/def/100$d> "1558/59-1618." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/6> <http://purl.org/dc/terms/title> "Der Contraremonstranten kerf-stock, die nimmermeer yser wordt. :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/6> <http://purl.org/dc/terms/title> "Aen de Roomsche Catholijcken. : Op de wyse: Het was een fray rijck burghers kindt. /" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/6> <https://data.utrechtuniversitylibrary.nl/someren/def/245$c> "Door een lief-hebber van de vrye waerheydt." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/6> <http://purl.org/dc/terms/spatial> "[S.l. :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/6> <http://purl.org/dc/terms/publisher> "s.n.]," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/6> <http://purl.org/dc/terms/date> "[1617]" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/6> <http://purl.org/dc/terms/type> "tekst" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/6> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/6> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "zonder medium" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/6> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/6> <https://data.utrechtuniversitylibrary.nl/someren/def/338$a> "band" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/6> <http://purl.org/dc/terms/medium> "rdacarrier/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/7> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "00997cam a2200277Mi 4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/7> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm65556064\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/7> <http://purl.org/dc/terms/creator> "Essenius, Andreas," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/7> <https://data.utrechtuniversitylibrary.nl/someren/def/100$d> "1618-1677." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/7> <http://purl.org/dc/terms/title> "Defensio consilii theologici Ultrajectini de Canonicatilius, Vicariatibus /" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/7> <https://data.utrechtuniversitylibrary.nl/someren/def/245$c> "..." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/7> <http://purl.org/dc/terms/spatial> "Ultrajecti," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/7> <http://purl.org/dc/terms/date> "1658." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/7> <http://purl.org/dc/terms/type> "tekst" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/7> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/7> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "zonder medium" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/7> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/7> <https://data.utrechtuniversitylibrary.nl/someren/def/338$a> "band" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/7> <http://purl.org/dc/terms/medium> "rdacarrier/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/8> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "01221cam a2200277Mi 4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/8> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm65054231\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/8> <http://purl.org/dc/terms/title> "Declaration veritable de la bataille faicte à Ivry la Chanssee le 14. de mars, par victoire obtenue sa Majesté Henri quatrième, roy de France et de Navarre, sur ceux de la ligue :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/8> <http://purl.org/dc/terms/title> "ensemble les articles de la grace que sa Majesté a faictes aux Suisses du parti contraire." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/8> <http://purl.org/dc/terms/spatial> "[S.l.] :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/8> <http://purl.org/dc/terms/publisher> "[s.n.]," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/8> <http://purl.org/dc/terms/date> "1590." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/8> <http://purl.org/dc/terms/type> "tekst" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/8> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/8> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "zonder medium" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/8> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/8> <https://data.utrechtuniversitylibrary.nl/someren/def/338$a> "band" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/8> <http://purl.org/dc/terms/medium> "rdacarrier/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/9> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "00990cam a2200289Mi 4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/9> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm65558918\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/9> <http://purl.org/dc/terms/title> "Extract uyt een brief, geschreven uyt 's Gravenhage den 27. October 1688." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/9> <http://purl.org/dc/terms/spatial> "['s Gravenhage]," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/9> <http://purl.org/dc/terms/date> "[1688]" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/9> <http://purl.org/dc/terms/type> "tekst" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/9> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/9> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "zonder medium" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/9> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/9> <https://data.utrechtuniversitylibrary.nl/someren/def/338$a> "band" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/9> <http://purl.org/dc/terms/medium> "rdacarrier/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/10> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "01932cam a2200385 a 4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/10> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm30357261\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/10> <http://purl.org/dc/terms/title> "Abschiedt der Röm. Keys. Maiest. vnd gemeyner Stend vff dem Reichsstag zů Augspurg vffgericht Anno Domini MDLI." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/10> <http://purl.org/dc/terms/spatial> "Gedruckt inn der chůrfürstlichen Stadt Meyntz :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/10> <http://purl.org/dc/terms/publisher> "Durch Iuonem Schöffer," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/10> <http://purl.org/dc/terms/date> "im[m] Iare 1551." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/10> <http://purl.org/dc/terms/type> "text" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/10> <https://data.utrechtuniversitylibrary.nl/someren/def/336$0> "http://id.loc.gov/vocabulary/contentTypes/txt" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/10> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/10> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "unmediated" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/10> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/10> <https://data.utrechtuniversitylibrary.nl/someren/def/338$a> "volume" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/10> <http://purl.org/dc/terms/medium> "rdacarrier" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/10> <https://data.utrechtuniversitylibrary.nl/someren/def/651$a> "Europe" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/10> <http://purl.org/dc/terms/coverage> "http://id.worldcat.org/fast/01205344" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/11> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "02646cam a2200445Mi 4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/11> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm64845635\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/11> <http://purl.org/dc/terms/creator> "Blanckaert, Nicolaas," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/11> <https://data.utrechtuniversitylibrary.nl/someren/def/100$d> "1624-1703." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/11> <http://purl.org/dc/terms/title> "Nicolai Blancardi Panegyricvs, pro ivbileo sev festo secvlari, :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/11> <http://purl.org/dc/terms/title> "ivssv procervm, in Templo Academico, dictvs MDCLXXXV, die Sept. XXIV." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/11> <http://purl.org/dc/terms/spatial> "Franeqverae :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/11> <http://purl.org/dc/terms/publisher> "excudit Johannes Gyselaer ...," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/11> <http://purl.org/dc/terms/date> "1685." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/11> <http://purl.org/dc/terms/type> "tekst" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/11> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/11> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "zonder medium" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/11> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/11> <https://data.utrechtuniversitylibrary.nl/someren/def/338$a> "band" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/11> <http://purl.org/dc/terms/medium> "rdacarrier/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/12> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "01280cam a2200313Mi 4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/12> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm65698573\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/12> <http://purl.org/dc/terms/title> "De Staten van Hollandt ende West-Vrieslandt, allen den genen, die desen sullen sien ofte hooren lesen, salut. Doen te weten, dat wy hebben bevonden, dat zedert eenighen tijdt herwaerts, in verscheyde steden ende plaetsen van desen lande zijn ontstaen geweest veele diffidentien ende murmuratien .." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/12> <http://purl.org/dc/terms/spatial> "In 's Graven-hage, :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/12> <http://purl.org/dc/terms/publisher> "by Jacobus Scheltus ...," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/12> <http://purl.org/dc/terms/date> "1672." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/12> <http://purl.org/dc/terms/type> "tekst" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/12> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/12> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "zonder medium" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/12> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/12> <https://data.utrechtuniversitylibrary.nl/someren/def/338$a> "band" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/12> <http://purl.org/dc/terms/medium> "rdacarrier/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/13> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "01462cam a2200385Ii 4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/13> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm03922636\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/13> <http://purl.org/dc/terms/creator> "La Planche, Louis Régnier de," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/13> <https://data.utrechtuniversitylibrary.nl/someren/def/100$d> "approximately 1530-approximately 1580." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/13> <http://purl.org/dc/terms/title> "La legende de Charles, cardinal de Lorraine :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/13> <http://purl.org/dc/terms/title> "& de ses freres, de la maison de Guise /" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/13> <https://data.utrechtuniversitylibrary.nl/someren/def/245$c> "Descrite en trois liures par François de l'Isle [i.e. La Planche]." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/13> <http://purl.org/dc/terms/spatial> "Reims :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/13> <http://purl.org/dc/terms/publisher> "Imprimerie de Pierre Martin," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/13> <http://purl.org/dc/terms/date> "1579." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/13> <http://purl.org/dc/terms/type> "text" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/13> <https://data.utrechtuniversitylibrary.nl/someren/def/336$0> "http://id.loc.gov/vocabulary/contentTypes/txt" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/13> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/13> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "unmediated" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/13> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/13> <https://data.utrechtuniversitylibrary.nl/someren/def/338$a> "volume" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/13> <http://purl.org/dc/terms/medium> "rdacarrier" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/13> <https://data.utrechtuniversitylibrary.nl/someren/def/651$a> "France;France." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/13> <http://purl.org/dc/terms/coverage> "http://id.loc.gov/authorities/subjects/sh85051282;http://id.worldcat.org/fast/01204289;http://id.loc.gov/authorities/names/n79006404-781" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/13> <http://purl.org/dc/terms/subject> "History." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/13> <https://data.utrechtuniversitylibrary.nl/someren/def/655$0> "http://id.worldcat.org/fast/01411628" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/14> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "01376cam a2200289M  4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/14> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm17749472\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/14> <http://purl.org/dc/terms/creator> "Mesmes, Jean-Antoine de," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/14> <https://data.utrechtuniversitylibrary.nl/someren/def/100$c> "comte d'Avaux," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/14> <https://data.utrechtuniversitylibrary.nl/someren/def/100$d> "1640-1709." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/14> <http://purl.org/dc/terms/title> "Memorie van Syn Excellentie de Heer Grave d'Avaux, extraordinaris ambassadeur van Syn Alder-Christelijkste Majesteyt" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/14> <http://purl.org/dc/terms/title> "gepresenteert aen de Staten Generaal der Vereenigde Nederlanden. Den 16. Mey, 1684." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/14> <http://purl.org/dc/terms/spatial> "[Place of publication not identified]" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/14> <http://purl.org/dc/terms/date> "1684." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/14> <http://purl.org/dc/terms/type> "text" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/14> <https://data.utrechtuniversitylibrary.nl/someren/def/336$0> "http://id.loc.gov/vocabulary/contentTypes/txt" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/14> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/14> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "unmediated" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/14> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/14> <https://data.utrechtuniversitylibrary.nl/someren/def/338$a> "volume" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/14> <http://purl.org/dc/terms/medium> "rdacarrier" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/15> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "01932cam a2200385 a 4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/15> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm30357261\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/15> <http://purl.org/dc/terms/title> "Abschiedt der Röm. Keys. Maiest. vnd gemeyner Stend vff dem Reichsstag zů Augspurg vffgericht Anno Domini MDLI." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/15> <http://purl.org/dc/terms/spatial> "Gedruckt inn der chůrfürstlichen Stadt Meyntz :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/15> <http://purl.org/dc/terms/publisher> "Durch Iuonem Schöffer," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/15> <http://purl.org/dc/terms/date> "im[m] Iare 1551." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/15> <http://purl.org/dc/terms/type> "text" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/15> <https://data.utrechtuniversitylibrary.nl/someren/def/336$0> "http://id.loc.gov/vocabulary/contentTypes/txt" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/15> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/15> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "unmediated" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/15> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/15> <https://data.utrechtuniversitylibrary.nl/someren/def/338$a> "volume" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/15> <http://purl.org/dc/terms/medium> "rdacarrier" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/15> <https://data.utrechtuniversitylibrary.nl/someren/def/651$a> "Europe" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/15> <http://purl.org/dc/terms/coverage> "http://id.worldcat.org/fast/01205344" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/16> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "01827cam a2200433Ia 4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/16> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm32763752\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/16> <http://purl.org/dc/terms/creator> "Ossat, Arnaud d'," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/16> <https://data.utrechtuniversitylibrary.nl/someren/def/100$d> "1536-1604." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/16> <http://purl.org/dc/terms/title> "Expositio Arnaldi Ossati in disputationem Jacobi Carpentarii De methodo." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/16> <http://purl.org/dc/terms/spatial> "Parisiis [Paris, France] :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/16> <http://purl.org/dc/terms/publisher> "Apud Andream Wechelum," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/16> <http://purl.org/dc/terms/date> "1564." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/16> <http://purl.org/dc/terms/type> "text" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/16> <https://data.utrechtuniversitylibrary.nl/someren/def/336$0> "http://id.loc.gov/vocabulary/contentTypes/txt" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/16> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/16> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "unmediated" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/16> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/16> <https://data.utrechtuniversitylibrary.nl/someren/def/338$a> "volume" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/16> <http://purl.org/dc/terms/medium> "rdacarrier" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/16> <http://purl.org/dc/terms/subject> "Early works." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/16> <https://data.utrechtuniversitylibrary.nl/someren/def/655$0> "http://id.worldcat.org/fast/01411636" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/17> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "01101cam a2200313   4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/17> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm41885432\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/17> <http://purl.org/dc/terms/creator> "Socinus, Faustus," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/17> <https://data.utrechtuniversitylibrary.nl/someren/def/100$d> "1539-1604." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/17> <http://purl.org/dc/terms/title> "Tractatvs de ivstificatione," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/17> <https://data.utrechtuniversitylibrary.nl/someren/def/245$c> "Favsti Socini Senensis." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/17> <http://purl.org/dc/terms/spatial> "Racoviae," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/17> <http://purl.org/dc/terms/publisher> "Typis Sebastiani Sternacii," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/17> <http://purl.org/dc/terms/date> "1616." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/17> <http://purl.org/dc/terms/type> "text" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/17> <https://data.utrechtuniversitylibrary.nl/someren/def/336$0> "http://id.loc.gov/vocabulary/contentTypes/txt" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/17> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/17> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "unmediated" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/17> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/17> <https://data.utrechtuniversitylibrary.nl/someren/def/338$a> "volume" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/17> <http://purl.org/dc/terms/medium> "rdacarrier" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/17> <http://purl.org/dc/terms/subject> "Early works." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/17> <https://data.utrechtuniversitylibrary.nl/someren/def/655$0> "http://id.worldcat.org/fast/01411636" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/18> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "01200cam a2200337Ma 4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/18> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm45240051\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/18> <http://purl.org/dc/terms/creator> "Burman, Frans," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/18> <https://data.utrechtuniversitylibrary.nl/someren/def/100$d> "1628-1679." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/18> <http://purl.org/dc/terms/title> "Francisci Burmanni ... Oratio de causis Belgicae afflictae. :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/18> <http://purl.org/dc/terms/title> "Dicta in templi majoris choro, A. diem XIII. Junii, urbi huic funestum, A.C. MDCLXXIV." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/18> <http://purl.org/dc/terms/spatial> "Trajecti ad Rhenum :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/18> <http://purl.org/dc/terms/publisher> "Apud Cornelium Jacobi Noenardum ...," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/18> <http://purl.org/dc/terms/date> "MDCLXXIV." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/18> <http://purl.org/dc/terms/type> "text" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/18> <https://data.utrechtuniversitylibrary.nl/someren/def/336$0> "http://id.loc.gov/vocabulary/contentTypes/txt" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/18> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/18> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "unmediated" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/18> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/18> <https://data.utrechtuniversitylibrary.nl/someren/def/338$a> "volume" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/18> <http://purl.org/dc/terms/medium> "rdacarrier" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/18> <https://data.utrechtuniversitylibrary.nl/someren/def/651$a> "Belgium;Belgium." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/18> <http://purl.org/dc/terms/coverage> "http://id.loc.gov/authorities/subjects/sh85012971;http://id.worldcat.org/fast/01210278;http://id.loc.gov/authorities/names/n80126041-781" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/18> <http://purl.org/dc/terms/subject> "History." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/18> <https://data.utrechtuniversitylibrary.nl/someren/def/655$0> "http://id.worldcat.org/fast/01411628" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/19> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "01662cam a2200409Ma 4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/19> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm46340241\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/19> <http://purl.org/dc/terms/creator> "Henry" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/19> <https://data.utrechtuniversitylibrary.nl/someren/def/100$b> "III," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/19> <https://data.utrechtuniversitylibrary.nl/someren/def/100$c> "King of France," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/19> <https://data.utrechtuniversitylibrary.nl/someren/def/100$d> "1551-1589." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/19> <http://purl.org/dc/terms/title> "Edictum Henrici Regis Galliae de pace, nuper a typographo regio Lutetiæ editum cum priuilegio Regis, è Gallico in Latinum sermonem fideliter conuersum." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/19> <http://purl.org/dc/terms/spatial> "[Paris] :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/19> <http://purl.org/dc/terms/publisher> "[Féderic Morel?]," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/19> <http://purl.org/dc/terms/date> "1576." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/19> <http://purl.org/dc/terms/type> "text" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/19> <https://data.utrechtuniversitylibrary.nl/someren/def/336$0> "http://id.loc.gov/vocabulary/contentTypes/txt" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/19> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/19> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "unmediated" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/19> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/19> <https://data.utrechtuniversitylibrary.nl/someren/def/338$a> "volume" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/19> <http://purl.org/dc/terms/medium> "rdacarrier" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/19> <https://data.utrechtuniversitylibrary.nl/someren/def/651$a> "France;France;France." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/19> <http://purl.org/dc/terms/coverage> "http://id.worldcat.org/fast/01204289;http://id.loc.gov/authorities/names/n79006404-781" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/19> <http://purl.org/dc/terms/subject> "Early works.;History." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/19> <https://data.utrechtuniversitylibrary.nl/someren/def/655$0> "http://id.worldcat.org/fast/01411636;http://id.worldcat.org/fast/01411628" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/20> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "01659cam a2200373Ia 4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/20> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm58038313\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/20> <http://purl.org/dc/terms/creator> "Wigand, Johann," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/20> <https://data.utrechtuniversitylibrary.nl/someren/def/100$d> "1523-1587." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/20> <http://purl.org/dc/terms/title> "Warnung vor dem Catechismo D. Canisii, des grossen Jhesuwidders :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/20> <http://purl.org/dc/terms/title> "Daraus die ungründe bepstlicher Lere zu erkennen /" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/20> <https://data.utrechtuniversitylibrary.nl/someren/def/245$c> "D. Johannes Wigandus." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/20> <http://purl.org/dc/terms/spatial> "Gedruckt zu Jhena :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/20> <http://purl.org/dc/terms/publisher> "durch Christian Rhödingers Erben," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/20> <http://purl.org/dc/terms/date> "M.D. LXX." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/20> <http://purl.org/dc/terms/type> "text" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/20> <https://data.utrechtuniversitylibrary.nl/someren/def/336$0> "http://id.loc.gov/vocabulary/contentTypes/txt" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/20> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/20> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "unmediated" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/20> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/20> <https://data.utrechtuniversitylibrary.nl/someren/def/338$a> "volume" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/20> <http://purl.org/dc/terms/medium> "rdacarrier" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/20> <http://purl.org/dc/terms/subject> "Controversial literature." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/20> <https://data.utrechtuniversitylibrary.nl/someren/def/655$0> "http://id.worldcat.org/fast/01423907" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/21> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "00862cam a2200265Mi 4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/21> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm66866240\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/21> <http://purl.org/dc/terms/title> "Rerum a Martino Schenckio apud Neomagenses undecima Augusti gestarum brevis historia /" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/21> <https://data.utrechtuniversitylibrary.nl/someren/def/245$c> "descripta a quodam oculato." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/21> <http://purl.org/dc/terms/spatial> "Antverpiae :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/21> <http://purl.org/dc/terms/publisher> "ex officina Joachimi Trognesii," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/21> <http://purl.org/dc/terms/date> "1589." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/21> <http://purl.org/dc/terms/type> "tekst" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/21> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/21> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "zonder medium" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/21> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/21> <https://data.utrechtuniversitylibrary.nl/someren/def/338$a> "band" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/21> <http://purl.org/dc/terms/medium> "rdacarrier/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/22> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "01076cam a2200265Mi 4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/22> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm66866268\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/22> <http://purl.org/dc/terms/title> "Warachtige nieuwe tijdinge, ende schoone victorie, die de almloghende Heere tot voordeel des Vaderlandts verleent ende verthoont heeft, door den vromen heere Monsieur a Lonche ... capiteyn voor den prinche [!] van Oraenien ende Staten des Nederlandts met syne soldaten ende adherenten opt faict ende innemen der stadt van Diest op den ix. junij ..." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/22> <http://purl.org/dc/terms/spatial> "[Homberg?] :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/22> <http://purl.org/dc/terms/publisher> "[Nicolaes of Peter Gevaerts]," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/22> <http://purl.org/dc/terms/date> "1580." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/22> <http://purl.org/dc/terms/type> "tekst" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/22> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/22> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "zonder medium" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/22> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/22> <https://data.utrechtuniversitylibrary.nl/someren/def/338$a> "band" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/22> <http://purl.org/dc/terms/medium> "rdacarrier/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/23> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "01090cam a2200289Mi 4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/23> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm66866481\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/23> <http://purl.org/dc/terms/creator> "Willem I," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/23> <https://data.utrechtuniversitylibrary.nl/someren/def/100$c> "prins van Oranje." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/23> <http://purl.org/dc/terms/title> "Bekendnus, der durchleuchtigesten hochgebornen Fürsten und Herrn, Herren Wilhelm Printz zu Uranien, sampt andern irer F.G. Mitverwandten Defension, und Nootwehr widder des Duca de Alba unchristliche und eunerhörte Verfolgung gegen alle Stendt der Nidderlanden, tyrannischer Weise geübet." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/23> <http://purl.org/dc/terms/spatial> "[S.l.] :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/23> <http://purl.org/dc/terms/publisher> "[s.n.]," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/23> <http://purl.org/dc/terms/date> "[1568]" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/23> <http://purl.org/dc/terms/type> "tekst" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/23> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/23> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "zonder medium" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/23> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/23> <https://data.utrechtuniversitylibrary.nl/someren/def/338$a> "band" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/23> <http://purl.org/dc/terms/medium> "rdacarrier/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/24> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "01323cam a2200289Mi 4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/24> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm66866503\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/24> <http://purl.org/dc/terms/creator> "Eyzinger, Michael." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/24> <http://purl.org/dc/terms/title> "Spanischer Armada oder Kriegsrüstung warhaffte Relation /" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/24> <https://data.utrechtuniversitylibrary.nl/someren/def/245$c> "auss dem Hispanischen Original in Hochteutsch ubergesetzt ; sambt Erzehlung: wie deiselbig den 29. unnd 30. Maij under dem Bevelch des Hertzogen von Medina Sidonia, auss Portugal abgeschifft, unnd wie sie mit grosser Gefahr darnach an Engellandt ankommen, unnd sich im engen Meer durchgeschlagen, den 8. 9. und 10. Augusti, auch wie darnach solche Armada auff dem flachen Meer abermals mit den Englischen ein Treffen gethan den 22. Tag desselbigen Monats Augusti 1588." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/24> <http://purl.org/dc/terms/spatial> "Zu Cölln :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/24> <http://purl.org/dc/terms/publisher> "bey Godtfriedt van Kempen," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/24> <http://purl.org/dc/terms/date> "1588." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/24> <http://purl.org/dc/terms/type> "tekst" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/24> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/24> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "zonder medium" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/24> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/24> <https://data.utrechtuniversitylibrary.nl/someren/def/338$a> "band" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/24> <http://purl.org/dc/terms/medium> "rdacarrier/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/25> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "00983cam a2200265Mi 4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/25> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm66866526\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/25> <http://purl.org/dc/terms/title> "Placcaet opden opheve vanden veertichsten penninck, op de onroerende goederen inde stadt, steden, ende landen van Utrecht gheleghen, die ghetransporteert of in eenigher wijse veralieneert sullen worden, midtsgaders op eenige prelaturen ende prebenden &c." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/25> <http://purl.org/dc/terms/spatial> "Gheprent tot Utrecht :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/25> <http://purl.org/dc/terms/publisher> "by Salomon Aertson," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/25> <http://purl.org/dc/terms/date> "1591." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/25> <http://purl.org/dc/terms/type> "tekst" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/25> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/25> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "zonder medium" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/25> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/25> <https://data.utrechtuniversitylibrary.nl/someren/def/338$a> "band" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/25> <http://purl.org/dc/terms/medium> "rdacarrier/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/26> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "01152cam a2200289Mi 4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/26> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm66866534\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/26> <http://purl.org/dc/terms/creator> "Latomus, Bartholomaeus," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/26> <https://data.utrechtuniversitylibrary.nl/someren/def/100$d> "1485-1566." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/26> <http://purl.org/dc/terms/title> "Responsio Bartholomaei Latomi ad epistolam quandam Martini Buceri de dispensatione Eucharistiae &invocatione divorum & de coelibatu sacerdotum, in qua interim Ecclesiae & sanctorum patrum authoritas acerrime defenditur." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/26> <http://purl.org/dc/terms/spatial> "Coloniae :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/26> <http://purl.org/dc/terms/publisher> "ex officina Melchioris Novesiani," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/26> <http://purl.org/dc/terms/date> "1544." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/26> <http://purl.org/dc/terms/type> "tekst" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/26> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/26> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "zonder medium" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/26> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/26> <https://data.utrechtuniversitylibrary.nl/someren/def/338$a> "band" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/26> <http://purl.org/dc/terms/medium> "rdacarrier/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/27> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "01557cam a2200313Mi 4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/27> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm66866536\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/27> <http://purl.org/dc/terms/title> "Antwort der catholischen königlichen Maiestet, auff das jenige, was der Durchleuchtigst, unnd Hochgeborne Fürst, Carle Ertzhertzog in Oesterreich, derselben Vetter, in namen und von wegen des Allerdurchleuchtigsten, Grossmechtigsten Fürsten, Herren Maximiliani II Römischen Keysers, desselben geliebten Brudern, des Niderländischen Kriegswesen halber, fürgebracht :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/27> <http://purl.org/dc/terms/title> "auch ist zu endt ein Edict mit angehenckt so König. May. inn Polen an die Statt Wilda, wegen der Empörung und Auffrur, so die von der Catholischen Römischen Kirchen, wider die Leut und Kirchendiener des evangelischen und sächsischen hauffens, erweckt, aussgehen lassen." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/27> <http://purl.org/dc/terms/spatial> "[S.l.] :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/27> <http://purl.org/dc/terms/publisher> "[s.n.]," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/27> <http://purl.org/dc/terms/date> "1582." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/27> <http://purl.org/dc/terms/type> "tekst" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/27> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/27> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "zonder medium" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/27> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/27> <https://data.utrechtuniversitylibrary.nl/someren/def/338$a> "band" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/27> <http://purl.org/dc/terms/medium> "rdacarrier/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/28> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "01152cam a2200277Mi 4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/28> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm66866542\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/28> <http://purl.org/dc/terms/creator> "Gebhard II," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/28> <https://data.utrechtuniversitylibrary.nl/someren/def/100$c> "Truchsess von Waldburg." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/28> <http://purl.org/dc/terms/title> "Christliche Erklärung in Religions Sachen, so der Hochwürdigst Fürst und Herr, Herr Gebhardt, Erwehlter und Bestättigter zu Ertzbischoffen zu Cölln, dess Heiligen Reichs durch Italien Ertz-Canzler und Churfürst, Hertzog zu Westphalen und Engern etc. den 16. Januarii, dieses jetzt lauffenden 83. Jars, in irer Churf. G. Ertzstifft Cölln, offentlich publiciern, und verkünden lassen etc." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/28> <http://purl.org/dc/terms/spatial> "[S.l.] :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/28> <http://purl.org/dc/terms/publisher> "[s.n.]," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/28> <http://purl.org/dc/terms/date> "1583." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/28> <http://purl.org/dc/terms/type> "tekst" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/28> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/28> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "zonder medium" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/28> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/28> <https://data.utrechtuniversitylibrary.nl/someren/def/338$a> "band" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/28> <http://purl.org/dc/terms/medium> "rdacarrier/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/29> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "01015cam a2200265Mi 4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/29> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm66866544\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/29> <http://purl.org/dc/terms/title> "Confutation, Appellation und Protestationschrifft dess ehrwirdigen und wolgebornen Herrn Herrn Georg von Säyn Graffen zu Witgenstein Thumbprobsten zu Cölln etc., von einer nichtiger Citation und darauff untüglich ergangen Urtheil, Herren Johan Frantzen Bischoffen zu Vercel, Nuntii Pontificii." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/29> <http://purl.org/dc/terms/spatial> "[S.l.] :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/29> <http://purl.org/dc/terms/publisher> "[s.n.]," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/29> <http://purl.org/dc/terms/date> "1583." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/29> <http://purl.org/dc/terms/type> "tekst" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/29> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/29> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "zonder medium" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/29> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/29> <https://data.utrechtuniversitylibrary.nl/someren/def/338$a> "band" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/29> <http://purl.org/dc/terms/medium> "rdacarrier/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/30> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "00885cam a2200241Mi 4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/30> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm66866546\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/30> <http://purl.org/dc/terms/title> "Raben Nest, auss wölchem bey jetziger Herbst Mess zu Franckfort 1588 etliche Junge feindt abgeflogen, umb ihre Laster Schnäbel, Lügenhafftigerweisz zuwetzen, wider die Papisten so wol als wider die Ubiquitisten oder Confessionisten ..." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/30> <http://purl.org/dc/terms/spatial> "Heydelberg :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/30> <http://purl.org/dc/terms/publisher> "[s.n.]," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/30> <http://purl.org/dc/terms/date> "1589." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/30> <http://purl.org/dc/terms/type> "tekst" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/30> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/30> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "zonder medium" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/30> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/30> <https://data.utrechtuniversitylibrary.nl/someren/def/338$a> "band" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/30> <http://purl.org/dc/terms/medium> "rdacarrier/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/31> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "01021cam a2200277Mi 4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/31> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm66866547\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/31> <http://purl.org/dc/terms/title> "Zeytung, welcherley Massen und Gestalt die Friedtshadelung [!] sich mit der Statt Strassbürg unnd dem Hertzogen von Lotringen sampt dem Marggraffen von Brandenburg etc. zu getragen und begeben hat, den 27. February 1539." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/31> <http://purl.org/dc/terms/spatial> "Gedruckt zu Cölln :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/31> <http://purl.org/dc/terms/publisher> "durch Nicolaus Schreiber," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/31> <http://purl.org/dc/terms/date> "1593." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/31> <http://purl.org/dc/terms/type> "tekst" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/31> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/31> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "zonder medium" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/31> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/31> <https://data.utrechtuniversitylibrary.nl/someren/def/338$a> "band" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/31> <http://purl.org/dc/terms/medium> "rdacarrier/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/32> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "01128cam a2200241Mi 4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/32> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm66866549\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/32> <http://purl.org/dc/terms/title> "Dasz es nicht war, sondern ein grosse grobe Landtlügen sey, was von der Churfürstlichen Pfaltzischen Reformation unnd Kirchenordnung, anno 86. von etlichen heimlich, jetzo aber von einem (der sich noch nicht nennet) in seier Postrema relatione historica, das ist, Letzsten historischen Beschreibung, in offentlichen Truck ohne allen Grundt aussgesprengt worden /" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/32> <https://data.utrechtuniversitylibrary.nl/someren/def/245$c> "durch Guthertziger Liebhaber der Warheit in der Churfürstlichen Pfaltz, kurtzlich an Tagn gegeben." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/32> <http://purl.org/dc/terms/spatial> "Getruckt in ... Heidelberg :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/32> <http://purl.org/dc/terms/publisher> "[s.n.]," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/32> <http://purl.org/dc/terms/date> "1588." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/32> <http://purl.org/dc/terms/type> "tekst" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/32> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/32> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "zonder medium" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/32> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/32> <https://data.utrechtuniversitylibrary.nl/someren/def/338$a> "band" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/32> <http://purl.org/dc/terms/medium> "rdacarrier/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/33> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "01395cam a2200337Mi 4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/33> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm66866551\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/33> <http://purl.org/dc/terms/creator> "Osiander, Lucas." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/33> <http://purl.org/dc/terms/title> "Bericht an alle fromme Christen, welche die Warheit lieben: warumb die beide rasende Barfüsser Mönch, Georg Eckhart und Michel Anisius, keiner Antwort werth seien /" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/33> <https://data.utrechtuniversitylibrary.nl/someren/def/245$c> "gestelt durch Lucas Osiander." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/33> <http://purl.org/dc/terms/spatial> "Getruckt zu Tübingen :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/33> <http://purl.org/dc/terms/publisher> "Bey Georgen Gruppenbach," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/33> <http://purl.org/dc/terms/date> "1592." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/33> <http://purl.org/dc/terms/type> "tekst" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/33> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/33> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "zonder medium" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/33> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/33> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/34> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "01094cam a2200265Mi 4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/34> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm66866552\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/34> <http://purl.org/dc/terms/creator> "Pierius, Urbanus." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/34> <http://purl.org/dc/terms/title> "Genötigte Verneinung Urbani Pierij D. das ist, dass es nicht war sey, was wider ihn Magnus Christophorus H. mit dem Titull Revocatio oder Wiederruff Urbani Pierii etc. in Druck aussgelassen :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/34> <http://purl.org/dc/terms/title> "allen Rechtgläubigen,zur wahren gründlichen Nachrichtung und zu Entdeckung der offentlichen Lügen dieses Magni Christophori, kürtzlich am Tag geben." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/34> <http://purl.org/dc/terms/spatial> "Getruckt in ... Heidelberg :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/34> <http://purl.org/dc/terms/publisher> "durch Abraham Smesman," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/34> <http://purl.org/dc/terms/date> "1593." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/34> <http://purl.org/dc/terms/type> "tekst" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/34> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/34> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "zonder medium" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/34> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/34> <https://data.utrechtuniversitylibrary.nl/someren/def/338$a> "band" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/34> <http://purl.org/dc/terms/medium> "rdacarrier/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/34> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/35> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "00843cam a2200265Mi 4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/35> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm66866768\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/35> <http://purl.org/dc/terms/creator> "Luntius, Johannes." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/35> <http://purl.org/dc/terms/title> "Ode annalis quinta: De antiquorum Romanorum virtute :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/35> <http://purl.org/dc/terms/title> "scripta juventuti Ultrajectinae : a J. Luntio." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/35> <http://purl.org/dc/terms/spatial> "Ultrajecti :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/35> <http://purl.org/dc/terms/publisher> "ex officina Hermanni Borculoi," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/35> <http://purl.org/dc/terms/date> "[1601]" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/35> <http://purl.org/dc/terms/type> "tekst" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/35> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/35> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "zonder medium" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/35> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/35> <https://data.utrechtuniversitylibrary.nl/someren/def/338$a> "band" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/35> <http://purl.org/dc/terms/medium> "rdacarrier/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/35> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/36> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "00870cam a2200265Mi 4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/36> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm66866770\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/36> <http://purl.org/dc/terms/creator> "Luntius, Johannes." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/36> <http://purl.org/dc/terms/title> "Ode annalis sexta: Singula suis et certis in mundo periodis regi :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/36> <http://purl.org/dc/terms/title> "scripta juventuti Ultrajectinae : a J. Luntio." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/36> <http://purl.org/dc/terms/spatial> "Ultrajecti :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/36> <http://purl.org/dc/terms/publisher> "ex officina Hermanni Borculoi," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/36> <http://purl.org/dc/terms/date> "[1602]" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/36> <http://purl.org/dc/terms/type> "tekst" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/36> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/36> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "zonder medium" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/36> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/36> <https://data.utrechtuniversitylibrary.nl/someren/def/338$a> "band" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/36> <http://purl.org/dc/terms/medium> "rdacarrier/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/37> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "00895cam a2200265Mi 4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/37> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm66866774\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/37> <http://purl.org/dc/terms/creator> "Luntius, Johannes." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/37> <http://purl.org/dc/terms/title> "Ode annalis septima: Impietatem et luxum esse causas poenarum divinarum :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/37> <http://purl.org/dc/terms/title> "scripta juventuti Ultrajectinae : a J. Luntio." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/37> <http://purl.org/dc/terms/spatial> "Ultrajecti :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/37> <http://purl.org/dc/terms/publisher> "ex officina typographica Hermanni Borculoi," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/37> <http://purl.org/dc/terms/date> "[1603]" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/37> <http://purl.org/dc/terms/type> "tekst" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/37> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/37> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "zonder medium" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/37> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/37> <https://data.utrechtuniversitylibrary.nl/someren/def/338$a> "band" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/37> <http://purl.org/dc/terms/medium> "rdacarrier/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/37> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/38> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "00947cam a2200265Mi 4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/38> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm66866777\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/38> <http://purl.org/dc/terms/creator> "Luntius, Johannes." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/38> <http://purl.org/dc/terms/title> "Annalis octava: Status subditorum pessimus sub tyranno et puero, optimus sub pio et sapiente principe :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/38> <http://purl.org/dc/terms/title> "scripta juventuti Ultrajectinae : a J. Luntio." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/38> <http://purl.org/dc/terms/spatial> "Ultrajecti :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/38> <http://purl.org/dc/terms/publisher> "ex officina Hermanni Borculoi," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/38> <http://purl.org/dc/terms/date> "[1604]" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/38> <http://purl.org/dc/terms/type> "tekst" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/38> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/38> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "zonder medium" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/38> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/38> <https://data.utrechtuniversitylibrary.nl/someren/def/338$a> "band" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/38> <http://purl.org/dc/terms/medium> "rdacarrier/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/39> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "00964cam a2200253Mi 4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/39> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm66866790\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/39> <http://purl.org/dc/terms/creator> "Strombergh, Henricus." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/39> <http://purl.org/dc/terms/title> "Triumphus Slusae Flandrorum captae, auspiciis Illustr. ac Potentissimorum Foederatarum Provinciarum Belgii ordinum, ductu inclutissimi, fortissimi & cum Deo invicti herois & domini D. Mauricii principis Auriaci ... /" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/39> <https://data.utrechtuniversitylibrary.nl/someren/def/245$c> "carmine solemniter celebratus ab Henrico Strombergio." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/39> <http://purl.org/dc/terms/spatial> "Campis :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/39> <http://purl.org/dc/terms/publisher> "excudebat Guilielmus Bernhardi," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/39> <http://purl.org/dc/terms/date> "1604." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/39> <http://purl.org/dc/terms/type> "tekst" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/39> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/39> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "zonder medium" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/39> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/39> <https://data.utrechtuniversitylibrary.nl/someren/def/338$a> "band" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/39> <http://purl.org/dc/terms/medium> "rdacarrier/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/39> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/40> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "01118cam a2200301Mi 4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/40> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm66866794\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/40> <http://purl.org/dc/terms/creator> "Merwe, Franciscus van." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/40> <http://purl.org/dc/terms/title> "Epithalamium, nuptiis castissimis, fato non inauspicato contractis D. Cornelii Verdousii Brunonis F., viri honestissimi, nuptiarum capitis ornatissimi, D.q. Gerardae Rodiae virginis castissimae ... /" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/40> <https://data.utrechtuniversitylibrary.nl/someren/def/245$c> "devotum a Francisco Meruvio." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/40> <http://purl.org/dc/terms/spatial> "Lugduni Batavorum :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/40> <http://purl.org/dc/terms/publisher> "ex officina Christophori Gujotii," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/40> <http://purl.org/dc/terms/date> "1601." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/40> <http://purl.org/dc/terms/type> "tekst" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/40> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/40> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "zonder medium" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/40> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/40> <https://data.utrechtuniversitylibrary.nl/someren/def/338$a> "band" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/40> <http://purl.org/dc/terms/medium> "rdacarrier/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/40> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/41> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "01057cam a2200289Mi 4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/41> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm66867015\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/41> <http://purl.org/dc/terms/creator> "Mouthaen, Henricus." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/41> <http://purl.org/dc/terms/title> "Lessi Henrici Mouthaen Utricis, fusi super immaturo obitu synceri viri-adulescentis D. Guiliemi Berckii Dordracensis, pridie natalis Christi." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/41> <http://purl.org/dc/terms/spatial> "Athenis Batavorum :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/41> <http://purl.org/dc/terms/publisher> "typis Christophori Guyotii," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/41> <http://purl.org/dc/terms/date> "[1600]" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/41> <http://purl.org/dc/terms/type> "tekst" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/41> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/41> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "zonder medium" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/41> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/41> <https://data.utrechtuniversitylibrary.nl/someren/def/338$a> "band" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/41> <http://purl.org/dc/terms/medium> "rdacarrier/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/41> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/42> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "01414cam a2200289Mi 4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/42> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm66870063\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/42> <http://purl.org/dc/terms/title> "Copey der Supplication etlicher Bürger in Cöllen die sich zur evangelischen Lehr Göttliches Worts und der darauff gegründten Augspurgischen Confession bekennen /" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/42> <https://data.utrechtuniversitylibrary.nl/someren/def/245$c> "ubergeben den 2. Junij stylo novo anno 90. durch einen Doctor der H. Schrifft und eine fürnemme Person vom Adel ; umb erheblicher und notwendiger Ursachen willen in den Druck gefertiget." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/42> <http://purl.org/dc/terms/spatial> "[S.l.] :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/42> <http://purl.org/dc/terms/publisher> "[s.n.]," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/42> <http://purl.org/dc/terms/date> "1590." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/42> <http://purl.org/dc/terms/type> "tekst" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/42> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/42> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "zonder medium" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/42> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/42> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/43> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "00895cam a2200265Mi 4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/43> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm66874194\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/43> <http://purl.org/dc/terms/title> "Catalogi librorum reprobatorum, et praelegendorum ex judicio Academiae Lovaniensis :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/43> <http://purl.org/dc/terms/title> "cum edicto Caesareo Majestatis evulgati." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/43> <http://purl.org/dc/terms/spatial> "Lovanii :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/43> <http://purl.org/dc/terms/publisher> "ex officina Servatii Sasseni," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/43> <http://purl.org/dc/terms/date> "1550." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/43> <http://purl.org/dc/terms/type> "tekst" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/43> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/43> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "zonder medium" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/43> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/43> <https://data.utrechtuniversitylibrary.nl/someren/def/338$a> "band" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/43> <http://purl.org/dc/terms/medium> "rdacarrier/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/43> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/44> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "00935cam a2200301Mi 4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/44> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm66880789\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/44> <http://purl.org/dc/terms/title> "Vermeerderde articulen voor te stellen aen Do. Bekker." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/44> <http://purl.org/dc/terms/spatial> "[S.l.] :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/44> <http://purl.org/dc/terms/publisher> "[s.n.]," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/44> <http://purl.org/dc/terms/date> "[1691]" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/44> <http://purl.org/dc/terms/type> "tekst" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/44> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/44> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "zonder medium" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/44> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/44> <https://data.utrechtuniversitylibrary.nl/someren/def/338$a> "band" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/44> <http://purl.org/dc/terms/medium> "rdacarrier/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/44> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/45> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "00981cam a2200253Mi 4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/45> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm66880882\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/45> <http://purl.org/dc/terms/creator> "Marnix, Philips van," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/45> <https://data.utrechtuniversitylibrary.nl/someren/def/100$c> "heer van Sint Aldegonde," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/45> <https://data.utrechtuniversitylibrary.nl/someren/def/100$d> "1540-1598." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/45> <http://purl.org/dc/terms/title> "Ad potentissimos ac serenissimos reges, principes, reliquosque amplissimos Christiani orbis ordines, seria de Reip. Christianæ statu eiusque salute atque incolumitate conservanda, Germani cuiusdam nobilis & patriæ amantis viri commonefactio." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/45> <http://purl.org/dc/terms/spatial> "[S.l.] :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/45> <http://purl.org/dc/terms/publisher> "[s.n.]," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/45> <http://purl.org/dc/terms/date> "1584." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/45> <http://purl.org/dc/terms/type> "tekst" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/45> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/45> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "zonder medium" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/45> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/45> <https://data.utrechtuniversitylibrary.nl/someren/def/338$a> "band" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/45> <http://purl.org/dc/terms/medium> "rdacarrier/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/46> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "00926cam a2200289Mi 4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/46> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm66922663\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/46> <http://purl.org/dc/terms/title> "Also by de veranderinge geschiet binnen de stadt Utrecht ... ontdeckt zijn verscheyde saecken, daer van voor desen groot achterdencken is geweest ..." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/46> <http://purl.org/dc/terms/spatial> "[S.l.] :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/46> <http://purl.org/dc/terms/publisher> "[s.n.]," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/46> <http://purl.org/dc/terms/date> "[1618?]" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/46> <http://purl.org/dc/terms/type> "tekst" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/46> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/46> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "zonder medium" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/46> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/46> <https://data.utrechtuniversitylibrary.nl/someren/def/338$a> "band" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/46> <http://purl.org/dc/terms/medium> "rdacarrier/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/46> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/47> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "00851cam a2200241Mi 4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/47> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm66922844\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/47> <http://purl.org/dc/terms/title> "Andere beglaubte Zeitungen oder Gründlicher und satter doch summarischer Bericht was sich jüngsthin beyderseits zugetragen, als die dem König zu Franckreich zuziehende Zydgnossen den Hertzogen von Savoi angriffen ..." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/47> <http://purl.org/dc/terms/spatial> "[S.l.] :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/47> <http://purl.org/dc/terms/publisher> "[s.n.]," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/47> <http://purl.org/dc/terms/date> "1589." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/47> <http://purl.org/dc/terms/type> "tekst" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/47> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/47> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "zonder medium" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/47> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/47> <https://data.utrechtuniversitylibrary.nl/someren/def/338$a> "band" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/47> <http://purl.org/dc/terms/medium> "rdacarrier/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/47> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/48> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "01257cam a2200313Mi 4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/48> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm66931787\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/48> <http://purl.org/dc/terms/title> "Copye-Brief van den Bisschop van Munster, Aen de Hoog Mog. Heeren Staten Generael der Vereenighde Nederlanden :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/48> <http://purl.org/dc/terms/title> "Van dato den 14 September, 1665 /" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/48> <https://data.utrechtuniversitylibrary.nl/someren/def/245$c> "Uyt het Hoogduytsch overgeset." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/48> <http://purl.org/dc/terms/spatial> "[S.l.] :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/48> <http://purl.org/dc/terms/publisher> "[s.n.]," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/48> <http://purl.org/dc/terms/date> "[1665?]" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/48> <http://purl.org/dc/terms/type> "tekst" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/48> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/48> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "zonder medium" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/48> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/48> <https://data.utrechtuniversitylibrary.nl/someren/def/338$a> "band" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/48> <http://purl.org/dc/terms/medium> "rdacarrier/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/48> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/49> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "00850cam a2200265Mi 4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/49> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm66968221\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/49> <http://purl.org/dc/terms/title> "Wee-klachte der Hollandtsche maeght, over dese verwerde tijden: met een ernstighe aen-sprake aen zijn princeliicke excellentie ..." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/49> <http://purl.org/dc/terms/spatial> "[S.l.] :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/49> <http://purl.org/dc/terms/publisher> "[s.n.]," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/49> <http://purl.org/dc/terms/date> "1618." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/49> <http://purl.org/dc/terms/type> "tekst" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/49> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/49> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "zonder medium" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/49> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/49> <https://data.utrechtuniversitylibrary.nl/someren/def/338$a> "band" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/49> <http://purl.org/dc/terms/medium> "rdacarrier/dut" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/49> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
+<https://data.utrechtuniversitylibrary.nl/someren/id/50> <https://data.utrechtuniversitylibrary.nl/someren/def/000> "02188cam a2200469Ia 4500" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/50> <https://data.utrechtuniversitylibrary.nl/someren/def/001> "ocm66969249\\" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/50> <http://purl.org/dc/terms/title> "Zum glückseligen newen Jar, Warnung, vnd Vermanunge an D. Nicklaus Selneckern :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/50> <http://purl.org/dc/terms/title> "das er mit seinen Consorten, die Anhaltischen Theologen zuschmehen, vnd in jnen die göttliche warheit wider sein eigen gewissen zu lestern, einmal auffhören wolle : Beyneben angehengter Bekentnis vn[d] meinunge D. Tilemanni Heshusij, von diesem streit, zum zeugnis der vnwidersprechlichen Warheit." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/50> <http://purl.org/dc/terms/spatial> "Gedruckt zu Zerbst :" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/50> <http://purl.org/dc/terms/publisher> "durch Bonauentur Schmidt," .
+<https://data.utrechtuniversitylibrary.nl/someren/id/50> <http://purl.org/dc/terms/date> "M.D. LXXXV." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/50> <http://purl.org/dc/terms/type> "text" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/50> <https://data.utrechtuniversitylibrary.nl/someren/def/336$0> "http://id.loc.gov/vocabulary/contentTypes/txt" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/50> <https://data.utrechtuniversitylibrary.nl/someren/def/336$2> "rdacontent" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/50> <https://data.utrechtuniversitylibrary.nl/someren/def/337$a> "unmediated" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/50> <https://data.utrechtuniversitylibrary.nl/someren/def/337$2> "rdamedia" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/50> <https://data.utrechtuniversitylibrary.nl/someren/def/338$a> "volume" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/50> <http://purl.org/dc/terms/medium> "rdacarrier" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/50> <https://data.utrechtuniversitylibrary.nl/someren/def/651$a> "Anhalt (Germany);Germany" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/50> <http://purl.org/dc/terms/coverage> "http://id.worldcat.org/fast/01223038;http://id.loc.gov/authorities/names/n82166974-781" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/50> <http://purl.org/dc/terms/subject> "Church history.;Sources." .
+<https://data.utrechtuniversitylibrary.nl/someren/id/50> <https://data.utrechtuniversitylibrary.nl/someren/def/655$0> "http://id.worldcat.org/fast/01411629;http://id.worldcat.org/fast/01423900" .
+<https://data.utrechtuniversitylibrary.nl/someren/id/50> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <pamphlet> .
