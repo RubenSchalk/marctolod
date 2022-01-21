@@ -1,0 +1,119 @@
+---
+title: "Van MARC21 naar Linked Open Data: voortgang van experiment"
+author:
+  - name: "[Ruben Schalk](https://www.uu.nl/medewerkers/RSchalk)"
+    affiliation: "Utrecht University Library"
+    url: "https://www.uu.nl/medewerkers/RSchalk"
+date: "`r format(Sys.time())`"
+output: 
+  html_document: 
+    number_sections: no
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(radix)
+
+
+```
+
+## Inleiding
+
+In dit experiment proberen we een selectie van de catalogus - 50 pamfletten uit - om te zetten naar Linked Open Data. We beginnen bij het programma [MarcEdit](https://marcedit.reeset.net/) en een [mark bestand](https://solisservices.sharepoint.com/:u:/r/sites/LinkedDatabijMA2/Shared%20Documents/General/Test%20Van%20MarcEdit%20tot%20LOD/LOD-testset-Van_Someren.mrk?csf=1&web=1&e=aCn8DN), zonder externe identifiers. De benodigde bestanden zijn allemaal beschikbaar in [Github repository RubenSchalk/marctolod](https://github.com/RubenSchalk/marctolod).
+
+## MarcEdit
+
+In MarcEdit is het mogelijk om dit bestand te verrijken met externe identifiers zoals wikidata, viaf, en FAST. Op deze manier zijn via Linked Data de pamfletten te verrijken met andere gegevens. In dit geval in het bijzonder voor metadata-velden over: auteur, geografische aanduiding, categorie werk en type onderwerp.
+
+Deze verrijking gaat in MarcEdit als volgt:   
+
+1. Open het bestand in Marc Editor 
+2. Kies: Tools > Linked Data Tools > Build Linked Records > Process 
+3. Na het klikken op “Process” werden in de links die konden worden gematcht URI’s toegevoegd.  
+
+Het bestand mét URI’s is opgeslagen als [LOD-testset-Van_Someren-met-links.mrk](https://solisservices.sharepoint.com/:u:/r/sites/LinkedDatabijMA2/Shared%20Documents/General/Test%20Van%20MarcEdit%20tot%20LOD/LOD-testset-Van_Someren-met-links.mrk?csf=1&web=1&e=kb8j22). In een volgende fase is het ook mogelijk om naast het oorspronkelijke configuratie-bestand één of meerdere andere xml-bestanden aan te maken met afwijkende instellingen, zoals meer externe identifiers. 
+
+
+## MarcEdit XML naar RDF
+<details>
+  <summary>*Deze stap is achterhaald, maar klik op het pijltje om alsnog te lezen.*</summary>
+Om van dit .mrk bestand naar LOD te komen, moeten er een paar conversiestappen plaatsvinden. Als eerst moet het bestand geconverteerd worden naar een `.mrc` bestand. Dit kan eenvoudig in MarcEdit. Vervolgens kan het .mrc bestand geconverteerd worden naar een MarcXML bestand, zodat de waarden in de metadata velden (zoals \$a, \$1 etc.) ingelezen kunnen worden. Ook dit kan via Marcedit > Tools.
+
+Nu kan het XMl bestand omgezet worden naar [RDF](https://www.w3.org/RDF/), een standaard voor Linked Open Data. Deze stap is technisch en inhoudelijk het meest uitdagend. Wat feitelijk moet gebeuren is dat we moeten specificeren op welke manier de [MARC21 nummers](https://www.loc.gov/marc/bibliographic/) moeten worden gedefinieerd in het Linked Datamodel van keuze. Bijvoorbeeld, nummer 100 in MARC21 verwijst naar de naam van de auteur en kan worden gemodelleerd als `dc:creator`, volgens het veel gebruikte Europeana Data Model (EDM). Zie [hier](https://uba.uva.nl/binaries/content/assets/subsites/bibliotheek/open-data/uva-edm-rdf-open-data.pdf) voor een mapping tussen MARC en EDM, gemaakt door de UvA.
+
+Een manier om deze 'mapping' te automatiseren - want je wilt niet een heel MARC21 handmatig gaan overtypen... - is door het gebruik van een conversiebestand als referentiekader. Omdat we met XML werken, kan dat met zogenaamde [XSL stylesheets](https://www.w3.org/Style/XSL/WhatIsXSL.html). Deze bestanden geven 'regels' voor het omvormen van het XML bestand. Het Library of Congress biedt reeds een XSL bestand aan waarin MARC21 omgezet wordt naar Dublin Core RDF: zie [hier](http://www.loc.gov/standards/marcxml/xslt/MARC21slim2RDFDC.xsl). Om met dit bestand te werken moet ook het bestand [MARC21slimUtils.xls](http://www.loc.gov/standards/marcxml/xslt/MARC21slimUtils.xsl) worden gedownload. 
+
+Vervolgens kan via de command line de conversie naar RDF gedaan worden, met het aanroepen van een zogenaamde `xslt processor`. Als je in Linux/IoS werkt kun je die als volgt installeren: `sudo apt-get install -y xsltproc`. In Windows kan dat met een [Java tool](http://saxon.sourceforge.net/). 
+
+In de command line ga je naar de directory van je bestanden (XML en twee maal XSL) en typ je dit: `xsltproc MARC21slim2RDFDC.xsl LOD-testset-Van_Someren-met-links.xml | cat > someren_testset.rdf`. Nu vind je in de directory `someren_testset.rdf`. En dat is je [LOD bestand](https://raw.githubusercontent.com/RubenSchalk/marctolod/main/someren_testset.rdf).
+
+In Windows: `java net.sf.saxon.Transform -o:test.rdf testXML.xml MARC21slim2RDFDC.xsl` (nog niet geprobeerd).
+
+Helaas zijn we er nu nog niet, want het standaard XSL bestand is nog niet goed gedefinieerd. De externe identifiers worden nog niet juist omgezet, vermoedelijk omdat dit een vrij recente (en experimentele) toevoeging is aan MarcEdit. Zoals je kunt zien in het RDF bestand zijn er nergens URI's aangemaakt maar enkel strings die niet verwijzen naar de externe identifiers waar we juist in geintereseerd zijn. 
+
+Bijvoorbeeld hebben we nu een `dc:creator` die er zo uit ziet:
+
+`<dc:creator>GregoriusXIV,paus,1535-1591.http://viaf.org/viaf/295180128</dc:creator>`
+
+Dit betekent dat de XSL conversie opdracht geeft om ALLE elementen van MARC21 veld 100 achter elkaar te plakken. Hier wil je uiteindelijk aparte triples van maken zoals:
+
+`GregoriusXIV schema:Date  1535-1591 ` <br> 
+`GregoriusXIV owl:sameAs  http://viaf.org/viaf/295180128`
+
+Pas dan kun je de mogelijkheden van Linked Data echt gaan benutten.
+
+Met dank aan [deze presentatie](https://digitalcommons.osgoode.yorku.ca/cgi/viewcontent.cgi?article=1018&context=librarians) voor hulp bij de XSL stap.
+
+**Update 17-12-2021: de 'xml-route' heeft enkele beperkingen t.o.v. de 'csv-route'. Daarom gaan we met de laatste verder.**
+</details>
+
+## De 'CSV-route'
+
+De XML route lijkt meer bewerkelijk dan via csv. We kiezen er daarom voor kiezen om de conversie via `csv` te doen: MarcEdit > csv > RDF. Ook hier moet er (deels) manueel werk gedaan worden aan het conversiebestand, maar via 'regels' is dit hopelijk grotendeels te automatiseren *zolang de metadata goed genoeg is*. De 'regels' zullen hopelijk per metadataveld uniform te formuleren zijn.
+
+### CSV export en opschoning
+Eerst moeten we via MarcEdit exporteren naar een `.csv` bestand. Dit betekent dat alle $a etc. velden plus inhoud samengevoegd worden met het nummer (bijv. 100), zodat je 1 observatie per variabele overhoudt (100\$a = Temple, William,  100\$d = 1628-1699 etc.). Met MarcEdit is deze stap naar een csv bestand eenvoudig: in het programma kun je specificeren welke MARC velden je naar een csv wilt exporteren (`Tools > Export > Export Tab Delimited Format`). Hierbij hoef je niet alle MARC velden elke keer handmatig in te vullen, want dit kan opgegeven worden door een - zelf gemaakt - `.txt` bestand te selecteren bij `Next > Settings`. Voordeel van de csv-conversie is dat er geen data verloren gaat: wanneer er meerdere waarden in een MARC veld staan (zoals soms bij 655) worden die allemaal in hetzelfde csv veld geplaatst en gescheiden met een `;`. 
+
+**update 21-01-2022:** In veel MARC velden staan meerdere namen, die in de csv vervolgens in hetzelfde veld terecht komen. Bijvoorbeeld `Verdousius, Cornelius.Rodia, Gerarda`. Deze moeten gescheiden worden om er aparte links van te kunnen maken. Omdat het, zeker wanneer we gaan opschalen, om veel MARC velden gaat en een onbekend aantal waarden per veld, is het aan te raden dit niet handmatig te doen. We specificeren daarom eerst in MarcEdit een scheidingsteken (bijvoorbeeld `%`) om deze waarden te kunnen identificeren. Vervolgens gebruiken we een kort R-script om de waarden te scheiden in aparte kolommen, per MARC veld: [`marc_csv.R`](https://raw.githubusercontent.com/RubenSchalk/marctolod/main/marc_csv.R).
+
+Toelichting: de MARC velden zijn als volgt gescheiden om enkele waarden per cel over te houden: 600\$a_1 = de eerste naam, 600$a _2 = de tweede, etc. 
+De links zijn als volgt aan de namen te herleiden: 600\$1_1 is de VIAF link van de naam in kolom 600\$a_1 , 600\$1_2 de VIAF link van kolom 600\$a_2, etc. De eerste 1 verwijst naar VIAF (XXX\$0 is LC en/of FAST, vandaar het onderscheid).
+
+## Extra links met Openrefine
+
+**Update 21-01-2022:** Met MarcEdit is eerder ongeveer de helft van de naamsvelden verrijkt met een externe link. Met Openrefine proberen we dit percentage te verhogen. Openrefine biedt een 'reconciliation' optie, wat betekent dat waarden gematched worden tegen een te specificeren API. Hierbij kunnen ook anderen MARC velden als context worden meegenomen. Indien er een match is, kan de link naar deze match worden toegevoegd aan de dataset (onze csv), waardoor we beter de mogelijkheden van LOD kunnen benutten. Voor nu kiezen we het VIAF (Virtual International Authority File) als service. Omdat deze links universeel gebruikt worden in catalogi, kunnen we via deze link in de toekomst 'doorklikken' naar relevante data over het item buiten onze catalogus. 
+
+De specifieke stappen die in Openrefine moeten worden gedaan staan beschreven in [`openrefine_steps_someren_jan2022.txt`](https://raw.githubusercontent.com/RubenSchalk/marctolod/main/openrefine_steps_someren_jan2022.txt). 
+
+Om de Openrefine links te kunnen scheiden van de eerdere MarcEdit links, is ‘extralinks’ aan de variabele naam toegevoegd. Dus, de openrefine links van 700\$a_2 zijn te vinden onder kolom 700\$1_2_extralinks. De links die er al waren staan in kolom 700\$1_2 (als die er waren, in dit geval niet).
+
+Er zijn 17 nieuwe VIAF links aan het bestand toegevoegd, wat het totaal brengt op 62. De Openrefine stap voegt dus ongeveer 35% toe. 
+
+N.B.: Er is ook onderzocht of de oude ALEPH records additionele links kunnen opleveren, maar dit wordt als te arbeidsintensief beoordeeld om op te schalen. Er wordt ca. 10% extra links gevonden, maar het ophalen van de back-up kost veel tijd en het nalopen van de records ook.
+
+
+### CSV naar LOD
+
+Vanuit MarcEdit is met een [`marcedit_export_settings.txt`](https://raw.githubusercontent.com/RubenSchalk/marctolod/main/marcedit_export_settings.txt) een aantal velden omgezet naar `csv`. Naast velden over de titel en plaats, is voor nu gekozen voor velden waar ook links in staan, zodat we deze kunnen converteren naar LOD (het is eenvoudig om aan dit tekstbestand meer velden toe te voegen). De meest toegankelijke manier om van deze `csv` LOD te maken is via [LDwizard](https://ldwizard.netwerkdigitaalerfgoed.nl/): een website met simpele interface die de stap van csv naar LOD ondersteunt - en bovendien het conversiebestand direct beschikbaar stelt. Daarnaast is in LDwizard per variabele - hier: MARC veld - te selecteren welk vocabulary je wilt gebruiken als beschrijving, zoals `schema.org`. 
+
+Voor deze eerste run is het bestand omgezet naar LOD met gebruik van het [datamodel van de UvA](https://uba.uva.nl/binaries/content/assets/subsites/bibliotheek/open-data/uva-edm-rdf-open-data.pdf), dat grotendeels overeenkomt met het Europeana Data Model. Niet alle velden zijn nog doorgevoerd, enkel de MARC velden die in de csv staan en enkel de vocabularies die standaard in LDwizard voorkomen. In een volgende stap zijn via het te downloaden conversiebestand (ttl, CoW (json), RML) de overige velden te specificeren.Het `.nt` bestand dat uit deze stap komt **is** onze LOD. Om te inspecteren of het voldoende is (antwoord: nog niet), heb ik het bestand geupload in de Triplestore van mijn vorige project (Clariah WP4): [MARC21LOD](https://druid.datalegend.net/RubenS/marc21/browser?resource=https%3A%2F%2Fdata.utrechtuniversitylibrary.nl%2Fsomeren%2Fid%2F1). Je zult zien dat er nog wat werk is aan de conversie: URI's werken bijvoorbeeld nog niet en niet alle MARC velden hebben een juiste naam.
+
+## Vervolg
+
+**Update 17-12-2021:** hoewel de 'proof of concept' van MARC naar LOD is gelukt, hebben we (nog) geen 'klikbare' links in onze Linked Open Data. Deels komt dit omdat de metadata nog niet voldoende is verrijkt in MarcEdit, deels omdat er van de wel verrijkte velden nog geen URI's zijn aangemaakt in de LOD. Een voorwaarde om op grote schaal en semi-automatisch deze links aan te maken is zoveel mogelijk de metadata te standaardiseren. We moeten onderzoeken hoe dit het beste kan, want je wilt niet alle auteursnamen handmatig gaan controleren. De KB heeft dit bijvoorbeeld deels geautomatiseerd door [clusters te maken van werken die qua spelling erg op elkaar lijken](https://lab.kb.nl/tool/rda-entity-finder) en deze allemaal te koppelen aan een gestandaardiseerd werk.
+
+**Update 21-01-2021:** Om de metadata te verrijken is de Openrefine stap toegevoegd, zoals beschreven in de [Openrefine sectie](#extra-links-met-openrefine). Nu dit is gedaan kan de stap CSV naar LOD, plus het verbeteren van het conversiebestand, gedaan worden.
+
+**Vervolgstap: Het conversiebestand zodanig aanpassen dat de externe links in onze LOD daadwerkelijk 'klikbaar' worden en je naar de betreffende website brengen.**
+
+### Colofon
+
+Universiteitsbibliotheek Utrecht, afdeling M&A
+
+Vragen en suggesties: <r.schalk@uu.nl> 
+
+
+
+
+
+
