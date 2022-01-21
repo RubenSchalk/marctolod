@@ -1,0 +1,17 @@
+Openrefine steps someren_jan
+
+- Maak project aan en laad csv
+- Maak en facet aan op (blank) kolommen 100$1_1, zodat je alleen namen overhoudt die nog geen viaf link hebben.
+- dupliceer kolom 100$a_1 zodat je orignele waarden niet verloren gaan > edit column >add column based on this column > value als waarde en bedenk een nieuwe naam voor de kolom
+- kies deze nieuwe kolom en klik bij de kolomnaam op Reconcile > Start reconciling. 
+- Bij de service plak je deze URL: https://iphylo.org/~rpage/phyloinformatics/services/reconciliation_viaf.php (van deze lijst van openrefine services:https://reconciliation-api.github.io/testbench/)
+- Kies de overige 100$x kolommen om als property mee te nemen om de nauwkeurigheid te vergroten
+- Na het reconcilen kies je handmatig de beste match a.d.h.v naam en jaartallen uit kolom 100$d_1 (kan ook deels automatisch door de nauwkeurigheid voor automatisch matchen te verlagen in het panel links)
+- Deze links zijn nu nog niet opgeslagen, dat gaat als volgt:
+- Klik op kolomnaam > edit column > add column based on this column. Bedenk een naam, bijv. 100$a_viafIDopenrefine. In het venster plak je onder "Expression" dit: "https://viaf.org/viaf/"+cell.recon.match.id (let op de aanhalingstekens).
+- Nu heb je een nieuwe kolom met de zojuist opgehaalde VIAF links.
+- (Eventueel: combineer deze links met die van 100$1_1 zodat alle VIAF links bij elkaar staan)
+
+Deze stappen vervolgens herhalen voor de overige MARC velden waar VIAF links mogelijk zijn: 110, 600, 610, 700 en 710.
+
+Daarna: zorg dat alle facets uit worden gezet om alle 50 rijen weer te geven en kies rechtsboven Export > csv of Excel.
