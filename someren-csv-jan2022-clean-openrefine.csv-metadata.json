@@ -1,0 +1,437 @@
+    {
+      "@id": "https://data.universiteitsbibliotheekutrecht/someren/",
+      "@context": [
+        "https://raw.githubusercontent.com/CLARIAH/COW/master/csvw.json",
+        {
+          "@base": "https://data.universiteitsbibliotheekutrecht/someren/"
+        },
+        {
+       "aat": "http://vocab.getty.edu/aat/",
+       "bibo": "http://purl.org/ontology/bibo/",
+       "bio": "http://purl.org/vocab/bio/0.1/",
+       "cidoc": "http://www.cidoc-crm.org/cidoc-crm/",
+       "csvw": "http://www.w3.org/ns/csvw#",
+       "dbo": "http://dbpedia.org/ontology/",
+       "dc": "http://purl.org/dc/terms/",
+       "dc11": "http://purl.org/dc/elements/1.1/",
+       "dcterms": "http://purl.org/dc/terms/",
+       "ecpo": "http://purl.org/ontology/ecpo#",
+       "foaf": "http://xmlns.com/foaf/0.1/",
+       "frbr": "http://purl.org/spar/frbr/core#",
+       "geo": "http://www.opengis.net/ont/geosparql#",
+       "geonames": "http://www.geonames.org/ontology#",
+       "gvp": "http://vocab.getty.edu/ontology#'",
+       "juso": "http://http://rdfs.co/juso/",
+       "lemon": "http://lemon-model.net/lemon#",
+       "midi": "http://purl.org/midi-ld/midi#",
+       "np": "http://www.nanopub.org/nschema#",
+       "owl": "http://www.w3.org/2002/07/owl#",
+       "periodo": "http://n2t.net/ark:/99152/p0v#",
+       "pnv": "https://www.lodewijkpetram.nl/vocab/pnv/doc/",
+       "prov": "http://www.w3.org/ns/prov#",
+       "qb": "http://purl.org/linked-data/cube#",
+       "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+       "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+       "schema": "http://schema.org/",
+       "sdmx-concept": "http://purl.org/linked-data/sdmx/2009/concept#",
+       "sdr": "https://iisg.amsterdam/",
+       "sdv": "https://iisg.amsterdam/vocab/",
+       "sem": "http://semanticweb.cs.vu.nl/2009/11/sem/",
+       "skos": "http://www.w3.org/2004/02/skos/core#",
+       "time": "http://www.w3.org/2006/time#",
+       "ulan": "http://vocab.getty.edu/ulan/",
+       "wgs84": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+       "xml": "http://www.w3.org/XML/1998/namespace/",
+       "xsd": "http://www.w3.org/2001/XMLSchema#",
+       "sem": "http://semanticweb.cs.vu.nl/2009/11/sem/",
+       "pnv":	"https://w3id.org/pnv#"
+      }
+      ],
+      "url": "",
+      "dialect": {
+        "delimiter": ",",
+        "encoding": "UTF-8",
+        "quoteChar": "\""
+      },
+     "tableSchema": {
+      "columns": [
+        {
+          "virtual": true,
+          "propertyUrl": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+          "valueUrl": "http://schema.org/Book"
+        },
+        {
+    "virtual": true,
+    "aboutUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_oclc_no}",
+    "propertyUrl": "owl:sameAs",
+    "datatype": "xsd:anyURI",
+    "name": "marc_oclc_url",
+    "valueUrl": "{{marc_oclc_url}}"
+  },
+  {
+      "virtual": true,
+      "aboutUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_oclc_no}",
+      "name": "marc_uu_url",
+      "propertyUrl": "vocab/uuLink",
+      "datatype": "xsd:anyURI",
+      "valueUrl": "{marc_uu_url}"
+    },
+    {
+      "virtual": true,
+      "name": "marc_oclc_no",
+      "aboutUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_oclc_no}",
+      "propertyUrl": "dc:title",
+      "datatype": "string",
+      "csvw:value": "{{[marc_245_a_1, ' ' , marc_245_b_1]|join }}",
+      "null": [""]
+    },
+    {
+      "virtual": true,
+      "name": "marc_oclc_no",
+      "aboutUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_oclc_no}",
+      "propertyUrl": "dc:subtitle",
+      "datatype": "string",
+      "csvw:value": "{marc_245_c_1}",
+      "null": [""]
+    },
+    {
+      "virtual": true,
+      "name": "marc_oclc_no",
+      "aboutUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_oclc_no}",
+      "propertyUrl": "dc:publisher",
+      "valueUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{{[marc_260_a_1, '_' , marc_260_b_1]|join }}"
+    },
+    {
+      "virtual": true,
+      "aboutUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_oclc_no}",
+      "propertyUrl": "dc:publisher",
+      "datatype": "string",
+      "valueUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_710_a_1}"
+    },
+    {
+     "virtual": true,
+     "aboutUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_710_a_1}",
+     "propertyUrl": "vocab/viafLink",
+     "name": "marc_710_1_extralinks",
+     "datatype": "xsd:anyURI",
+     "valueUrl": "{marc_710_1_extralinks}"
+   },
+   {
+     "virtual": true,
+     "name": "marc_oclc_no",
+     "aboutUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_oclc_no}",
+     "propertyUrl": "dc:date",
+     "datatype": "string",
+     "csvw:value": "{marc_260_c_1}"
+   },
+   {
+      "virtual": true,
+      "name": "marc_600_a_1",
+      "aboutUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_oclc_no}",
+      "propertyUrl": "dc:subject",
+      "valueUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_600_a_1}"
+    },
+    {
+      "virtual": true,
+      "name": "marc_600_a_1",
+      "aboutUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_600_a_1}",
+      "propertyUrl": "skos:label",
+      "datatype": "string",
+      "csvw:value": "{{[marc_600_a_1, ' ' , marc_600_b_1, ' ', marc_600_c_1]|join }}"
+    },
+    {
+     "virtual": true,
+     "name": "marc_600_a_2",
+     "aboutUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_600_a_2}",
+     "propertyUrl": "skos:label",
+     "datatype": "string",
+     "csvw:value": "{{[marc_600_a_2, ' ' , marc_600_c_2]|join }}"
+   },
+   {
+      "virtual": true,
+      "name": "marc_600_a_3",
+      "aboutUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_600_a_3}",
+      "propertyUrl": "skos:label",
+      "datatype": "string",
+      "csvw:value": "{marc_600_a_3}"
+    },
+    {
+      "virtual": true,
+      "name": "marc_600_a_1",
+      "aboutUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_600_a_1}",
+      "propertyUrl": "sem:hasTimeStamp",
+      "datatype": "string",
+      "csvw:value": "{marc_600_d_1}",
+      "null": [""]
+    },
+    {
+     "virtual": true,
+     "name": "marc_600_a_2",
+     "aboutUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_600_a_2}",
+     "propertyUrl": "sem:hasTimeStamp",
+     "datatype": "string",
+     "csvw:value": "{marc_600_d_2}",
+     "null": [""]
+   },
+   {
+      "virtual": true,
+      "name": "marc_600_a_3",
+      "aboutUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_600_a_3}",
+      "propertyUrl": "sem:hasTimeStamp",
+      "datatype": "string",
+      "csvw:value": "{marc_600_d_3}",
+      "null": [""]
+    },
+    {
+      "virtual": true,
+      "name": "marc_600_a_2",
+      "aboutUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_oclc_no}",
+      "propertyUrl": "dc:subject",
+      "valueUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_600_a_2}"
+    },
+
+    {
+      "virtual": true,
+      "name": "marc_600_a_3",
+      "aboutUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_oclc_no}",
+      "propertyUrl": "dc:subject",
+      "valueUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_600_a_3}"
+    },
+    {
+      "virtual": true,
+      "name": "marc_610_a_1",
+      "aboutUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_oclc_no}",
+      "propertyUrl": "dc:subject",
+      "valueUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_610_a_1}"
+    },
+    {
+      "virtual": true,
+      "name": "marc_600_1_1",
+      "aboutUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_600_a_1}",
+      "propertyUrl": "vocab/viafLink",
+      "datatype": "xsd:anyURI",
+      "valueUrl": "{marc_600_1_1}"
+    },
+    {
+      "virtual": true,
+      "name": "marc_600_1_1",
+      "aboutUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_600_a_1}",
+      "propertyUrl": "vocab/viafLink",
+      "datatype": "xsd:anyURI",
+      "valueUrl": "{marc_600_1_1_extralinks}"
+    },
+    {
+      "virtual": true,
+      "name": "marc_610_0_1",
+      "aboutUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_610_a_1}",
+      "propertyUrl": "vocab/fastLink",
+      "datatype": "xsd:anyURI",
+      "valueUrl": "{marc_610_0_1}"
+    },
+    {
+      "virtual": true,
+      "name": "marc_600_a_1",
+      "aboutUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_600_a_1}",
+      "propertyUrl": "dc:title",
+      "datatype": "string",
+      "csvw:value": "{marc_600_t_1}",
+      "null": [""]
+    },
+    {
+     "virtual": true,
+     "name": "marc_600_0_2",
+     "aboutUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_600_a_2}",
+     "propertyUrl": "vocab/fastLink",
+     "datatype": "xsd:anyURI",
+     "valueUrl": "{marc_600_0_2}"
+   },
+   {
+        "virtual": true,
+        "name": "marc_600_1_2",
+        "aboutUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_600_a_2}",
+        "propertyUrl": "vocab/viafLink",
+        "datatype": "xsd:anyURI",
+        "valueUrl": "{marc_600_1_2}"
+      },
+      {
+        "virtual": true,
+        "name": "marc_600_a_2",
+        "aboutUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_oclc_no}",
+        "propertyUrl": "dc:subject",
+        "valueUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_600_a_2}"
+      },
+      {
+      "virtual": true,
+      "propertyUrl": "dc:creator",
+      "valueUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_100_a_1}"
+    },
+    {
+     "virtual": true,
+     "propertyUrl": "dc:creator",
+     "valueUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_700_a_1}"
+   },
+   {
+  "virtual": true,
+  "propertyUrl": "dc:creator",
+  "valueUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_700_a_2}"
+},
+{
+   "virtual": true,
+   "propertyUrl": "dc:creator",
+   "valueUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_700_a_3}"
+ },
+ {
+      "virtual": true,
+      "aboutUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_100_a_1}",
+      "propertyUrl": "skos:label",
+      "csvw:value": "{{[marc_100_a_1, ' ' , marc_100_b_1, ' ' , marc_100_c_1]|join }}",
+      "null": [""]
+    },
+    {
+      "virtual": true,
+      "aboutUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_700_a_1}",
+      "propertyUrl": "skos:label",
+      "csvw:value": "{{[marc_700_a_1, ' ' , marc_700_b_1, ' ' , marc_700_c_1]|join }}",
+      "null": [""]
+    },
+    {
+   "virtual": true,
+   "aboutUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_700_a_2}",
+   "propertyUrl": "skos:label",
+   "csvw:value": "{{[marc_700_a_2, ' ' , marc_700_c_2]|join }}",
+   "null": [""]
+ },
+ {
+        "virtual": true,
+        "aboutUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_700_a_3}",
+        "propertyUrl": "skos:label",
+        "datatype": "string",
+        "csvw:value": "{marc_700_a_3}",
+        "null": [""]
+      },
+      {
+     "virtual": true,
+     "name": "marc_100_a_1",
+     "aboutUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_100_a_1}",
+     "propertyUrl": "sem:hasTimeStamp",
+     "csvw:value": "{marc_100_d_1}",
+     "datatype": "string",
+     "null": [""]
+   },
+   {
+  "virtual": true,
+  "aboutUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_700_a_1}",
+  "propertyUrl": "sem:hasTimeStamp",
+  "csvw:value": "{marc_700_d_1}",
+  "datatype": "string",
+  "null": [""]
+},
+{
+"virtual": true,
+"aboutUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_700_a_1}",
+"propertyUrl": "vocab/relatedTerm",
+"csvw:value": "{marc_700_e_1}",
+"datatype": "string",
+"null": [""]
+},
+{
+"virtual": true,
+"name": "700_a_2",
+"aboutUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_700_a_2}",
+"propertyUrl": "vocab/relatedTerm",
+"csvw:value": "{marc_700_e_2}",
+"datatype": "string"
+},
+{
+"virtual": true,
+"name": "700_d_2",
+"aboutUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_700_a_2}",
+"propertyUrl": "sem:hasTimeStamp",
+"csvw:value": "{marc_700_d_2}",
+"datatype": "string",
+"null": [""]
+},
+{
+"virtual": true,
+"aboutUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_700_a_3}",
+"propertyUrl": "sem:hasTimeStamp",
+"csvw:value": "{marc_700_d_3}",
+"datatype": "string",
+"null": [""]
+},
+{
+      "virtual": true,
+      "name": "marc_100_1_1",
+      "aboutUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_100_a_1}",
+      "propertyUrl": "vocab/viafLink",
+      "datatype": "xsd:anyURI",
+      "valueUrl": "{marc_100_1_1}"
+    },
+    {
+     "virtual": true,
+     "name": "marc_100_1_extralinks",
+     "aboutUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_100_a_1}",
+     "propertyUrl": "vocab/viafLink",
+     "datatype": "xsd:anyURI",
+     "valueUrl": "{marc_100_1_extralinks}"
+   },
+   {
+      "virtual": true,
+      "name": "marc_700_1_1_extralinks",
+      "aboutUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_700_a_1}",
+      "propertyUrl": "vocab/viafLink",
+      "datatype": "xsd:anyURI",
+      "valueUrl": "{marc_700_1_1_extralinks}"
+    },
+    {
+      "virtual": true,
+      "name": "marc_700_1_1",
+      "aboutUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_700_a_1}",
+      "propertyUrl": "vocab/viafLink",
+      "datatype": "xsd:anyURI",
+      "valueUrl": "{marc_700_1_1}"
+    },
+    {
+      "virtual": true,
+      "name": "marc_700_1_2",
+      "aboutUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_700_a_2}",
+      "propertyUrl": "vocab/viafLink",
+      "datatype": "xsd:anyURI",
+      "valueUrl": "{marc_700_1_2}"
+    },
+    {
+  "virtual": true,
+  "name": "marc_700_0_2",
+  "aboutUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_700_a_2}",
+  "propertyUrl": "vocab/fastLink",
+  "datatype": "xsd:anyURI",
+  "valueUrl": "{marc_700_0_2}"
+},
+{
+      "virtual": true,
+      "name": "marc_700_1_2_extralinks",
+      "aboutUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_700_a_2}",
+      "propertyUrl": "vocab/viafLink",
+      "datatype": "xsd:anyURI",
+      "valueUrl": "{marc_700_1_2_extralinks}"
+    },
+    {
+      "virtual": true,
+      "name": "marc_700_1_3_extralinks",
+      "aboutUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_700_a_3}",
+      "propertyUrl": "vocab/viafLink",
+      "datatype": "xsd:anyURI",
+      "valueUrl": "{marc_700_1_3_extralinks}"
+    },
+    {
+      "virtual": true,
+      "name": "marc_610_v_1",
+      "aboutUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_oclc_no}",
+      "propertyUrl": "dc:subject",
+      "valueUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_610_v_1}"
+    }
+              ],
+      "primaryKey": "{marc_oclc_no}",
+      "aboutUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_oclc_no}"
+     }
+    }
