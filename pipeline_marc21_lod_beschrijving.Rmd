@@ -13,17 +13,35 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 library(radix)
+setwd("C:\\Users\\Schal107\\Documents\\UBU\\Team DH\\Linked Data experiments")
 
 
 ```
+# Inhoudsopgave
+1. [Inleiding](#inleiding)
+2. [Pipeline](#pipeline)
+3. [MarcEdit](#marcedit)
+4. [De CSV-route](#de-csv-route)
+5. [Extra links met Openrefine](#extra-links-met-openrefine)
+6. [CSV naar LOD](#csv-naar-lod)
+7. [Mogelijkheden](#mogelijkheden)
+8. [Uitkomsten experiment en aanbevelingen](#uitkomsten-experiment-en-aanbevelingen)
 
-## Inleiding
 
-In dit experiment proberen we een selectie van de catalogus - 50 pamfletten uit - om te zetten naar Linked Open Data. We beginnen bij het programma [MarcEdit](https://marcedit.reeset.net/) en een [mark bestand](https://solisservices.sharepoint.com/:u:/r/sites/LinkedDatabijMA2/Shared%20Documents/General/Test%20Van%20MarcEdit%20tot%20LOD/LOD-testset-Van_Someren.mrk?csf=1&web=1&e=aCn8DN), zonder externe identifiers. De benodigde bestanden zijn allemaal beschikbaar in [Github repository RubenSchalk/marctolod](https://github.com/RubenSchalk/marctolod).
+## 1. Inleiding
 
-## MarcEdit
+In dit experiment proberen we een selectie van de catalogus - 50 pamfletten uit - om te zetten naar Linked Open Data. We beginnen bij het programma [MarcEdit](https://marcedit.reeset.net/) en een [MARC bestand](https://solisservices.sharepoint.com/:u:/r/sites/LinkedDatabijMA2/Shared%20Documents/General/Test%20Van%20MarcEdit%20tot%20LOD/LOD-testset-Van_Someren.mrk?csf=1&web=1&e=aCn8DN), zonder externe identifiers. De benodigde bestanden zijn allemaal beschikbaar in [Github repository RubenSchalk/marctolod](https://github.com/RubenSchalk/marctolod).
 
-In MarcEdit is het mogelijk om dit bestand te verrijken met externe identifiers zoals wikidata, viaf, en FAST. Op deze manier zijn via Linked Data de pamfletten te verrijken met andere gegevens. In dit geval in het bijzonder voor metadata-velden over: auteur, geografische aanduiding, categorie werk en type onderwerp.
+## 2. Pipeline
+
+De belangrijkste stappen van het experiment staan hieronder beschreven. De hele pipeline staat hieronder afgebeeld, samen met de corresponderende bestanden die voor elke stap nodig zijn (in rood).
+
+![*Pipeline MARC naar LOD. N.B.: de opschoning kan eventueel naar voren worden gehaald in de pipeline.*](lod_pipeline_uu.jpg)
+
+
+## 3. MarcEdit
+
+In MarcEdit is het mogelijk om het MARC bestand te verrijken met externe identifiers zoals VIAF en FAST. Op deze manier zijn via Linked Data de pamfletten te verrijken met andere gegevens. In dit geval in hebben we ons gericht op persoonsnamen, maar het kan o.a. ook voor onderwerp, plaatsnamen en type werk.
 
 Deze verrijking gaat in MarcEdit als volgt:   
 
@@ -67,19 +85,23 @@ Met dank aan [deze presentatie](https://digitalcommons.osgoode.yorku.ca/cgi/view
 **Update 17-12-2021: de 'xml-route' heeft enkele beperkingen t.o.v. de 'csv-route'. Daarom gaan we met de laatste verder.**
 </details>
 
-## De 'CSV-route'
+## 4. De CSV-route
 
 De XML route lijkt meer bewerkelijk dan via csv. We kiezen er daarom voor kiezen om de conversie via `csv` te doen: MarcEdit > csv > RDF. Ook hier moet er (deels) manueel werk gedaan worden aan het conversiebestand, maar via 'regels' is dit hopelijk grotendeels te automatiseren *zolang de metadata goed genoeg is*. De 'regels' zullen hopelijk per metadataveld uniform te formuleren zijn.
 
 ### CSV export en opschoning
 Eerst moeten we via MarcEdit exporteren naar een `.csv` bestand. Dit betekent dat alle $a etc. velden plus inhoud samengevoegd worden met het nummer (bijv. 100), zodat je 1 observatie per variabele overhoudt (100\$a = Temple, William,  100\$d = 1628-1699 etc.). Met MarcEdit is deze stap naar een csv bestand eenvoudig: in het programma kun je specificeren welke MARC velden je naar een csv wilt exporteren (`Tools > Export > Export Tab Delimited Format`). Hierbij hoef je niet alle MARC velden elke keer handmatig in te vullen, want dit kan opgegeven worden door een - zelf gemaakt - `.txt` bestand te selecteren bij `Next > Settings`. Voordeel van de csv-conversie is dat er geen data verloren gaat: wanneer er meerdere waarden in een MARC veld staan (zoals soms bij 655) worden die allemaal in hetzelfde csv veld geplaatst en gescheiden met een `;`. 
 
+Vanuit MarcEdit is met een [`marcedit_export_settings.txt`](https://raw.githubusercontent.com/RubenSchalk/marctolod/main/marcedit_export_settings.txt) een aantal velden omgezet naar `csv`. Naast velden over de titel en plaats, is voor nu gekozen voor velden waar ook links in staan, zodat we deze kunnen converteren naar LOD (het is eenvoudig om aan dit tekstbestand meer velden toe te voegen).
+
 **update 21-01-2022:** In veel MARC velden staan meerdere namen, die in de csv vervolgens in hetzelfde veld terecht komen. Bijvoorbeeld `Verdousius, Cornelius.Rodia, Gerarda`. Deze moeten gescheiden worden om er aparte links van te kunnen maken. Omdat het, zeker wanneer we gaan opschalen, om veel MARC velden gaat en een onbekend aantal waarden per veld, is het aan te raden dit niet handmatig te doen. We specificeren daarom eerst in MarcEdit een scheidingsteken (bijvoorbeeld `%`) om deze waarden te kunnen identificeren. Vervolgens gebruiken we een kort R-script om de waarden te scheiden in aparte kolommen, per MARC veld: [`marc_csv.R`](https://raw.githubusercontent.com/RubenSchalk/marctolod/main/marc_csv.R).
 
 Toelichting: de MARC velden zijn als volgt gescheiden om enkele waarden per cel over te houden: 600\$a_1 = de eerste naam, 600$a _2 = de tweede, etc. 
 De links zijn als volgt aan de namen te herleiden: 600\$1_1 is de VIAF link van de naam in kolom 600\$a_1 , 600\$1_2 de VIAF link van kolom 600\$a_2, etc. De eerste 1 verwijst naar VIAF (XXX\$0 is LC en/of FAST, vandaar het onderscheid).
 
-## Extra links met Openrefine
+**update 28-01-2022:** De opschoning in het bestand `marc_csv.R` is uitgebreid om ervoor te zorgen dat het conversieprogramma COW niet breekt over 1) variabelen die beginnen met nummers, 2) verkeerde encoding en 3) lege velden met spaties. Daarnaast worden de Worldcat en Worldcat UU URLs alvast in het R script gegenereerd, omdat in COW Jinja templating niet mogelijk is op datatype `xsd:anyURI` (m.a.w. COW kan geen URLs maken aan de hand van [joins](https://jinja.palletsprojects.com/en/2.11.x/templates/#join)). Dit alles is doorgevoerd in het script. Alle variabelen beginnen nu met `marc_` en de encoding is `UTF-8`.
+
+## 5. Extra links met Openrefine
 
 **Update 21-01-2022:** Met MarcEdit is eerder ongeveer de helft van de naamsvelden verrijkt met een externe link. Met Openrefine proberen we dit percentage te verhogen. Openrefine biedt een 'reconciliation' optie, wat betekent dat waarden gematched worden tegen een te specificeren API. Hierbij kunnen ook anderen MARC velden als context worden meegenomen. Indien er een match is, kan de link naar deze match worden toegevoegd aan de dataset (onze csv), waardoor we beter de mogelijkheden van LOD kunnen benutten. Voor nu kiezen we het VIAF (Virtual International Authority File) als service. Omdat deze links universeel gebruikt worden in catalogi, kunnen we via deze link in de toekomst 'doorklikken' naar relevante data over het item buiten onze catalogus. 
 
@@ -89,24 +111,85 @@ Om de Openrefine links te kunnen scheiden van de eerdere MarcEdit links, is ‘e
 
 Er zijn 17 nieuwe VIAF links aan het bestand toegevoegd, wat het totaal brengt op 62. De Openrefine stap voegt dus ongeveer 35% toe. 
 
-N.B.: Er is ook onderzocht of de oude ALEPH records additionele links kunnen opleveren, maar dit wordt als te arbeidsintensief beoordeeld om op te schalen. Er wordt ca. 10% extra links gevonden, maar het ophalen van de back-up kost veel tijd en het nalopen van de records ook.
+Ook is onderzocht of de oude ALEPH records additionele links kunnen opleveren, maar dit wordt als te arbeidsintensief beoordeeld om op te schalen. Er wordt ca. 10% extra links gevonden, maar het ophalen van de back-up kost veel tijd en het nalopen van de records ook.
+
+### Controle van de nieuwe VIAF links
+*Nog toevoegen*
 
 
-### CSV naar LOD
+## 6. CSV naar LOD
 
-Vanuit MarcEdit is met een [`marcedit_export_settings.txt`](https://raw.githubusercontent.com/RubenSchalk/marctolod/main/marcedit_export_settings.txt) een aantal velden omgezet naar `csv`. Naast velden over de titel en plaats, is voor nu gekozen voor velden waar ook links in staan, zodat we deze kunnen converteren naar LOD (het is eenvoudig om aan dit tekstbestand meer velden toe te voegen). De meest toegankelijke manier om van deze `csv` LOD te maken is via [LDwizard](https://ldwizard.netwerkdigitaalerfgoed.nl/): een website met simpele interface die de stap van csv naar LOD ondersteunt - en bovendien het conversiebestand direct beschikbaar stelt. Daarnaast is in LDwizard per variabele - hier: MARC veld - te selecteren welk vocabulary je wilt gebruiken als beschrijving, zoals `schema.org`. 
+De meest toegankelijke manier om van de opgeschoonde en verrijkte `csv` LOD te maken is via [LDwizard](https://ldwizard.netwerkdigitaalerfgoed.nl/): een website met simpele interface die de stap van csv naar LOD ondersteunt - en bovendien het conversiebestand direct beschikbaar stelt. Daarnaast is in LDwizard per variabele - hier: MARC veld - te selecteren welk vocabulary je wilt gebruiken als beschrijving, zoals `schema.org`. Helaas biedt LDwizard niet alle functionaliteiten die we willen. Bijvoorbeeld, sommige gegevens zoals titel en jaar van uitgave wil je koppelen aan het pamflet, maar andere, zoals geboortedatum en VIAF-link van de auteur, aan de auteur. Dit kan (nog) niet met LDwizard, omdat het enkel een 'plat' datamodel ondersteunt. Ook is het niet mogelijk om 'klikbare' links naar bijvoorbeeld VIAF te specificeren. we moeten daarom het conversiebestand dat LDwizard genereert (een `json` bestand), nog handmatig aanpassen aan onze wensen.  
 
-Voor deze eerste run is het bestand omgezet naar LOD met gebruik van het [datamodel van de UvA](https://uba.uva.nl/binaries/content/assets/subsites/bibliotheek/open-data/uva-edm-rdf-open-data.pdf), dat grotendeels overeenkomt met het Europeana Data Model. Niet alle velden zijn nog doorgevoerd, enkel de MARC velden die in de csv staan en enkel de vocabularies die standaard in LDwizard voorkomen. In een volgende stap zijn via het te downloaden conversiebestand (ttl, CoW (json), RML) de overige velden te specificeren.Het `.nt` bestand dat uit deze stap komt **is** onze LOD. Om te inspecteren of het voldoende is (antwoord: nog niet), heb ik het bestand geupload in de Triplestore van mijn vorige project (Clariah WP4): [MARC21LOD](https://druid.datalegend.net/RubenS/marc21/browser?resource=https%3A%2F%2Fdata.utrechtuniversitylibrary.nl%2Fsomeren%2Fid%2F1). Je zult zien dat er nog wat werk is aan de conversie: URI's werken bijvoorbeeld nog niet en niet alle MARC velden hebben een juiste naam.
-
-## Vervolg
-
-**Update 17-12-2021:** hoewel de 'proof of concept' van MARC naar LOD is gelukt, hebben we (nog) geen 'klikbare' links in onze Linked Open Data. Deels komt dit omdat de metadata nog niet voldoende is verrijkt in MarcEdit, deels omdat er van de wel verrijkte velden nog geen URI's zijn aangemaakt in de LOD. Een voorwaarde om op grote schaal en semi-automatisch deze links aan te maken is zoveel mogelijk de metadata te standaardiseren. We moeten onderzoeken hoe dit het beste kan, want je wilt niet alle auteursnamen handmatig gaan controleren. De KB heeft dit bijvoorbeeld deels geautomatiseerd door [clusters te maken van werken die qua spelling erg op elkaar lijken](https://lab.kb.nl/tool/rda-entity-finder) en deze allemaal te koppelen aan een gestandaardiseerd werk.
+**Update 17-12-2021:** hoewel de 'proof of concept' van MARC naar LOD is gelukt, hebben we (nog) geen 'klikbare' links in onze Linked Open Data. Deels komt dit omdat de metadata nog niet voldoende is verrijkt in MarcEdit, deels omdat er van de wel verrijkte velden nog geen URI's zijn aangemaakt in de LOD. Een voorwaarde om op grote schaal en semi-automatisch deze links aan te maken is zoveel mogelijk de metadata te standaardiseren. We moeten onderzoeken hoe dit het beste kan, want je wilt niet alle auteursnamen handmatig gaan controleren. 
 
 **Update 21-01-2021:** Om de metadata te verrijken is de Openrefine stap toegevoegd, zoals beschreven in de [Openrefine sectie](#extra-links-met-openrefine). Nu dit is gedaan kan de stap CSV naar LOD, plus het verbeteren van het conversiebestand, gedaan worden.
 
-**Vervolgstap: Het conversiebestand zodanig aanpassen dat de externe links in onze LOD daadwerkelijk 'klikbaar' worden en je naar de betreffende website brengen.**
+**Update 28-01-2022:** Voor nu is het CSV bestand omgezet naar LOD met zoveel mogelijk gebruik van het [datamodel van de UvA](https://uba.uva.nl/binaries/content/assets/subsites/bibliotheek/open-data/uva-edm-rdf-open-data.pdf), dat grotendeels overeenkomt met het Europeana Data Model. Variabelen die hier niet in staan zijn zoveel mogelijk gemapped volgens gebruikelijke standaarden en vocabularies (vooral Dublic Core en Simple Event Model). In het conversiebestand [someren-csv-jan2022-clean-openrefine.csv-metadata](https://raw.githubusercontent.com/RubenSchalk/marctolod/main/someren-csv-jan2022-clean-openrefine.csv-metadata.json) is dit per variabele na te gaan. Dit is later eenvoudig aan te passen naar wens.
 
-### Colofon
+In het algemeen komt het erop neer dat je voor elk MARC veld (elke variabele in de csv), specificeert welke triples je daarvan wilt aanmaken. 
+
+Het onderstaande blok in het conversiebestand leidt tot onderstaande triple:
+
+```
+{
+     "virtual": true,               # om aan te geven dat we triple 'bedenken' 
+     "name": "marc_oclc_no",        # naam van de variabele die we gebruiken als object
+     "aboutUrl": "https://data.universiteitsbibliotheekutrecht/someren/id/{marc_oclc_no}", # subject
+     "propertyUrl": "dc:date",      # predicate
+     "datatype": "string",          # datatype (string, cijfer (integer/double/float), URL, datum, of URI)
+     "csvw:value": "{marc_260_c_1}" # object
+   }
+```
+Triple:
+
+`<https://data.universiteitsbibliotheekutrecht/someren/id/66866546> <http://purl.org/dc/terms/title> "Raben Nest, auss wölchem bey jetziger Herbst Mess..."^^<http://www.w3.org/2001/XMLSchema#string>`
+
+Wat betekent: pamflet nr. 66866546 heeft als titel "Raben Nest etc."
+
+Op deze manier is per variabele te specificeren welke relaties deze in de Linked Data graaf moeten hebben. Vaak zijn dat er meer dan één. Ook kan het subject (het derde element in de triple), weer optreden als object voor een andere relatie, bijvoorbeeld:
+
+
+```
+subject          predicate         object
+pamflet nummer > heeft auteur    > auteursnaam. 
+auteursnaam    > heeft VIAF LINK > VIAF URL
+```
+
+Het mooie hiervan is dat je informatie specifiek aan een deel van de metadata kunt toewijzen: sommige informatie gaat over de auteur, andere over het pamflet. Zo kun je bijvoorbeeld de geboorteplaats scheiden van de plaats van publicatie, zelfs als deze gelijk zijn. Daar kan vervolgens specifiek op gezocht worden door gebruikers. 
+
+## 7. Mogelijkheden
+
+De query [`image.rq`](https://druid.datalegend.net/RubenS/-/queries/images/5) laat al deels zien wat de mogelijkheden zijn. Hier worden van auteurs automatisch de geboortedatum en een afbeelding toegevoegd aan het zoekresultaat. Dit kan omdat de VIAF link is opgenomen in Wikidata (de gegevens achter Wikipedia). Via de VIAF link die we hebben toegevoegd aan onze metadata is nu dus **alle** informatie van deze auteur in Wikidata op te vragen - evenals alle data waarnaar verwezen wordt.
+
+Ook alle andere uitgaande en inkomende links, bijvoorbeeld van andere bibliotheken en museau, zijn (op termijn) via deze koppelingen te raadplegen. Wikidata, en steeds meer grote LOD databases zoals DBpedia, fungeren zo als 'hub' om informatie en metadata met elkaar te verbinden - zelfs zonder dat je als gebruiker van tevoren hoeft te weten waarmee je precies wilt verbinden. Op die manier kun je niet alleen je zoekvraag enorm specificeren of juist contextualiseren, maar ook collecties vinden die verwant zijn aan waar je in geinteresseerd bent. Bijvoorbeeld omdat ze van een auteur zijn waarmee de auteur uit je zoekvraag mee heeft samengewerkt, of omdat het onderwerp of genre hetzelfde is (of allebei). 
+
+Verder kun je de metadata en alle LOD koppelingen nu zien als één grote dataset (LOD cloud) die je kunt bevragen en analyseren zoals onderzoeksdata. Dat is niet alleen voor letterkundigen interessant, maar ook om beter systematisch te kunnen zoeken en bijvoorbeeld literatuur aan datasets te kunnen koppelen.Ook komt het de zoekbaarheid en vindbaarheid van collecties ten goede, omdat de data beter gevonden en bevraagd kunnen worden.
+
+## 8. Uitkomsten experiment en aanbevelingen
+
+### Uitkomsten
+
+Het experiment is geslaagd omdat het gelukt is van 50 pamfletten Linked Open Data te maken met daarbij de toevoeging van VIAF links. Het is mogelijk om onze LOD automatisch te koppelen aan Wikidata en zo additionele gegevens op te halen. Tevens wordt de koppeling met onze Discovery omgeving hierbij behouden, waardoor de provenance gewaarborgd is. 
+
+Het omzetten naar LOD bleek (vooral vanwege Ruben zijn achtergrond) geen al te grote uitdaging. Het grootste obstakel is de kwaliteit van de metadata. Verschillende systemen hebben ertoe geleid dat sommige metadata van mindere kwaliteit is dan andere en onvoldoende is gethesaureerd. In dat geval is het lastig om VIAF of andere links toe te voegen, waarmee de mogelijkheden van Linked Data niet optimaal benut worden. Koppeling met externe data is geen vereiste, maar maakt het veel makkelijker om gevonden te worden, links te maken met andere collecties en de metadata te contextualiseren. Het grootste knelpunt ligt daarom op het vlak van metadata, met name de standaardisering/ entity matching hiervan tegen thesauri.  
+
+### Aanbevelingen
+
+- Goede metadata is essentieel om goede LOD te maken;
+    -   nadenken over manieren om automatisch metadata te verbeteren; 
+    -   de KB heeft dit bijvoorbeeld geautomatiseerd door [clusters te maken van werken die qua spelling erg op elkaar      lijken](https://lab.kb.nl/tool/rda-entity-finder) en deze allemaal te koppelen aan een gestandaardiseerd werk.
+- UBU Linked Data omgeving (Triply?) om verder te experimenteren en resultaten toegankelijk te maken voor collega's.
+- VIAF links gebruiken als validatie (is hopelijk wat OCLC ook deels gaat aanbieden).
+- Pipeline opzetten voor automatisch verrijken van metadata met andere data, zoals Wikidata.
+
+Eventueel (suggesties Ruben):
+
+  - Kennis binnen UB borgen/uitbreiden?
+  - Alternatieve pipelines van MARC > LOD onderzoeken?
+
+
+## Colofon
 
 Universiteitsbibliotheek Utrecht, afdeling M&A
 
