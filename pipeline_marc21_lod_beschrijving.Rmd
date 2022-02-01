@@ -30,11 +30,11 @@ setwd("C:\\Users\\Schal107\\Documents\\UBU\\Team DH\\Linked Data experiments")
 
 ## 1. Inleiding
 
-In dit experiment proberen we een selectie van de catalogus - 50 pamfletten uit - om te zetten naar Linked Open Data en extra koppelingen toe te voegen. We beginnen bij het programma [MarcEdit](https://marcedit.reeset.net/) en een MARC bestand, zonder externe identifiers. De benodigde bestanden zijn allemaal beschikbaar in [Github repository RubenSchalk/marctolod](https://github.com/RubenSchalk/marctolod).
+In dit experiment proberen we een selectie van de catalogus - 50 pamfletten - om te zetten naar Linked Open Data en extra koppelingen toe te voegen. We beginnen bij het programma [MarcEdit](https://marcedit.reeset.net/) en een MARC bestand, zonder externe identifiers. Alle benodigde bestanden zijn beschikbaar in [Github repository RubenSchalk/marctolod](https://github.com/RubenSchalk/marctolod).
 
 ## 2. Pipeline
 
-De belangrijkste stappen van het experiment staan in de volgende secties beschreven. De volledige pipeline staat alvast hieronder afgebeeld, samen met de corresponderende bestanden die voor elke stap nodig zijn (in <span style="color:red">rood</span>).
+De belangrijkste stappen van het experiment staan in de volgende secties beschreven. De volledige pipeline staat hieronder afgebeeld, samen met de corresponderende bestanden die voor elke stap nodig zijn (in <span style="color:red">rood</span>).
 
 ![*Pipeline MARC naar LOD. N.B.: de opschoning kan eventueel naar voren worden gehaald in de pipeline.*](lod_pipeline_uu.jpg)
 
@@ -53,13 +53,13 @@ Deze verrijking gaat in MarcEdit als volgt:
 
 Het bestand mét URI’s (links) is opgeslagen als [LOD-testset-Van_Someren-met-links.mrk](https://solisservices.sharepoint.com/:u:/r/sites/LinkedDatabijMA2/Shared%20Documents/General/Test%20Van%20MarcEdit%20tot%20LOD/LOD-testset-Van_Someren-met-links.mrk?csf=1&web=1&e=kb8j22). In een volgende fase is het eventueel mogelijk om naast het oorspronkelijke configuratie-bestand één of meerdere andere xml-bestanden aan te maken met afwijkende instellingen, zoals meer externe identifiers.
 
-**Update 28-01-2022:** Omdat MarcEdit al koppelt met VIAF en de Nederlandse Thesaurus van Auteursnamen (NTA) is de meerwaarde van het her-configureren van het xml-bestand vermoedelijk beperkt. Andere routes, zoals standaardiseren van metadata en Openrefine, werkt mogelijk efficienter.
+**Update 28-01-2022:** Omdat MarcEdit al koppelt met VIAF en de Nederlandse Thesaurus van Auteursnamen (NTA) is de meerwaarde van het her-configureren van het xml-bestand vermoedelijk beperkt. Andere routes, zoals standaardiseren van metadata en Openrefine, werken mogelijk efficienter.
 
 
 ## (MarcEdit XML naar RDF)
 <details>
   <summary>*Deze stap is achterhaald, maar klik op het pijltje om alsnog te lezen.*</summary>
-Om van dit .mrk bestand naar LOD te komen, moeten er een paar conversiestappen plaatsvinden. Als eerst moet het bestand geconverteerd worden naar een `.mrc` bestand. Dit kan eenvoudig in MarcEdit. Vervolgens kan het .mrc bestand geconverteerd worden naar een MarcXML bestand, zodat de waarden in de metadata velden (zoals \$a, \$1 etc.) ingelezen kunnen worden. Ook dit kan via Marcedit > Tools.
+Om van dit .mrk bestand naar LOD te komen, moeten er een paar conversiestappen plaatsvinden. Eerst moet het bestand geconverteerd worden naar een `.mrc` bestand. Dit kan eenvoudig in MarcEdit. Vervolgens kan het .mrc bestand geconverteerd worden naar een MarcXML bestand, zodat de waarden in de metadata velden (zoals \$a, \$1 etc.) ingelezen kunnen worden. Ook dit kan via Marcedit > Tools.
 
 Nu kan het XMl bestand omgezet worden naar [RDF](https://www.w3.org/RDF/): de standaard voor Linked Open Data. Deze stap is technisch en inhoudelijk het meest uitdagend. Wat feitelijk moet gebeuren is dat we moeten specificeren op welke manier de [MARC21 nummers](https://www.loc.gov/marc/bibliographic/) moeten worden gedefinieerd in het Linked Datamodel van keuze. Bijvoorbeeld, nummer 100 in MARC21 verwijst naar de naam van de auteur en kan worden gemodelleerd als `dc:creator`, volgens het veel gebruikte Europeana Data Model (EDM). Zie [hier](https://uba.uva.nl/binaries/content/assets/subsites/bibliotheek/open-data/uva-edm-rdf-open-data.pdf) voor een mapping tussen MARC en EDM, gemaakt door de UvA.
 
@@ -165,6 +165,8 @@ Het mooie hiervan is dat je informatie specifiek aan een deel van de metadata ku
 
 De SPARQL query [`image.rq`](https://druid.datalegend.net/RubenS/-/queries/images/5) laat goed zien wat de mogelijkheden van LOD zijn. Hier worden van de auteurs automatisch de geboortedatum en een afbeelding toegevoegd aan het zoekresultaat. Dit kan omdat de VIAF link is opgenomen in Wikidata (de gegevens achter Wikipedia). Via de VIAF link die we hebben toegevoegd aan onze metadata is nu dus **alle** informatie van deze auteur in Wikidata op te vragen - evenals alle data waarnaar verwezen wordt. De koppeling gaat automatisch via deze identifier en kost ons slechts enkele regels in de query!
 
+**De Linked Open Data van de pamfletten is te browsen en te raadplegen in deze omgeving: https://druid.datalegend.net/RubenS/marc21.**
+
 Ook alle andere uitgaande en inkomende links, bijvoorbeeld van andere bibliotheken en museau, zijn (op termijn) via deze koppelingen te raadplegen. Wikidata, en steeds meer grote LOD databases zoals DBpedia, fungeren zo als 'hub' om informatie en metadata met elkaar te verbinden - zelfs zonder dat je als gebruiker van tevoren hoeft te weten waarmee je precies wilt verbinden. Op die manier kun je niet alleen je zoekvraag enorm specificeren of juist contextualiseren, maar ook collecties vinden die verwant zijn aan waar je in geinteresseerd bent. Bijvoorbeeld omdat ze van een auteur zijn waarmee de auteur uit je zoekvraag mee heeft samengewerkt, of omdat het onderwerp of genre hetzelfde is (of allebei). 
 
 Verder kun je de metadata en alle LOD koppelingen nu zien als één grote dataset (LOD cloud) die je kunt bevragen en analyseren zoals onderzoeksdata. Dat is niet alleen voor letterkundigen interessant, maar ook om beter systematisch te kunnen zoeken en bijvoorbeeld literatuur aan datasets te kunnen koppelen.Ook komt het de zoekbaarheid en vindbaarheid van collecties ten goede, omdat de data beter gevonden en bevraagd kunnen worden.
@@ -192,8 +194,8 @@ Hoewel de pipeline uit meerdere stappen bestaat is de omzetting van MARC naar LO
 
 <u>Eventueel</u>:
 
-  - Kennis binnen UB borgen/uitbreiden?
-  - Alternatieve pipelines van MARC > LOD onderzoeken?
+  - Kennis binnen UB borgen/uitbreiden
+  - Alternatieve pipelines van MARC > LOD onderzoeken
 
 
 ## Colofon
