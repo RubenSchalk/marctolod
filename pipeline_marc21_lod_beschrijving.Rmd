@@ -128,7 +128,7 @@ De meest toegankelijke manier om van de opgeschoonde en verrijkte `csv` LOD te m
 
 **Update 21-01-2021:** Om de metadata te verrijken is de Openrefine stap toegevoegd, zoals beschreven in de [Openrefine sectie](#extra-links-met-openrefine). Nu dit is gedaan kan de stap CSV naar LOD, plus het verbeteren van het conversiebestand, gedaan worden.
 
-**Update 28-01-2022:** Voor nu is het CSV bestand omgezet naar LOD met zoveel mogelijk gebruik van het [datamodel van de UvA](https://uba.uva.nl/binaries/content/assets/subsites/bibliotheek/open-data/uva-edm-rdf-open-data.pdf), dat grotendeels overeenkomt met het Europeana Data Model. Variabelen die hier niet in staan zijn zoveel mogelijk gemapped volgens gebruikelijke standaarden en vocabularies (vooral Dublic Core en Simple Event Model). In het conversiebestand [someren-csv-jan2022-clean-openrefine.csv-metadata](https://raw.githubusercontent.com/RubenSchalk/marctolod/main/someren-csv-jan2022-clean-openrefine.csv-metadata.json) is dit per variabele na te gaan. Dit is later eenvoudig aan te passen naar wens.
+**Update 28-01-2022:** Voor de tweede conversiestap (na LDwizard) gebruiken we de tool [COW](https://github.com/CLARIAH/COW) die ontwikkeld is in [CLARIAH](https://www.clariah.nl/). Voor nu is het CSV bestand omgezet naar LOD met zoveel mogelijk gebruik van het [datamodel van de UvA](https://uba.uva.nl/binaries/content/assets/subsites/bibliotheek/open-data/uva-edm-rdf-open-data.pdf), dat grotendeels overeenkomt met het Europeana Data Model. Variabelen die hier niet in staan zijn zoveel mogelijk gemapped volgens gebruikelijke standaarden en vocabularies (vooral Dublic Core en Simple Event Model). In het conversiebestand [someren-csv-jan2022-clean-openrefine.csv-metadata](https://raw.githubusercontent.com/RubenSchalk/marctolod/main/someren-csv-jan2022-clean-openrefine.csv-metadata.json) is dit per variabele na te gaan. Dit is later eenvoudig aan te passen naar wens.
 
 In het algemeen komt het erop neer dat je voor elk MARC veld (elke variabele in de csv), specificeert welke triples je daarvan wilt aanmaken. 
 
@@ -160,6 +160,8 @@ auteursnaam    > heeft VIAF LINK > VIAF URL
 ```
 
 Het mooie hiervan is dat je informatie specifiek aan een deel van de metadata kunt toewijzen: sommige informatie gaat over de auteur, andere over het pamflet. Zo kun je bijvoorbeeld de geboorteplaats scheiden van de plaats van publicatie, zelfs als deze gelijk zijn. Daar kan vervolgens specifiek op gezocht worden door gebruikers. 
+
+Na deze specificatie is via de Command Line de tool COW aan te roepen om de conversie in gang te zetten. Dit duurt voor 50 pamfletten enkele seconden. Vervolgens kan het LOD bestand worden geupload in een Linked Data omgeving zoals die van [Triply](https://triply.cc/).
 
 ## 7. Mogelijkheden
 
