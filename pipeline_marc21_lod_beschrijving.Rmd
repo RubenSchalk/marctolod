@@ -25,7 +25,7 @@ setwd("C:\\Users\\Schal107\\Documents\\UBU\\Team DH\\Linked Data experiments")
 5. [Extra links met Openrefine](#extra-links-met-openrefine)
 6. [CSV naar LOD](#csv-naar-lod)
 7. [Mogelijkheden](#mogelijkheden)
-8. [Uitkomsten experiment en aanbevelingen](#uitkomsten-experiment-en-aanbevelingen)
+8. [Conclusie](#conclusie)
 
 
 ## 1. Inleiding
@@ -52,6 +52,8 @@ Deze verrijking gaat in MarcEdit als volgt:
 ```
 
 Het bestand mét URI’s (links) is opgeslagen als [LOD-testset-Van_Someren-met-links.mrk](https://solisservices.sharepoint.com/:u:/r/sites/LinkedDatabijMA2/Shared%20Documents/General/Test%20Van%20MarcEdit%20tot%20LOD/LOD-testset-Van_Someren-met-links.mrk?csf=1&web=1&e=kb8j22). In een volgende fase is het eventueel mogelijk om naast het oorspronkelijke configuratie-bestand één of meerdere andere xml-bestanden aan te maken met afwijkende instellingen, zoals meer externe identifiers.
+
+De beste matching-resultaten worden verkregen met records die in het Engels zijn gecatalogiseerd. Persoonsnamen die in het Nederlands zijn beschreven kunnen vaak nog wel worden gematcht omdat NTA-termen ook zijn opgenomen in de VIAF. Dit geldt niet voor bijvoorbeeld de RDA-velden 336, 337 en 338 waarbij matching alleen goed gaat als er Engelstalige termen worden gebruikt. 
 
 **Update 28-01-2022:** Omdat MarcEdit al koppelt met VIAF en de Nederlandse Thesaurus van Auteursnamen (NTA) is de meerwaarde van het her-configureren van het xml-bestand vermoedelijk beperkt. Andere routes, zoals standaardiseren van metadata en Openrefine, werken mogelijk efficienter.
 
@@ -112,12 +114,21 @@ De specifieke stappen die in Openrefine moeten worden gedaan staan beschreven in
 
 Om de Openrefine links te kunnen onderscheiden van de eerdere MarcEdit links, is ‘extralinks’ aan de variabele naam toegevoegd. Dus, de openrefine links van 700\$a_2 zijn te vinden onder kolom 700\$1_2_extralinks. De links die er al waren staan in kolom 700\$1_2 (als die er waren, in dit geval niet).
 
-Er zijn 17 nieuwe VIAF links aan het bestand toegevoegd, wat het totaal brengt op 62. De Openrefine stap voegt dus ongeveer 35% toe. 
+Er zijn 16 nieuwe VIAF links aan het bestand toegevoegd, wat het totaal brengt op 61. De Openrefine stap voegt dus ongeveer 35% toe. 
 
 Ook is onderzocht of de oude ALEPH records additionele links kunnen opleveren, maar dit wordt als te arbeidsintensief beoordeeld om op te schalen. Er wordt ca. 10% extra links gevonden, maar het ophalen van de back-up kost veel tijd en het nalopen van de records ook.
 
 ### Controle van de nieuwe VIAF links
-*Nog toevoegen*
+
+In totaal zijn er 16 extra links toegevoegd met Openrefine. 
+Er zijn vier categorieën resultaten te onderscheiden: 
+
+1.	Er is gelinkt aan de juiste VIAF-cluster: 7 gevallen.
+2.	Er is gelinkt aan een thesaurusrecord dat deel uitmaakt van de goede cluster: 1 geval
+3.	Er is gelinkt aan een thesaurusrecord, waarin wel de juiste persoon wordt beschreven, maar dat geen deel uitmaakt van de cluster: 5 gevallen.
+4.	Er is gelinkt aan een thesaurusrecord waarin een andere persoon wordt beschreven: een min of meer naamgenoot uit een andere eeuw: 2 gevallen. Of aan het thesaurusrecord van een persoon die in een ISNI-record als “related person” is opgenomen.
+
+Kortom:  de resultaten variëren van heel goed tot heel fout.
 
 
 ## 6. CSV naar LOD
@@ -173,36 +184,32 @@ Ook alle andere uitgaande en inkomende links, bijvoorbeeld van andere bibliothek
 
 Verder kun je de metadata en alle LOD koppelingen nu zien als één grote dataset (LOD cloud) die je kunt bevragen en analyseren zoals onderzoeksdata. Dat is niet alleen voor letterkundigen interessant, maar ook om beter systematisch te kunnen zoeken en bijvoorbeeld literatuur aan datasets te kunnen koppelen.Ook komt het de zoekbaarheid en vindbaarheid van collecties ten goede, omdat de data beter gevonden en bevraagd kunnen worden.
 
-## 8. Uitkomsten experiment en aanbevelingen
+## 8. Conclusie
 
-### Uitkomsten
+Het experiment is geslaagd omdat het gelukt is van 50 pamfletten Linked Open Data te maken. Alle geselecteerde metadata zijn vanuit MARC omgezet naar het Linked Open Data format, daarbij gebruik makend van veel gebruikte vocabularies. Hierdoor zijn de pamfletten op een extra manier ontsloten, beter vindbaar en bevraagbaar, en te koppelen aan andere datasets en collecties - ook als er geen VIAF of andere links zijn toegevoegd. Tevens wordt de koppeling met onze Worldcat Discovery omgeving behouden, waardoor de provenance gewaarborgd is. Er is vanuit de LOD-versie altijd terug te 'klikken' naar het oorspronkelijke pamflet in Worldcat. Hoewel de pipeline uit meerdere stappen bestaat is de omzetting van MARC naar LOD technisch niet heel complex.
 
-Het experiment is geslaagd omdat het gelukt is van 50 pamfletten Linked Open Data te maken. Alle geselecteerde metadata is vanuit MARC omgezet naar Linked Open Data, daarbij gebruik makend van veel gebruikte vocabularies. Hierdoor zijn de pamfletten op een extra manier ontsloten, beter vindbaar en bevraagbaar, en te koppelen aan andere datasets en collecties. Tevens wordt de koppeling met onze Worldcat Discovery omgeving behouden, waardoor de provenance gewaarborgd is. Er is vanuit LOD altijd terug te 'klikken' naar het oorspronkelijke pamflet in Worldcat. 
+Om de vindbaarheid en verbondenheid verder te stimuleren zijn er VIAF links toegevoegd. Via MarcEdit en Openrefine zijn in totaal 62 VIAF links toegevoegd (auteur en onderwerp) aan 31 pamfletten. Het bleek mogelijk om 27 hiervan automatisch te koppelen aan Wikidata en zo van 20 auteurs automatisch een afbeelding en geboortedatum op te halen. 
 
-Om de vindbaarheid en verbondenheid verder te bespoedigen zijn er VIAF links toegevoegd. Via MarcEdit en Openrefine zijn in totaal 62 VIAF links toegevoegd (auteur en onderwerp) aan 31 pamfletten. Het bleek mogelijk om 27 hiervan automatisch te koppelen aan Wikidata en zo van 20 auteurs automatisch een afbeelding en geboortedatum op te halen. 
-
-### Aanbevelingen
-
-Hoewel de pipeline uit meerdere stappen bestaat is de omzetting van MARC naar LOD technisch niet heel complex. Het grootste obstakel is de kwaliteit van de metadata. Verschillende systemen hebben ertoe geleid dat sommige metadata van mindere kwaliteit is dan andere en onvoldoende is gethesaureerd. In dat geval is het lastig om VIAF of andere links toe te voegen, waarmee de mogelijkheden van Linked Data niet optimaal benut worden. Koppeling met externe data is geen vereiste, maar maakt het veel makkelijker om gevonden te worden, links te maken met andere collecties en de metadata te contextualiseren. Het grootste knelpunt ligt daarom op het vlak van de metadata, met name standaardisering en entity management.  
+Het grootste obstakel is de kwaliteit van de metadata. Kwalitatief goede metadata en het hanteren van, moderne, standaarden zijn een vereiste voor het succesvol converteren van de MARC-records naar LOD. Het catalogiseren in de UBU heeft een lange geschiedenis. Veranderingen in regelgeving, gebruik van thesauri en conversies van oude naar nieuwe systemen hebben er toe geleid dat sommige metadata van mindere kwaliteit is dan andere. In dat geval is het lastig om VIAF of andere links toe te voegen, waarmee de mogelijkheden van Linked Data niet optimaal benut worden. Koppeling met externe data is geen vereiste, maar maakt het veel makkelijker om gevonden te worden, links te maken met andere collecties en de metadata te contextualiseren. Ook de taal van catalogiseren maakt uit, waarbij Engelse items overwegend eenvoudiger zijn te linken. Voor wat de handmatige invoer en opwaardering van records betreft, moeten de eisen die aan minimale metadata worden gesteld mogelijk worden herzien. Om LOD te realiseren is goede entity management - zoals thesaureren steeds meer wordt genoemd - een voorwaarde. 
 
 <u>Suggesties</u>:
 
 - Goede metadata is essentieel om goede LOD te maken;
-    -   nadenken over manieren om automatisch metadata te verbeteren; 
-    -   de KB heeft dit bijvoorbeeld geautomatiseerd door [clusters te maken van werken die qua spelling erg op elkaar      lijken](https://lab.kb.nl/tool/rda-entity-finder) en deze allemaal te koppelen aan een gestandaardiseerd werk.
-- UBU Linked Data omgeving (Triply?) om verder te experimenteren en de resultaten toegankelijk te maken voor collega's.
-- VIAF links gebruiken als validatie (is hopelijk wat OCLC ook deels gaat aanbieden).
-- Pipeline opzetten voor automatisch verrijken van metadata met andere data, zoals Wikidata.
+    -   Nadenken/experimenteren met methoden om automatisch metadata te verbeteren. De KB heeft dit bijvoorbeeld geautomatiseerd door [clusters te maken van werken die qua spelling erg op elkaar lijken](https://lab.kb.nl/tool/rda-entity-finder) en deze allemaal te koppelen aan een gestandaardiseerd werk.
+- UBU Linked Data omgeving/ Triplestore creëren om verder te experimenteren en de resultaten toegankelijk te maken voor collega's. Een [triplestore](https://www.ontotext.com/knowledgehub/fundamentals/what-is-rdf-triplestore/) ontsluit de LOD online. Enkel in dit soort omgevingen is het mogelijk om het LOD datamodel verder te fine-tunen en via SPARQL of API's onze LOD te verbinden aan andere collecties.
+- VIAF links gebruiken als validatie. Door het ophalen van externe data is in de LOD omgeving relatief eenvoudig te controleren of de toegevoegde VIAF (of Wikidata) links correct zijn (OCLC werkt aan een vergelijkbare methode voor meer moderne collecties en auteurs).
+- Pipeline opzetten voor automatisch verrijken van metadata met andere data, zoals Wikidata en plaatsnamen (Geonames).
 
 <u>Eventueel</u>:
 
   - Kennis binnen UB borgen/uitbreiden
   - Alternatieve pipelines van MARC > LOD onderzoeken
+  - Aansluiten bij bestaande LOD initiatieven om kennisuitwisseling, koppeling met andere collecties en het gebruik van gezamelijke vocabularies te stimuleren. Ook komt dit de vindbaarheid van onze collectie ten goede.
 
 
 ## Colofon
 
-Universiteitsbibliotheek Utrecht, afdeling M&A
+Universiteitsbibliotheek Utrecht, afdeling Metadata & Acquisitie
 
 Vragen en suggesties: <r.schalk@uu.nl> 
 
